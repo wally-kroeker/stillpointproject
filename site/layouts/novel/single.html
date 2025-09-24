@@ -1,0 +1,41 @@
+{{ define "main" }}
+  {{ partial "novel_nav.html" . }}
+  <div class="novel-content">
+    <header class="novel-header">
+      <button id="menu-toggle" class="menu-toggle" title="Open Chapter Index">☰</button>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <article>
+      {{ .Content }}
+    </article>
+    <nav class="chapter-nav">
+      {{ with .NextInSection }}
+        <a href="{{ .RelPermalink }}" class="prev">← Previous Chapter</a>
+      {{ else }}
+        <span> </span>
+      {{ end }}
+      {{ with .PrevInSection }}
+        <a href="{{ .RelPermalink }}" class="next">Next Chapter →</a>
+      {{ else }}
+        <span> </span>
+      {{ end }}
+    </nav>
+  </div>
+
+  <script>
+    // Hamburger menu logic
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('novel-nav');
+    const closeNav = document.getElementById('close-nav');
+
+    if (menuToggle && navMenu && closeNav) {
+      menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('show');
+      });
+
+      closeNav.addEventListener('click', () => {
+        navMenu.classList.remove('show');
+      });
+    }
+  </script>
+{{ end }}
