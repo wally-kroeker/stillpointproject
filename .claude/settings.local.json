@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ssh:*)",
+      "Read(//etc/**)",
+      "Bash(md5sum:*)"
+    ],
+    "deny": []
+  }
+}
