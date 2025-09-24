@@ -145,6 +145,50 @@ Claude Code can operate in specialized modes for different aspects of story deve
 - Technology evolution follows the "receding into air" principle across eras
 - Themes center on presence, contemplation, and human-AI integration
 
+## Production Publishing Workflow
+
+The project uses an optimized git-based publishing system for deploying content to stillpointproject.org:
+
+### One-Command Publishing
+```bash
+./publish.sh                    # Auto-commit and publish latest changes
+./publish.sh "Add Chapter 8"    # Publish with custom commit message
+./publish.sh --dry-run          # Preview what would be published
+./publish.sh --status           # Show current repository status
+```
+
+### Infrastructure Overview
+- **Local Development:** Git repository with all source content
+- **Production Server:** 10.10.10.30 with unified git repository structure
+- **Automation:** Git post-receive hook triggers Hugo site generation
+- **Deployment:** Single command handles validation, commit, push, and publication
+
+### Key Features
+- **Content Validation:** Checks novel structure, YAML frontmatter, and file counts
+- **Version Control:** Complete git history of all content changes
+- **Instant Rollback:** `git revert` + push to undo any publication
+- **Smart Status:** Shows exactly what will be published before pushing
+- **Backup System:** Original production setup preserved in timestamped backup
+
+### Production Structure
+```
+/home/docker/stillpoint-project/     (unified git repository)
+├── novel/                           (source content - versioned)
+├── world/                           (world building - versioned)
+├── site/                            (Hugo site integration)
+└── scripts/process-content.sh       (adapted publication script)
+```
+
+### Publishing Process
+1. Content validation (structure, YAML, file counts)
+2. Git commit with descriptive message
+3. Push to production server via SSH
+4. Git hook triggers content processing
+5. Hugo generates static site
+6. Success confirmation with publication statistics
+
 ## Current Status
 
-Project is in active Part 1 development with 7 completed chapters (E1C01-E1C07). Focus areas include Riverbend Commons community development, Sajan's StillPoint invention journey, and Maren's role as stillness anchor. See `world/workflow.md` chapter status board for current progress.
+Project is in active Part 1 development with 7 completed chapters (E1C01-E1C07). Focus areas include Riverbend Commons community development, Sajan's StillPoint invention journey, and Maren's role as stillness anchor.
+
+**Production Status:** 23 pages published, 12 novel files processed, git-based workflow fully operational. See `world/workflow.md` for chapter status board.

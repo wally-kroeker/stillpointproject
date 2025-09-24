@@ -21,3 +21,12 @@ Thumbs.db
 # Hugo generated files (if running locally)
 public/
 resources/
+
+# Hugo generated content (don't version these)
+site/content/novel/
+site/public/
+site/resources/
+site/.hugo_build.lock
+
+# Hugo cache and build artifacts
+.hugo_build.lock
