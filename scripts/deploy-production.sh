@@ -194,15 +194,24 @@ const server = http.createServer((req, res) => {
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
-            // Try appending .html for clean URLs
-            const htmlPath = filePath + '.html';
-            fs.readFile(htmlPath, (htmlErr, htmlData) => {
-                if (htmlErr) {
-                    res.writeHead(404);
-                    res.end('Not Found');
+            // Try appending /index.html for directory paths
+            const dirIndexPath = path.join(filePath, 'index.html');
+            fs.readFile(dirIndexPath, (dirErr, dirData) => {
+                if (dirErr) {
+                    // Try appending .html for clean URLs
+                    const htmlPath = filePath + '.html';
+                    fs.readFile(htmlPath, (htmlErr, htmlData) => {
+                        if (htmlErr) {
+                            res.writeHead(404);
+                            res.end('Not Found');
+                        } else {
+                            res.writeHead(200, { 'Content-Type': 'text/html' });
+                            res.end(htmlData);
+                        }
+                    });
                 } else {
                     res.writeHead(200, { 'Content-Type': 'text/html' });
-                    res.end(htmlData);
+                    res.end(dirData);
                 }
             });
         } else {
