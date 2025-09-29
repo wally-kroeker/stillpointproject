@@ -1,0 +1,48 @@
+---
+import Layout from './Layout.astro';
+import { getCollection } from 'astro:content';
+
+const stories = await getCollection('stories');
+const sortedStories = stories.sort((a, b) => {
+  const aOrder = a.data.order || 999;
+  const bOrder = b.data.order || 999;
+  return aOrder - bOrder;
+});
+---
+
+<Layout title="Short Stories" description="Explore the world of The StillPoint Project through standalone tales and visions.">
+  <div class="breadcrumb">
+    <a href="/">← Home</a>
+  </div>
+
+  <article class="prose">
+    <h1>Short Stories</h1>
+
+    <p>Explore the world of The StillPoint Project through these standalone tales—visions of life on both sides of the great transition, glimpses into the lives of those who chose presence over productivity.</p>
+
+    <p>Each story illuminates different facets of the world we're building: the communities that chose contemplation over consumption, the technology that serves consciousness rather than extracting from it, and the people who discovered that the most revolutionary act is simply paying attention.</p>
+
+    <p>These are windows into a world where artificial intelligence freed us not to work harder, but to finally become more human.</p>
+  </article>
+
+  <section>
+    <ul class="content-list">
+      {sortedStories.map((story) => (
+        <li class="content-item">
+          <h3>
+            <a href={`/stories/${story.slug}/`}>{story.data.title}</a>
+          </h3>
+          {story.data.wordCount && (
+            <div class="content-meta">
+              {story.data.wordCount} words
+              {story.data.era && ` • ${story.data.era}`}
+            </div>
+          )}
+          <div class="prose">
+            <p>{story.data.description || story.data.summary}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>

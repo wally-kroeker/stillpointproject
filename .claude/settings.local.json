@@ -1,11 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find:*)",
-      "Bash(ssh:*)",
-      "Read(//etc/**)",
-      "Bash(md5sum:*)"
+      "Bash(grep:*)",
+      "Bash(done)",
+      "Bash(/home/walub/projects/StillPoint/scripts/deploy-staging.sh:*)",
+      "Bash(tee:*)"
     ],
-    "deny": []
+    "deny": [],
+    "ask": []
   }
 }

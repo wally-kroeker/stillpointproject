@@ -1,0 +1,68 @@
+---
+import Layout from './Layout.astro';
+import { type CollectionEntry, getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('stories');
+  return stories.map((story) => ({
+    params: { slug: story.slug },
+    props: story,
+  }));
+}
+
+type Props = CollectionEntry<'stories'>;
+
+const story = Astro.props;
+const { Content } = await story.render();
+
+// Get next/previous stories
+const allStories = await getCollection('stories');
+const sortedStories = allStories.sort((a, b) => {
+  const aOrder = a.data.order || 999;
+  const bOrder = b.data.order || 999;
+  return aOrder - bOrder;
+});
+
+const currentIndex = sortedStories.findIndex(s => s.slug === story.slug);
+const previousStory = currentIndex > 0 ? sortedStories[currentIndex - 1] : null;
+const nextStory = currentIndex < sortedStories.length - 1 ? sortedStories[currentIndex + 1] : null;
+---
+
+<Layout title={story.data.title} description={story.data.description}>
+  <div class="breadcrumb">
+    <a href="/stories">← Stories</a>
+  </div>
+
+  <article class="prose">
+    <h1>{story.data.title}</h1>
+
+    {story.data.wordCount && (
+      <div class="content-meta">
+        {story.data.wordCount} words
+        {story.data.era && ` • ${story.data.era}`}
+      </div>
+    )}
+
+    <Content />
+  </article>
+
+  <nav class="content-nav">
+    <div>
+      {previousStory && (
+        <a href={`/stories/${previousStory.slug}/`}>
+          ← {previousStory.data.title}
+        </a>
+      )}
+    </div>
+    <div>
+      <a href="/stories">Stories</a>
+    </div>
+    <div>
+      {nextStory && (
+        <a href={`/stories/${nextStory.slug}/`}>
+          {nextStory.data.title} →
+        </a>
+      )}
+    </div>
+  </nav>
+</Layout>
