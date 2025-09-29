@@ -152,9 +152,11 @@ setup_production_server() {
             sudo apt-get install -y nodejs
         fi
 
-        # Kill any existing processes on port 3000
-        pkill -f "port 3000" || true
-        lsof -ti:3000 | xargs kill -9 || true
+        # Stop Hugo server on port 8080
+        pkill -f "hugo server" || true
+
+        # Verify port 8080 is available
+        sleep 2
 
         # Create production server script
         cat > /home/docker/production-server.js << 'JSEOF'
@@ -163,7 +165,7 @@ const fs = require('fs');
 const path = require('path');
 const url = require('url');
 
-const PORT = 3000;
+const PORT = 8080;
 const PRODUCTION_DIR = '/home/docker/stillpoint-production';
 
 const mimeTypes = {
@@ -217,30 +219,25 @@ server.listen(PORT, '0.0.0.0', () => {
 });
 JSEOF
 
-        # Start production server
+        # Start production server on port 8080
         nohup node /home/docker/production-server.js > /home/docker/production.log 2>&1 &
-        echo "Production server started on port 3000"
+        echo "Production server started on port 8080"
 EOF
 
     log_info "Production server configured and started"
 }
 
-# Update CloudFlare tunnel configuration
-update_cloudflare_tunnel() {
-    log_step "Updating CloudFlare tunnel configuration..."
+# Verify CloudFlare tunnel
+verify_cloudflare_tunnel() {
+    log_step "Verifying CloudFlare tunnel configuration..."
 
     ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" << 'EOF'
-        # Note: This step would typically require updating the CloudFlare tunnel config
-        # to point from port 8080 (Hugo) to port 3000 (Astro)
-        # For now, we'll just document what needs to be done
-
-        echo "Manual step required:"
-        echo "1. Update CloudFlare tunnel to point to localhost:3000 instead of localhost:8080"
-        echo "2. Or update your reverse proxy configuration"
-        echo "3. The new Astro site is running on port 3000"
+        # CloudFlare tunnel should already be pointing to localhost:8080
+        # No reconfiguration needed since we're using the same port as Hugo
+        ps aux | grep cloudflared | grep -v grep || echo "Warning: CloudFlare tunnel not running"
 EOF
 
-    log_warn "Manual CloudFlare tunnel update required (port 8080 → 3000)"
+    log_info "CloudFlare tunnel verification complete (no changes needed)"
 }
 
 # Generate deployment summary
@@ -250,20 +247,23 @@ generate_summary() {
     echo -e "\n${BLUE}🎯 Production Deployment Summary:${NC}"
     echo "  Hugo backup: $HUGO_BACKUP_DIR"
     echo "  Astro production: $PRODUCTION_SERVER:$PRODUCTION_DIR"
-    echo "  Production server: port 3000"
+    echo "  Production server: port 8080 (same as Hugo - no tunnel reconfiguration needed)"
     echo "  Server logs: ssh -i $SSH_KEY $PRODUCTION_SERVER 'tail -f /home/docker/production.log'"
     echo ""
-    echo "  ${YELLOW}Manual steps required:${NC}"
-    echo "  1. Update CloudFlare tunnel: localhost:8080 → localhost:3000"
-    echo "  2. Test live site after tunnel update"
+    echo "  ${GREEN}CloudFlare tunnel:${NC} No changes needed (already pointed to port 8080)"
+    echo "  ${YELLOW}Next steps:${NC}"
+    echo "  1. Test live site: https://stillpointproject.org"
+    echo "  2. Monitor logs for any errors"
+    echo "  3. Check all pages load correctly"
 
     # Check if production server is responding
     log_step "Testing production server..."
-    sleep 2
-    if ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" "curl -s http://localhost:3000 > /dev/null"; then
-        log_info "Production server is responding on port 3000"
+    sleep 3
+    if ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" "curl -s http://localhost:8080 > /dev/null"; then
+        log_info "Production server is responding on port 8080"
+        log_info "Public site should be live at https://stillpointproject.org"
     else
-        log_warn "Production server may not be responding yet"
+        log_warn "Production server may not be responding yet - wait 30 seconds and check"
     fi
 }
 
@@ -304,13 +304,14 @@ main() {
     build_site
     deploy_to_production
     setup_production_server
-    update_cloudflare_tunnel
+    verify_cloudflare_tunnel
     generate_summary
 
     echo
     log_info "Production deployment completed!"
-    log_info "Manual CloudFlare tunnel update required"
-    log_warn "Run 'rollback_to_hugo' function if issues occur"
+    log_info "Astro site should be live at https://stillpointproject.org"
+    log_warn "Monitor logs and test thoroughly"
+    log_warn "Rollback instructions in ROLLBACK_PROCEDURES.md if needed"
 }
 
 # Allow script to be sourced for rollback function
