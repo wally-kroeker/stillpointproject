@@ -17,7 +17,7 @@ The StillPoint Saga is a multi-era science fiction novel project spanning 2025-2
 
 ### Story Structure
 - **Era 1 (2029-2036):** The Cascade - Near-future crisis and StillPoint device invention
-- **Era 2 (2037-2060):** The Balance War - Societal transition and conflict 
+- **Era 2 (2037-2060):** The Balance War - Societal transition and conflict
 - **Era 3 (2061+):** Luminous Presence - Integrated contemplative society
 
 ### Directory Organization
@@ -28,6 +28,81 @@ The StillPoint Saga is a multi-era science fiction novel project spanning 2025-2
 - `/world/lore/` - Philosophical concepts and worldbuilding elements
 - `/audio/` - Generated audio renditions of written content
 - `/cline_docs/` - Project management and AI assistant configurations
+- `/astro-dev-site/` - Astro web application for local development and production deployment
+
+## Content Frontmatter Standards
+
+All content uses YAML frontmatter for metadata. The following schemas are enforced in the Astro development environment (`astro-dev-site/src/content.config.ts`):
+
+### Novel Scenes (`/novel/scenes/`)
+```yaml
+---
+# Required
+title: "Scene Title"
+era: "The Cascade" | "The Balance War" | "Luminous Presence"
+location: "Location Name"
+pov_character: "Character Name"
+voice: "Narrative voice description"
+word_count: 1500
+page_count: 6
+status: "draft" | "draft-revised" | "revision" | "revised" | "revised_draft_2" | "proofread" | "published" | "canonical"
+
+# Optional but recommended
+chapter: "E1C01" or "Chapter 1"
+scene: "S01" or "Scene 1"
+characters: ["Jonah", "Maren", "Liam"]
+themes: ["presence", "community", "technology"]
+related_world: ["stillpoint_device", "riverbend_commons"]
+---
+```
+
+### Short Stories (`/short_stories/`)
+```yaml
+---
+# Required
+title: "Story Title"
+status: "draft" | "published" | "canonical"
+
+# Strongly recommended
+type: "short_story" | "vignette" | "outline" | "scene_brief" | "planning"
+description: "One-sentence story description"
+word_count: 5500
+page_count: 22
+era: "Era 1 - The Cascade"
+
+# Optional
+location: "Location Name"
+pov_character: "Character Name" or ["Character 1", "Character 2"]
+characters: ["Marcus", "Sajan"]
+featured: true
+themes: ["intentional_communities", "verified_humanity"]
+related_novel_chapters: ["e1_c01_s01"]
+related_world: ["chorus_ai", "stillpoint_gathering"]
+---
+```
+
+### World Building (`/world/`)
+```yaml
+---
+# Required
+title: "Card Title"
+type: "character" | "location" | "technology" | "lore" | "timeline" | "philosophy"
+status: "draft" | "canon" | "archived"
+
+# Strongly recommended
+era: "The Cascade" or "multi-era"
+description: "One-sentence summary"
+
+# Optional
+related_characters: ["Jonah", "Maren"]
+related_locations: ["Riverbend Commons"]
+related_technology: ["StillPoint Device"]
+first_appearance: "e1_c01_s01"
+aliases: ["Alternative Name"]
+---
+```
+
+**Important:** All new content must include proper YAML frontmatter. Use the templates above as reference. Frontmatter enables proper content organization, filtering, and navigation in the Astro web application.
 
 ## Workflow Process
 
@@ -145,50 +220,100 @@ Claude Code can operate in specialized modes for different aspects of story deve
 - Technology evolution follows the "receding into air" principle across eras
 - Themes center on presence, contemplation, and human-AI integration
 
-## Production Publishing Workflow
+## Web Publishing Architecture
 
-The project uses an optimized git-based publishing system for deploying content to stillpointproject.org:
+The project is migrating from Hugo to Astro for improved developer experience and maintainability. As of September 2025, both systems are operational.
 
-### One-Command Publishing
+### Current Production (Hugo)
+- **Live Site:** https://stillpointproject.org (CloudFlare tunnel → localhost:8080)
+- **Platform:** Hugo v0.125.7 extended
+- **Deployment:** Git push to production server triggers automatic rebuild
+- **Status:** Stable, serving 25+ pages with 10 novel chapters and 5 stories
+
+### New Development Platform (Astro)
+- **Framework:** Astro v5.14.1 with MDX and sitemap integrations
+- **Local Dev:** http://localhost:4321
+- **Staging:** http://10.10.10.30:4000 (when deployed)
+- **Content Collections:** novel, stories, world, blog
+- **Status:** Development complete, ready for staging deployment
+
+### Content Workflow (Source-First Recommended)
+
+**Primary Content Locations:**
+- `/novel/scenes/*.md` - Novel scene source files
+- `/short_stories/*.md` - Short story source files
+- `/world/` - World building content
+
+**Astro Content Collections:**
+- `/astro-dev-site/src/content/novel/` - Synced novel content
+- `/astro-dev-site/src/content/stories/` - Synced story content
+- `/astro-dev-site/src/content/world/` - Synced world content
+
+**Sync Process:**
 ```bash
-./publish.sh                    # Auto-commit and publish latest changes
-./publish.sh "Add Chapter 8"    # Publish with custom commit message
-./publish.sh --dry-run          # Preview what would be published
-./publish.sh --status           # Show current repository status
+# Sync content from source to Astro
+./scripts/sync-content-to-astro.sh
+
+# Verify sync
+cd astro-dev-site && npm run dev
+
+# Build for deployment
+npm run build
 ```
 
-### Infrastructure Overview
-- **Local Development:** Git repository with all source content
-- **Production Server:** 10.10.10.30 with unified git repository structure
-- **Automation:** Git post-receive hook triggers Hugo site generation
-- **Deployment:** Single command handles validation, commit, push, and publication
+### Deployment Commands
 
-### Key Features
-- **Content Validation:** Checks novel structure, YAML frontmatter, and file counts
-- **Version Control:** Complete git history of all content changes
-- **Instant Rollback:** `git revert` + push to undo any publication
-- **Smart Status:** Shows exactly what will be published before pushing
-- **Backup System:** Original production setup preserved in timestamped backup
-
-### Production Structure
-```
-/home/docker/stillpoint-project/     (unified git repository)
-├── novel/                           (source content - versioned)
-├── world/                           (world building - versioned)
-├── site/                            (Hugo site integration)
-└── scripts/process-content.sh       (adapted publication script)
+**Staging Deployment:**
+```bash
+./scripts/deploy-staging.sh
+# Deploys to http://10.10.10.30:4000
+# Includes content sync, build, and server setup
 ```
 
-### Publishing Process
-1. Content validation (structure, YAML, file counts)
-2. Git commit with descriptive message
-3. Push to production server via SSH
-4. Git hook triggers content processing
-5. Hugo generates static site
-6. Success confirmation with publication statistics
+**Production Deployment (When Ready):**
+```bash
+./scripts/deploy-production.sh
+# Backs up Hugo automatically
+# Deploys Astro to port 8080
+# Switches production traffic to Astro
+```
+
+**Hugo Rollback (Emergency):**
+```bash
+ssh -i ~/.ssh/id_rsa_stillpoint docker@10.10.10.30
+cd /home/docker/hugo-backup-TIMESTAMP
+nohup hugo server -p 8080 -D --bind 0.0.0.0 > hugo.log 2>&1 &
+```
+
+### Migration Status
+
+**✅ Completed:**
+- Astro site structure and configuration
+- Content collections with comprehensive schemas
+- All 12 stories with validated frontmatter
+- All 10 novel chapters loading correctly
+- Homepage, novel index, story index pages
+- Dynamic routes for stories and chapters
+- Dark mode infrastructure
+- Deployment scripts (staging and production)
+
+**🚧 In Progress (Phase 2: Pre-Staging):**
+- Dark mode toggle icon update fix
+- Configuration updates (production URLs)
+- Template content cleanup
+- Content sync workflow documentation
+- Full production build testing
+
+**📋 Pending:**
+- Staging deployment and validation
+- 48-hour staging soak testing
+- Production deployment
+- Hugo decommissioning
+
+**See:** `PRODUCTION_READINESS_PLAN.md` for complete migration checklist and timeline.
 
 ## Current Status
 
 Project is in active Part 1 development with 7 completed chapters (E1C01-E1C07). Focus areas include Riverbend Commons community development, Sajan's StillPoint invention journey, and Maren's role as stillness anchor.
 
-**Production Status:** 23 pages published, 12 novel files processed, git-based workflow fully operational. See `world/workflow.md` for chapter status board.
+**Web Platform Status:** Migrating from Hugo to Astro. Hugo production stable at 25+ pages. Astro development complete with 31-task production readiness checklist. See `PRODUCTION_READINESS_PLAN.md` for details.
