@@ -2,8 +2,8 @@
 title: "The Neural Stream"
 type: "short_story"
 era: "Era 1 - The Cascade"
-word_count: 6800
-page_count: 27
+word_count: 6400
+page_count: 26
 status: "canonical"
 description: "A verified human journalist covering the Commons movement discovers the StillPoint Gathering during a live stream—and watches his professional identity burn in real-time as his nervous system votes for transformation over safety."
 featured: true
