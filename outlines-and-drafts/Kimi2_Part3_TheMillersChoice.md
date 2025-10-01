@@ -1,10 +1,16 @@
 ---
-title: "Kimi2: The Miller's Daughter, Part 3 – The Miller’s Choice"
-era: "Era 1 (Post-Cascade, c. 2037)"
+title: "Kimi2: The Miller's Daughter, Part 3 – The Miller's Choice"
+type: "short_story"
+description: "Elara returns to Stonewall with a 3D-printed gear, choosing pragmatic solutions over slow transformation, carrying the weight of compromise."
+era: "Era 1 - The Cascade"
 location: "Stonewall Holdout"
 pov_character: "Elara"
 word_count: 1700
 page_count: 7
+status: "draft"
+characters: ["Elara"]
+themes: ["compromise", "pragmatism_vs_idealism", "community_transformation"]
+canonical_order: 3
 ---
 
 The bridge back to Stonewall was longer than the one that had carried her away.  

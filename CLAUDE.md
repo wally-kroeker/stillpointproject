@@ -312,8 +312,69 @@ nohup hugo server -p 8080 -D --bind 0.0.0.0 > hugo.log 2>&1 &
 
 **See:** `PRODUCTION_READINESS_PLAN.md` for complete migration checklist and timeline.
 
+## MCP Servers and Enhanced Capabilities
+
+Claude Code has access to Model Context Protocol (MCP) servers that extend its capabilities. Use these tools proactively when they would improve the quality or accuracy of your work.
+
+### Available MCP Servers
+
+#### **Context7 MCP** - Up-to-date Documentation
+- **Purpose:** Fetches current, version-specific documentation and code examples from official sources
+- **Command:** Add `use context7` to any prompt
+- **When to Use:**
+  - When working with Astro, React, TypeScript, or any modern web framework
+  - When you need to verify current API syntax or best practices
+  - When documentation might have changed since your training data
+  - When implementing features that require specific library knowledge
+- **Examples:**
+  - "use context7 to get the latest Astro content collections API"
+  - "use context7 for current TypeScript type narrowing patterns"
+  - "use context7 to understand React Server Components"
+- **Proactive Use:** Use context7 automatically when:
+  - Building or debugging Astro components
+  - Working with content collections or frontmatter schemas
+  - Implementing TypeScript types
+  - You're uncertain about current API syntax
+
+#### **Playwright MCP** - Browser Automation
+- **Purpose:** Automated browser testing and interaction with web applications
+- **Tools Available:**
+  - `browser_navigate` - Navigate to URLs
+  - `browser_snapshot` - Capture page accessibility tree
+  - `browser_click` - Interact with page elements
+  - `browser_take_screenshot` - Capture visual screenshots
+  - `browser_evaluate` - Execute JavaScript in page context
+- **When to Use:**
+  - Testing deployed websites (staging or production)
+  - Validating content appears correctly
+  - Verifying navigation and user flows
+  - Taking screenshots for documentation
+- **Proactive Use:** Use Playwright automatically when:
+  - Validating production deployments
+  - Testing story/chapter pages load correctly
+  - Verifying dark mode toggle functionality
+  - Checking mobile responsiveness
+
+### MCP Usage Guidelines
+
+**Use proactively and automatically when:**
+1. Building Astro components → use context7 for current syntax
+2. Implementing TypeScript types → use context7 for type patterns
+3. Validating deployments → use Playwright to test live sites
+4. Debugging web issues → use Playwright to inspect page state
+5. Working with unfamiliar APIs → use context7 for current documentation
+
+**Do not ask permission** - Use these tools when they would improve accuracy or efficiency. They are extensions of your capabilities, not optional extras.
+
+**Example Workflow:**
+When asked to "deploy the new story to production and verify it works":
+1. Build and deploy (standard workflow)
+2. **Automatically use Playwright** to navigate to the story URL and verify it loads
+3. Report results including visual confirmation
+
 ## Current Status
 
 Project is in active Part 1 development with 7 completed chapters (E1C01-E1C07). Focus areas include Riverbend Commons community development, Sajan's StillPoint invention journey, and Maren's role as stillness anchor.
 
-**Web Platform Status:** Migrating from Hugo to Astro. Hugo production stable at 25+ pages. Astro development complete with 31-task production readiness checklist. See `PRODUCTION_READINESS_PLAN.md` for details.
+**Web Platform Status:** Production migration complete! Astro now serving all content at https://stillpointproject.org. Hugo has been replaced. Site includes 10 novel chapters and 13 stories (newly added: "The Unscheduled Moment" - Era 3). See `PUBLISHING_WORKFLOW.md` for content publishing process.
+- remember the frontmatter structure when working on future problems

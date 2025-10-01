@@ -8,7 +8,7 @@
 
 ## Timeline Issues to Resolve
 
-1. **Missing 2028:** World Bible shows "intelligence too cheap to meter crashes wages" but outline jumps 2027→2029
+1. **Missing 2028:** World Bible shows 2028 wage collapse when AI labor became cheaper than infrastructure but outline jumps 2027→2029
 2. **Era naming mismatch:** "Era 1 — The Cascade" vs. "Part 2: The Birth of the StillPoint"  
 3. **Need Maren departure scene** to bridge her Riverbend → Mountain Sanctuary transition
 
@@ -31,7 +31,7 @@
 #### **Chapter 8: The Refuge (Early 2028)**
 **Concept:** The World Bible's wage collapse hits, but Riverbend thrives as a refuge.
 **Key Elements:**
-- "Intelligence too cheap to meter" crashes wages across Canada
+- AI cognitive labor becomes functionally free, crashing wages across Canada
 - Displaced workers arrive at Riverbend seeking shelter
 - Community demonstrates its resilience and hospitality
 - Shows Riverbend as a MODEL intentional community, not struggling
@@ -94,7 +94,7 @@
 | Years | Phase | Events |
 |-------|-------|---------|
 | **2025-2027** | **Acceleration Foreshock** | Individual displacement → Community formation |
-| **2028** | **The Wage Collapse** | Intelligence too cheap to meter crashes wages; successful intentional communities like Riverbend become refuges and models; political polarization sharpens |
+| **2028** | **The Wage Collapse** | AI cognitive labor cost less than infrastructure to run it, making human wages economically unsustainable; successful intentional communities like Riverbend become refuges and models; political polarization sharpens |
 | **2029-2036** | **Era 1 — The Cascade** | Constitutional crisis → StillPoint invention → Commons movement → Network formation |
 
 #### **Update Maren's Timeline:**

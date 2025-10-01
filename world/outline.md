@@ -47,7 +47,7 @@
 *   **Thematic Touch-Stone:** Radical transparency &amp; DIY tech ethics; Grief transmuted into communal creativity.
 
 **Chapter 8: The Refuge (Early 2028)**
-*   **Summary:** The "intelligence too cheap to meter" wage collapse hits Canada hard. Displaced workers from Winnipeg and surrounding areas begin arriving at Riverbend, having heard rumors of a different way of living. The small community faces its first major test: can their principles scale?
+*   **Summary:** The 2028 wage collapse—when AI analysis cost pennies and human expertise became worthless—hits Canada hard. Displaced workers from Winnipeg and surrounding areas begin arriving at Riverbend, having heard rumors of a different way of living. The small community faces its first major test: can their principles scale?
 *   **Seed:** A family arrives with nothing but the clothes on their backs, their savings wiped out when AI replaced their entire department overnight. Maren's quiet presence helps the community navigate the delicate balance between openness and sustainability. Jonah discovers his systems thinking translates well to community logistics, while Liam and Chloë find purpose in teaching practical skills.
 *   **World Bible Tie-in:** Shows Riverbend as successful refuge during the economic crisis; establishes its reputation.
 *   **Thematic Touch-Stone:** Voluntary, non-coercive social change; presence vs. distraction.

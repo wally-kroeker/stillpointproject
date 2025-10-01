@@ -1,13 +1,14 @@
 ---
 title: "The First Fire"
-era: 1
-chapter: 7
-scene: 1
+era: "The Cascade"
+chapter: "E1C07"
+scene: "S01"
 pov_character: "Third-Person Limited (Jonah/Liam/Chloë)"
 voice: "Evocative, Grounded, Hopeful"
-location: "[[Hawthorn Commons]]"
+location: "Hawthorn Commons"
 word_count: 650
 page_count: 3
+status: "proofread"
 ---
 
 The air, thick with the scent of damp earth and pine, held a fragile promise. A circle of faces, some familiar, most new, watched the pyre of carefully stacked wood in the center of the clearing at [[Hawthorn Commons]]. It was less a structure and more a prayer made of kindling and logs.

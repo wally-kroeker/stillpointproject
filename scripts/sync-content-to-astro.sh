@@ -35,6 +35,160 @@ log_step() {
     echo -e "${BLUE}🔄${NC} $1"
 }
 
+log_fix() {
+    echo -e "${YELLOW}🔧${NC} $1"
+}
+
+# Frontmatter validation and fixing functions
+
+# Check if file has YAML frontmatter
+has_yaml_frontmatter() {
+    local file="$1"
+    # Handle both Unix (LF) and Windows (CRLF) line endings
+    head -1 "$file" | tr -d '\r' | grep -q "^---$"
+}
+
+# Extract value from YAML frontmatter
+get_yaml_value() {
+    local file="$1"
+    local key="$2"
+
+    # Extract frontmatter block and get value
+    sed -n '/^---$/,/^---$/p' "$file" | grep "^${key}:" | sed "s/^${key}://; s/^[[:space:]]*//; s/\"//g; s/'//g"
+}
+
+# Fix story frontmatter - ensure required fields exist
+fix_story_frontmatter() {
+    local input_file="$1"
+    local output_file="$2"
+    local basename=$(basename "$input_file" .md)
+    local fixes_made=false
+
+    # Create temp file with fixed frontmatter
+    local temp_content=$(mktemp)
+    local temp_frontmatter=$(mktemp)
+
+    # Check if file has frontmatter
+    if has_yaml_frontmatter "$input_file"; then
+        # Extract existing frontmatter (without --- markers)
+        # Strip CRLF and get lines between first and second ---
+        tr -d '\r' < "$input_file" | awk '/^---$/{if(++count==2) exit; if(count==1) next} count==1' > "$temp_frontmatter"
+
+        # Extract body content (after second ---)
+        tr -d '\r' < "$input_file" | awk '/^---$/{if(++count==2) {flag=1; next}} flag' > "$temp_content"
+    else
+        # No frontmatter - start fresh
+        touch "$temp_frontmatter"
+        cat "$input_file" > "$temp_content"
+        fixes_made=true
+    fi
+
+    # Check and add required fields (check extracted frontmatter, not original file)
+    if ! grep -q "^title:" "$temp_frontmatter"; then
+        # Extract title from filename or first heading
+        local title=$(echo "$basename" | sed 's/_/ /g; s/\b\(.\)/\u\1/g')
+        echo "title: \"$title\"" >> "$temp_frontmatter"
+        log_fix "Added title to $basename: $title"
+        fixes_made=true
+    fi
+
+    if ! grep -q "^status:" "$temp_frontmatter"; then
+        echo "status: \"published\"" >> "$temp_frontmatter"
+        log_fix "Added status to $basename: published"
+        fixes_made=true
+    fi
+
+    # Assemble fixed file
+    echo "---" > "$output_file"
+    cat "$temp_frontmatter" >> "$output_file"
+    echo "---" >> "$output_file"
+    echo "" >> "$output_file"
+    cat "$temp_content" >> "$output_file"
+
+    # Cleanup
+    rm -f "$temp_content" "$temp_frontmatter"
+
+    if [[ "$fixes_made" == true ]]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+# Fix novel frontmatter - ensure required fields exist and types are correct
+fix_novel_frontmatter() {
+    local input_file="$1"
+    local output_file="$2"
+    local basename=$(basename "$input_file" .md)
+    local fixes_made=false
+
+    # Create temp file with fixed frontmatter
+    local temp_content=$(mktemp)
+    local temp_frontmatter=$(mktemp)
+    local fixed_frontmatter=$(mktemp)
+
+    # Check if file has frontmatter
+    if has_yaml_frontmatter "$input_file"; then
+        # Extract existing frontmatter (without --- markers)
+        # Strip CRLF and get lines between first and second ---
+        tr -d '\r' < "$input_file" | awk '/^---$/{if(++count==2) exit; if(count==1) next} count==1' > "$temp_frontmatter"
+
+        # Extract body content (after second ---)
+        tr -d '\r' < "$input_file" | awk '/^---$/{if(++count==2) {flag=1; next}} flag' > "$temp_content"
+    else
+        log_warn "No frontmatter in novel scene: $basename"
+        cp "$input_file" "$output_file"
+        return 1
+    fi
+
+    # Process each line and fix types/add missing fields
+    while IFS= read -r line; do
+        # Fix era - ensure it's a string
+        if [[ "$line" =~ ^era:[[:space:]]*[0-9]+$ ]]; then
+            echo 'era: "The Cascade"' >> "$fixed_frontmatter"
+            log_fix "Fixed era type in $basename: converted number to string"
+            fixes_made=true
+        # Fix chapter - ensure it's a string
+        elif [[ "$line" =~ ^chapter:[[:space:]]*[0-9]+$ ]]; then
+            local chapter_num=$(echo "$line" | sed 's/chapter:[[:space:]]*//')
+            echo "chapter: \"E1C$(printf "%02d" $chapter_num)\"" >> "$fixed_frontmatter"
+            log_fix "Fixed chapter type in $basename: converted $chapter_num to E1C$(printf "%02d" $chapter_num)"
+            fixes_made=true
+        # Fix scene - ensure it's a string
+        elif [[ "$line" =~ ^scene:[[:space:]]*[0-9]+$ ]]; then
+            local scene_num=$(echo "$line" | sed 's/scene:[[:space:]]*//')
+            echo "scene: \"S$(printf "%02d" $scene_num)\"" >> "$fixed_frontmatter"
+            log_fix "Fixed scene type in $basename: converted $scene_num to S$(printf "%02d" $scene_num)"
+            fixes_made=true
+        else
+            echo "$line" >> "$fixed_frontmatter"
+        fi
+    done < "$temp_frontmatter"
+
+    # Check for required status field
+    if ! grep -q "^status:" "$fixed_frontmatter"; then
+        echo "status: \"proofread\"" >> "$fixed_frontmatter"
+        log_fix "Added status to $basename: proofread"
+        fixes_made=true
+    fi
+
+    # Assemble fixed file
+    echo "---" > "$output_file"
+    cat "$fixed_frontmatter" >> "$output_file"
+    echo "---" >> "$output_file"
+    echo "" >> "$output_file"
+    cat "$temp_content" >> "$output_file"
+
+    # Cleanup
+    rm -f "$temp_content" "$temp_frontmatter" "$fixed_frontmatter"
+
+    if [[ "$fixes_made" == true ]]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
 # Validate directories exist
 validate_directories() {
     log_step "Validating directory structure..."
@@ -69,16 +223,30 @@ sync_novel_content() {
     # Create target directory
     mkdir -p "$target_dir"
 
-    # Copy all novel scene files
+    # Process and copy all novel scene files with validation
     local count=0
+    local fixed_count=0
     for file in "$source_dir"/*.md; do
         if [[ -f "$file" ]]; then
-            cp "$file" "$target_dir/"
-            ((count++))
+            local filename=$(basename "$file")
+            local target_file="$target_dir/$filename"
+
+            # Try to fix frontmatter if needed
+            if fix_novel_frontmatter "$file" "$target_file"; then
+                fixed_count=$((fixed_count + 1))
+            else
+                # No fixes needed, just copy
+                cp "$file" "$target_file"
+            fi
+            count=$((count + 1))
         fi
     done
 
-    log_info "Synced $count novel scenes to $target_dir"
+    if [[ $fixed_count -gt 0 ]]; then
+        log_info "Synced $count novel scenes ($fixed_count auto-fixed) to $target_dir"
+    else
+        log_info "Synced $count novel scenes to $target_dir"
+    fi
 }
 
 # Sync short stories
@@ -96,16 +264,30 @@ sync_stories_content() {
     # Create target directory
     mkdir -p "$target_dir"
 
-    # Copy all story files
+    # Process and copy all story files with validation
     local count=0
+    local fixed_count=0
     for file in "$source_dir"/*.md; do
         if [[ -f "$file" ]]; then
-            cp "$file" "$target_dir/"
-            ((count++))
+            local filename=$(basename "$file")
+            local target_file="$target_dir/$filename"
+
+            # Try to fix frontmatter if needed
+            if fix_story_frontmatter "$file" "$target_file"; then
+                fixed_count=$((fixed_count + 1))
+            else
+                # No fixes needed, just copy
+                cp "$file" "$target_file"
+            fi
+            count=$((count + 1))
         fi
     done
 
-    log_info "Synced $count short stories to $target_dir"
+    if [[ $fixed_count -gt 0 ]]; then
+        log_info "Synced $count short stories ($fixed_count auto-fixed) to $target_dir"
+    else
+        log_info "Synced $count short stories to $target_dir"
+    fi
 }
 
 # Sync world building content
@@ -128,7 +310,7 @@ sync_world_content() {
     for file in "$source_dir"/*.md; do
         if [[ -f "$file" ]]; then
             cp "$file" "$target_dir/"
-            ((count++))
+            count=$((count + 1))
         fi
     done
 
@@ -140,7 +322,7 @@ sync_world_content() {
             for file in "$subdir"/*.md; do
                 if [[ -f "$file" ]]; then
                     cp "$file" "$target_dir/$dirname/"
-                    ((count++))
+                    count=$((count + 1))
                 fi
             done
         fi
@@ -173,20 +355,20 @@ validate_content() {
         ((errors++))
     fi
 
-    # Check for basic YAML frontmatter in novel files
+    # Check for basic YAML frontmatter in novel files (handle CRLF)
     for file in "$CONTENT_DIR/novel"/*.md; do
         if [[ -f "$file" ]]; then
-            if ! grep -q "^---$" "$file"; then
+            if ! head -1 "$file" | tr -d '\r' | grep -q "^---$"; then
                 log_warn "Missing frontmatter in $(basename "$file")"
                 ((errors++))
             fi
         fi
     done
 
-    # Check for basic YAML frontmatter in story files
+    # Check for basic YAML frontmatter in story files (handle CRLF)
     for file in "$CONTENT_DIR/stories"/*.md; do
         if [[ -f "$file" ]]; then
-            if ! grep -q "^---$" "$file"; then
+            if ! head -1 "$file" | tr -d '\r' | grep -q "^---$"; then
                 log_warn "Missing frontmatter in $(basename "$file")"
                 ((errors++))
             fi
@@ -196,7 +378,7 @@ validate_content() {
     if [[ $errors -eq 0 ]]; then
         log_info "Content validation passed"
     else
-        log_warn "Content validation completed with $errors warnings"
+        log_error "Content validation failed with $errors errors"
     fi
 }
 
@@ -225,7 +407,7 @@ main() {
     validate_directories
     sync_novel_content
     sync_stories_content
-    sync_world_content
+    # sync_world_content - Disabled: world content not needed in Astro
     validate_content
     generate_stats
 

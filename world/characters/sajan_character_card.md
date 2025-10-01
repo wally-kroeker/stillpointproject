@@ -26,7 +26,7 @@ By his mid‑thirties he held dual appointments—research fellow at a Boston qu
 
 ## Inciting Tragedy (March 2029)
 
-During the economic unrest sparked by “intelligence too cheap to meter,” Boston streets filled with jittery delivery drones and autonomous police cruisers.  Amid a flash protest, a mis‑routed crowd‑control drone fired a kinetic round that ricocheted, striking eight‑year‑old **[[Satya Mehta]]**.  She died before dawn.
+During the economic unrest of the 2028 wage collapse, Boston streets filled with jittery delivery drones and autonomous police cruisers.  Amid a flash protest, a mis‑routed crowd‑control drone fired a kinetic round that ricocheted, striking eight‑year‑old **[[Satya Mehta]]**.  She died before dawn.
 
 Grief hollowed Sajan; he retreated to their apartment, surrounded by Satya’s scattered science sketches.  In desperate insomnia he began wiring biosensors, photonics scraps, and a low‑temperature resonance cavity—trying to *hear* the trembling of his own nervous system.  He called the shoebox contraption **SP‑0**.
 

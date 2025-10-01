@@ -1,3 +1,11 @@
+---
+title: "The Miller's Daughter - Story Outline"
+type: "outline"
+description: "Story outline for The Miller's Daughter short story - planning document"
+era: "Era 1 - The Cascade"
+status: "draft"
+---
+
 # Short Story Outline: "The Miller's Daughter"
 
 **Setting:** Early Spring, 2037. Riverbend Commons & the new location, **Stonewall Holdout**.

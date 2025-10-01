@@ -16,7 +16,7 @@ updated: "2025-08-13"
 
 ### Core Characteristics
 
-*   **Cascading Acceleration:** The era was defined by runaway technological growth, particularly AI ("intelligence too cheap to meter"). This created a cascade of consequences: soaring productivity, mass labor displacement, and a rapidly widening wealth gap that shattered economic stability.
+*   **Cascading Acceleration:** The era was defined by runaway technological growth, particularly AI services whose marginal cost approached zero while displacing human labor entirely. This created a cascade of consequences: soaring productivity, mass labor displacement, and a rapidly widening wealth gap that shattered economic stability.
 
 *   **Sentiment Cascades:** Memetic synchronization of anxiety, price‑shock memes, and executive guidance that compresses timelines—freezing hiring, accelerating layoffs, and stalling consumption faster than fundamentals move. Prefigured by 2026–27 “Switch Week” and the “$20 Diet Coke” meme; amplified by [[world/technology/chorus_ai_platform.md|Chorus]] nudges; later countered by [[world/technology/satya_ai_model.md|Satya]]’s reflective pause and presence practices within Commons.
 

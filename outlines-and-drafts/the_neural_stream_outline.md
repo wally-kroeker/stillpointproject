@@ -1,10 +1,18 @@
+---
+title: "The Neural Stream - Story Outline"
+type: "outline"
+description: "Story outline for The Neural Stream short story - planning document"
+era: "Era 1 - The Cascade"
+status: "draft"
+---
+
 # "The Neural Stream" - Short Story Outline
 
 ## Story Concept
 A former Bitcoin trader turned live-streaming journalist in 2036 researches intentional communities during a live stream, leading to discovery of the StillPoint Gathering at The Oaks. The story serves as an introduction to The StillPoint Saga universe.
 
 ## Main Character: Marcus Chen
-**Background:** Former cryptocurrency day trader (2025-2030) who lost significant wealth during the 2028 "intelligence too cheap to meter" wage collapse. Pivoted to verified human journalism using early neural-sharing technology.
+**Background:** Former cryptocurrency day trader (2025-2030) who lost significant wealth during the 2028 wage collapse when AI trading algorithms operating at near-zero cost eliminated all arbitrage opportunities. Pivoted to verified human journalism using early neural-sharing technology.
 
 **Current Situation:** Barely surviving financially through live-streaming research sessions for subscribers who pay premium rates for "authentic human investigation" versus AI-generated content.
 

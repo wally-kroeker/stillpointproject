@@ -1,10 +1,17 @@
 ---
 title: "Kimi2: The Miller's Daughter, Part 2 – The River and the Hum"
-era: "Era 1 (Post-Cascade, c. 2037)"
+type: "short_story"
+description: "Elara arrives at Riverbend Commons and experiences the StillPoint device, confronting two paths: communal labor or technological solution."
+era: "Era 1 - The Cascade"
 location: "Riverbend Commons"
 pov_character: "Elara"
 word_count: 1600
 page_count: 6
+status: "draft"
+characters: ["Elara", "Anya"]
+themes: ["stillpoint_experience", "community_vs_technology", "presence"]
+related_world: ["stillpoint_device", "riverbend_commons"]
+canonical_order: 2
 ---
 
 The bridge to Riverbend was not a crossing but a threshold.  

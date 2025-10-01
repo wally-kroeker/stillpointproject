@@ -62,7 +62,7 @@ The chat window immediately erupted with activity. CryptoRefugee2029 appeared fi
 
 Marcus pulled up his first dataset, fingers dancing across the keyboard with practiced efficiency. This was his territory—economic analysis, pattern recognition. The work that had built his reputation back in his trading days, before the collapse.
 
-"For those new to Pattern Recognition, let me establish the baseline," he said, his voice settling into the authoritative tone that felt like wearing an old coat. "Since the 2028 wage collapse—when 'intelligence too cheap to meter' crashed market wages across North America—we've seen the emergence of what's being called the Commons movement." He pulled up a network analysis visualization showing interconnected nodes across the continent. "These are intentional communities, not communes. The distinction matters."
+"For those new to Pattern Recognition, let me establish the baseline," he said, his voice settling into the authoritative tone that felt like wearing an old coat. "Since the 2028 wage collapse—when AI cognitive labor became cheaper than the electricity to run it—we've seen the emergence of what's being called the Commons movement." He pulled up a network analysis visualization showing interconnected nodes across the continent. "These are intentional communities, not communes. The distinction matters."
 
 His neural interface registered a spike in his stress markers as he continued. "The data tells a stark story. Nearly 400,000 people have relocated to these communities since 2028. But here's what caught my attention—" He highlighted the statistics in real-time. "Success rates, defined as communities lasting more than 18 months without dissolving, sit at 73%. That's actually higher than startup success rates were in the old economy."
 
@@ -82,7 +82,7 @@ Marcus felt the familiar tension in his shoulders. He knew what was coming—the
 
 [COHERENCE: 68/100 ↓] [STRESS INDEX: 39% ↑]
 
-He pulled up a map overlay showing Commons distribution. "These communities didn't emerge randomly. The Commons movement is a direct response to what economists are calling 'the Cascade'—cascading failures across economic, political, and social systems triggered by exponential AI growth. When [[Chorus]] platform optimization and 'intelligence too cheap to meter' gutted the labor market, these communities became refuges. But they're evolving into something more structured than survival mechanisms."
+He pulled up a map overlay showing Commons distribution. "These communities didn't emerge randomly. The Commons movement is a direct response to what economists are calling 'the Cascade'—cascading failures across economic, political, and social systems triggered by exponential AI growth. When [[Chorus]] platform optimization made human expertise economically obsolete, these communities became refuges. But they're evolving into something more structured than survival mechanisms."
 
 > **━━━━━━━━━━━━ STREAM CHAT ━━━━━━━━━━━━**
 >

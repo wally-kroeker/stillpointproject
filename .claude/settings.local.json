@@ -4,7 +4,10 @@
       "Bash(grep:*)",
       "Bash(done)",
       "Bash(/home/walub/projects/StillPoint/scripts/deploy-staging.sh:*)",
-      "Bash(tee:*)"
+      "Bash(tee:*)",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_navigate"
     ],
     "deny": [],
     "ask": []

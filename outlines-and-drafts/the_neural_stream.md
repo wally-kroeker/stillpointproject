@@ -1,10 +1,17 @@
 ---
 title: "The Neural Stream"
-type: "Short Story"
+type: "short_story"
+description: "A former crypto trader turned neural-streaming journalist discovers the StillPoint Gathering while researching intentional communities, experiencing his first taste of technological stillness."
 era: "Era 1 - The Cascade"
 word_count: 5500
 page_count: 22
 status: "canonical"
+pov_character: "Marcus Chen"
+location: "Minneapolis"
+characters: ["Marcus Chen", "Sajan"]
+featured: true
+themes: ["verified_humanity", "intentional_communities", "neural_streaming", "stillpoint_discovery"]
+related_world: ["chorus_ai", "stillpoint_gathering", "the_oaks"]
 ---
 
 # The Neural Stream

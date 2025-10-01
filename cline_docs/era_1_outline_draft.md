@@ -10,7 +10,7 @@
 
 **Chapter 8: The First Winter (Riverbend, Early 2028)**
 *   **Summary:** The small community at Riverbend (Jonah, Liam, Chloë, and a few others) struggles through their first winter. Resources are scarce. The outside world's "psychic static" bleeds in through news feeds—market crashes, wage collapses. Their dream is tested by the harsh reality of survival. They must decide on their core principles for sharing, governance, and dealing with the fear that they've made a terrible mistake.
-*   **World Bible Tie-in:** Dramatizes the 2028 event: "Public trust erodes as 'intelligence too cheap to meter' crashes market wages." Shows the micro-level impact on a fledgling community.
+*   **World Bible Tie-in:** Dramatizes the 2028 wage collapse when AI cognitive labor became cheaper than infrastructure costs. Shows the micro-level impact on a fledgling community.
 *   **Thematic Touch-Stone:** [[The Pyramid and the Tipi|world/lore/the_pyramid_and_the_tipi.md]] (internal conflict over leadership and resource allocation).
 
 **Chapter 9: A Knock at the Door (Riverbend, Late 2028)**

@@ -1,3 +1,11 @@
+---
+title: "The Neural Stream - Detailed Scene Brief"
+type: "scene_brief"
+description: "Detailed scene brief for The Neural Stream short story - planning document"
+era: "Era 1 - The Cascade"
+status: "draft"
+---
+
 # "The Neural Stream" - Detailed Scene Brief
 
 **Core Tension:** A struggling former crypto trader discovers evidence of a technological breakthrough that could reshape human coordination, forcing him to choose between professional detachment and personal investment in a story that begins affecting him physiologically in real-time.

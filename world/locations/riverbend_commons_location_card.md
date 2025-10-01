@@ -45,7 +45,7 @@ Riverbend Commons sits on 40 acres along a gentle bend in the Assiniboine River,
 Riverbend begins as the fulfilled dream from Jonah, Liam, and Chloë's diner conversations. The first winter tests their resolve but strengthens their bonds. Maren's presence provides spiritual anchor, while Ben's quiet contributions demonstrate the power of humble service.
 
 ### Refuge Period (2028)
-When the "intelligence too cheap to meter" wage collapse hits, Riverbend becomes a sanctuary for displaced workers. The community's success in integrating newcomers while maintaining its values establishes its reputation in the growing underground network of intentional communities.
+When the 2028 wage collapse hits—AI making human labor economically obsolete—Riverbend becomes a sanctuary for displaced workers. The community's success in integrating newcomers while maintaining its values establishes its reputation in the growing underground network of intentional communities.
 
 ### Teaching Center (2028-2029)
 Word spreads about "the Riverbend way" - their combination of practical sustainability with emotional/spiritual wellness. Other communities send representatives to learn their methods. Maren emerges as a natural teacher during this period.

@@ -1,10 +1,16 @@
 ---
 title: "Kimi2: The Miller's Daughter, Part 1 – The Grindstone"
-era: "Era 1 (Post-Cascade, c. 2037)"
+type: "short_story"
+description: "Elara faces her community's failing grain mill and must decide whether to seek help from the mysterious Riverbend Commons."
+era: "Era 1 - The Cascade"
 location: "Stonewall Holdout"
 pov_character: "Elara"
 word_count: 1500
 page_count: 6
+status: "draft"
+characters: ["Elara"]
+themes: ["community", "technology_skepticism", "faith_vs_pragmatism"]
+canonical_order: 1
 ---
 
 The silence in the mill was not peace; it was a sermon.  
