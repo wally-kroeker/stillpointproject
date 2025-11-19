@@ -7,7 +7,9 @@
       "Bash(tee:*)",
       "mcp__playwright__browser_close",
       "mcp__playwright__browser_take_screenshot",
-      "mcp__playwright__browser_navigate"
+      "mcp__playwright__browser_navigate",
+      "Skill(telos)",
+      "mcp__playwright__browser_evaluate"
     ],
     "deny": [],
     "ask": []

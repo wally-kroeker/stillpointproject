@@ -267,19 +267,26 @@ sync_stories_content() {
     # Process and copy all story files with validation
     local count=0
     local fixed_count=0
-    for file in "$source_dir"/*.md; do
+    # Process both .md and .mdx files
+    for file in "$source_dir"/*.{md,mdx}; do
         if [[ -f "$file" ]]; then
             local filename=$(basename "$file")
             local target_file="$target_dir/$filename"
 
-            # Try to fix frontmatter if needed
-            if fix_story_frontmatter "$file" "$target_file"; then
-                fixed_count=$((fixed_count + 1))
-            else
-                # No fixes needed, just copy
+            # For .mdx files, just copy - don't try to fix frontmatter
+            if [[ "$file" == *.mdx ]]; then
                 cp "$file" "$target_file"
+                count=$((count + 1))
+            else
+                # Try to fix frontmatter for .md files
+                if fix_story_frontmatter "$file" "$target_file"; then
+                    fixed_count=$((fixed_count + 1))
+                else
+                    # No fixes needed, just copy
+                    cp "$file" "$target_file"
+                fi
+                count=$((count + 1))
             fi
-            count=$((count + 1))
         fi
     done
 
@@ -346,9 +353,9 @@ validate_content() {
         ((errors++))
     fi
 
-    # Check for missing story content
-    local source_stories_count=$(find "$PROJECT_ROOT/short_stories" -name "*.md" 2>/dev/null | wc -l)
-    local synced_stories_count=$(find "$CONTENT_DIR/stories" -name "*.md" 2>/dev/null | wc -l)
+    # Check for missing story content (count both .md and .mdx)
+    local source_stories_count=$(find "$PROJECT_ROOT/short_stories" \( -name "*.md" -o -name "*.mdx" \) 2>/dev/null | wc -l)
+    local synced_stories_count=$(find "$CONTENT_DIR/stories" \( -name "*.md" -o -name "*.mdx" \) 2>/dev/null | wc -l)
 
     if [[ $source_stories_count -ne $synced_stories_count ]]; then
         log_warn "Story count mismatch: source=$source_stories_count, synced=$synced_stories_count"
@@ -387,7 +394,7 @@ generate_stats() {
     log_step "Generating content statistics..."
 
     local novel_count=$(find "$CONTENT_DIR/novel" -name "*.md" 2>/dev/null | wc -l)
-    local stories_count=$(find "$CONTENT_DIR/stories" -name "*.md" 2>/dev/null | wc -l)
+    local stories_count=$(find "$CONTENT_DIR/stories" \( -name "*.md" -o -name "*.mdx" \) 2>/dev/null | wc -l)
     local world_count=$(find "$CONTENT_DIR/world" -name "*.md" 2>/dev/null | wc -l)
     local total_count=$((novel_count + stories_count + world_count))
 
