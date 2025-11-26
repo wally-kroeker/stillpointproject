@@ -46,10 +46,16 @@ The iterative editing and refinement phase, broken into two distinct passes.
 
 *   **Canon Pass:**
     *   **Audit:** A pass by the **Lore Keeper** to ensure alignment with the `still_point_world_bible.md` and established continuity.
-    *   **Implementation:** A pass by the **Creative Partner** or **Narrator** to integrate the audit feedback.
+    *   **Implementation:** **Creative Partner** reviews audit and determines approach:
+        - **Direct handling:** Targeted edits, small continuity fixes, wiki-link updates
+        - **Delegation to Narrator:** Extensive rewrites, significant prose changes requiring deep craft focus
+        - Decision based on scope and nature of required changes
 *   **Editorial Pass:**
     *   **Review:** A pass by the **Editor** to assess craft: pacing, characterization, dialogue, prose, and theme.
-    *   **Implementation:** A pass by the **Creative Partner** or **Narrator** to integrate the editorial feedback.
+    *   **Implementation:** **Creative Partner** reviews feedback and determines approach:
+        - **Direct handling:** Structural changes, thematic adjustments, strategic revisions requiring project-level judgment
+        - **Delegation to Narrator:** Line-level polish, extensive prose refinement, voice consistency work
+        - Decision based on whether changes require strategic judgment vs. craft focus
 
 ### 3. Finalization
 The last steps before a chapter is considered "complete."
