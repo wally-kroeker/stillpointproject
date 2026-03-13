@@ -8,7 +8,7 @@ voice: "Evocative, Grounded, Hopeful"
 location: "Hawthorn Commons"
 word_count: 650
 page_count: 3
-status: "proofread"
+status: "draft"
 ---
 
 The air, thick with the scent of damp earth and pine, held a fragile promise. A circle of faces, some familiar, most new, watched the pyre of carefully stacked wood in the center of the clearing at [[Hawthorn Commons]]. It was less a structure and more a prayer made of kindling and logs.

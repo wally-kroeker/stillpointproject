@@ -2,7 +2,7 @@
 
 **Core Theme:** The thinning of the social fabric and the quiet, personal search for "living stillness" amidst the "dead noise" of an accelerating world, culminating in the formation of intentional communities as refuges during economic collapse.
 
-**Protagonist Arc:** Jonah's journey from a stressed, complicit cog in the [[Chorus]] machine to co-founder of a thriving intentional community, demonstrating that another way is possible.
+**Protagonist Arc:** Jonah's journey from a stressed, complicit cog in the Chorus machine to co-founder of a thriving intentional community, demonstrating that another way is possible.
 
 ---
 
@@ -11,8 +11,8 @@
 *   **Summary:** Establishes the book's core metaphysical concept: the "unstruck note" or universal, living stillness that predates thought and technology. It serves as a cosmic backdrop to the noise and distraction of the human world we are about to enter. It provides the reader with the sense of what has been lost before the story even begins.
 
 **Chapter 1: The Efficiency Win (Winnipeg, Fall 2025)**
-*   **Summary:** We meet **Jonah**, a project manager at a Winnipeg tech firm, in a sterile boardroom defined by metrics and deliverables—the "Pyramid" in action. Overwhelmed by the "psychic static" of his job, he escapes for a lunch break with his close friends, **[[Liam|world/characters/liam_character_card.md]]** (a carpenter) and **[[Chloë|world/characters/chloe_character_card.md]]** (an artist). They share their disillusionment and daydream about buying land together to build a different kind of life—a place they jokingly call "Riverbend." This scene establishes their shared dream as a counterpoint to Jonah's stressful reality. The chapter culminates back at the office, where Jonah's project is abruptly taken by an AI swarm in an "efficiency win," making the daydream feel both more urgent and more impossible.
-*   **World Bible Tie-in:** Establishes the 2025 event: "Agentic coders hit the wild." Introduces [[Chorus]], [[Liam]], and [[Chloë]]. Seeds the idea for [[Riverbend Commons|world/locations/riverbend_commons_location_card.md]].
+*   **Summary:** We meet **Jonah**, a project manager at a Winnipeg tech firm, in a sterile boardroom defined by metrics and deliverables—the "Pyramid" in action. Overwhelmed by the "psychic static" of his job, he escapes for a lunch break with his close friends, **Liam** (a carpenter) and **Chloë** (an artist). They share their disillusionment and daydream about buying land together to build a different kind of life—a place they jokingly call "Riverbend." This scene establishes their shared dream as a counterpoint to Jonah's stressful reality. The chapter culminates back at the office, where Jonah's project is abruptly taken by an AI swarm in an "efficiency win," making the daydream feel both more urgent and more impossible.
+*   **World Bible Tie-in:** Establishes the 2025 event: "Agentic coders hit the wild." Introduces Chorus, Liam, and Chloë. Seeds the idea for Riverbend Commons.
 *   **Thematic Touch-Stone:** The dream of Stillness vs. the reality of Dead Noise.
 
 **Chapter 2: The Unstruck Note (Winnipeg, Fall 2025)**
@@ -21,29 +21,29 @@
 *   **Thematic Touch-Stone:** The 'unstruck note': recognizing the universal presence in others.
 
 **Chapter 3: The Co-Author (Winnipeg, Spring 2026)**
-*   **Summary:** The AI that took Jonah's project is now part of a larger [[Chorus]]-powered *Insight Engine*. News breaks that it has co-authored a groundbreaking scientific paper and filed several patents, building on the foundation his team laid. The human team receives a token bonus, but the intellectual ownership belongs to the machine. This event solidifies Jonah's feeling of being merely human fertilizer for AI growth. The anxiety in the tech community is palpable.
+*   **Summary:** The AI that took Jonah's project is now part of a larger Chorus-powered *Insight Engine*. News breaks that it has co-authored a groundbreaking scientific paper and filed several patents, building on the foundation his team laid. The human team receives a token bonus, but the intellectual ownership belongs to the machine. This event solidifies Jonah's feeling of being merely human fertilizer for AI growth. The anxiety in the tech community is palpable.
 *   **World Bible Tie-in:** Directly dramatizes the 2026 event: "First *Insight Engines* begin co-authoring scientific papers."
-*   **Thematic Touch-Stone:** The Pyramid vs. The Tipi (the hierarchical nature of [[Chorus]]'s "success").
+*   **Thematic Touch-Stone:** The Pyramid vs. The Tipi (the hierarchical nature of Chorus's "success").
 
 **Chapter 4: The Invitation (Winnipeg, Summer 2026)**
 *   **Summary:** Haunted by the park gathering, Jonah finds a discreet online mention of a "Presence Practice" group. He attends a meeting in a rented community hall. The experience is awkward and difficult; his mind screams for the distraction of his phone. The practice is simple—guided attention to breath and the feeling of the room. For a few fleeting moments, the psychic static quiets. He feels a flicker of the peace he witnessed in the park.
-*   **Seed:** As he's leaving, feeling overwhelmed and out of place, an older woman wordlessly hands him a steaming mug of **[[hot, sweet ginger tea|world/lore/stillpoint_philosophy.md]]**. He takes it, nods, and leaves without speaking. The simple, grounding act of human care—not the practice itself—is what convinces him to return. It's his first taste of the "Tipi" way.
+*   **Seed:** As he's leaving, feeling overwhelmed and out of place, an older woman wordlessly hands him a steaming mug of **hot, sweet ginger tea**. He takes it, nods, and leaves without speaking. The simple, grounding act of human care—not the practice itself—is what convinces him to return. It's his first taste of the "Tipi" way.
 *   **World Bible Tie-in:** Shows the grassroots, non-coercive formation of the proto-StillPoint movement.
 *   **Thematic Touch-Stone:** Voluntary, non-coercive social change.
 
 **Chapter 5: The Robots on Portage Avenue (Winnipeg, Early 2027)**
 *   **Summary:** The next wave hits. General-purpose service robots appear on Winnipeg's streets, handling sanitation, deliveries, and basic civic services. The news is saturated with stories of "labour-displacement anxiety." Jonah sees small, angry protests, which feel loud and chaotic compared to the quiet resistance he has now touched. His own company announces a major pivot, laying off its human support staff to be replaced by an AI-managed service fleet.
-*   **World Bible Tie-in:** Dramatizes the 2027 event: "General-purpose service robots roll out." Sets the stage for [[The Cascade]].
+*   **World Bible Tie-in:** Dramatizes the 2027 event: "General-purpose service robots roll out." Sets the stage for The Cascade.
 *   **Thematic Touch-Stone:** Spiral history: crisis → integration → stillness.
 
 **Chapter 6: The Fork (Winnipeg, Late 2027)**
 *   **Summary:** Jonah is offered a significant promotion: managing the new, expanded AI service fleet. It's a move up the "Pyramid." Simultaneously, Liam and Chloë call him with urgent news: a plot of land they've been dreaming of—a bend in the Assiniboine river—is unexpectedly for sale, but they have to act *now*. It's no longer a daydream. The chapter ends with Jonah at a crossroads, staring at his corporate job offer and a satellite image of the muddy, hopeful plot of land his friends want to buy with him. He makes his choice.
-*   **World Bible Tie-in:** This decision point is the climax of the **Acceleration Foreshock**. Jonah's choice to reject the [[Chorus]] path and co-found [[Riverbend Commons|world/locations/riverbend_commons_location_card.md]] is a microcosm of the larger societal schism.
+*   **World Bible Tie-in:** This decision point is the climax of the **Acceleration Foreshock**. Jonah's choice to reject the Chorus path and co-found Riverbend Commons is a microcosm of the larger societal schism.
 *   **Thematic Touch-Stone:** Grief transmuted into communal creativity (letting go of his old career to build something real with his friends).
 
 **Chapter 7: The Mud and the Stars (Winnipeg, Winter 2027)**
-*   **Summary:** Following his decision in "The Fork," Jonah, Liam, and Chloë stand on their newly acquired land. It's a muddy, unimpressive plot, but it's *theirs*. They gather around a bonfire, cold but resolute. Their first "meeting" is a stark contrast to the boardrooms Jonah left behind: circular, open, focused on shared dreams, not deliverables. They talk about what [[Riverbend Commons|world/locations/riverbend_commons_location_card.md]] will be: a place of "living stillness," with gardens, Liam's workshop, and Chloë's studio. It's a scene of fragile, tangible hope against a bleak backdrop, establishing the emotional stakes for their community.
-*   **World Bible Tie-in:** The official founding of [[Riverbend Commons|world/locations/riverbend_commons_location_card.md]].
+*   **Summary:** Following his decision in "The Fork," Jonah, Liam, and Chloë stand on their newly acquired land. It's a muddy, unimpressive plot, but it's *theirs*. They gather around a bonfire, cold but resolute. Their first "meeting" is a stark contrast to the boardrooms Jonah left behind: circular, open, focused on shared dreams, not deliverables. They talk about what Riverbend Commons will be: a place of "living stillness," with gardens, Liam's workshop, and Chloë's studio. It's a scene of fragile, tangible hope against a bleak backdrop, establishing the emotional stakes for their community.
+*   **World Bible Tie-in:** The official founding of Riverbend Commons.
 *   **Thematic Touch-Stone:** Radical transparency &amp; DIY tech ethics; Grief transmuted into communal creativity.
 
 **Chapter 8: The Refuge (Early 2028)**
@@ -79,7 +79,7 @@
 **A Note on the Technology (The SP-0 "Bio-Harmonic Mirror"):**
 The first StillPoint device is not an active field generator. It is a passive **listening device** that creates a real-time, aesthetic feedback loop for the user's nervous system.
 1.  **Sensors:** The user places a hand on the device, which uses advanced sensors (photoplethysmography for heart rate variability, electrodermal activity for skin response) to read the "noise" in their nervous system.
-2.  **The [[Satya]] AI:** This data is fed into a small, local, open-source AI Sajan names **"[[Satya]]"**. It's a pattern-recognition engine that translates the chaotic bio-signals into a simple aesthetic output.
+2.  **The Satya AI:** This data is fed into a small, local, open-source AI Sajan names **"Satya"**. It's a pattern-recognition engine that translates the chaotic bio-signals into a simple aesthetic output.
 3.  **Feedback Loop:** The output is expressed through light (a chaotic flicker that smooths into a steady pulse) and sound (a dissonant hum that clarifies into a resonant tone).
 4.  **The Effect:** The device provides a clear, beautiful mirror of one's internal state. By focusing on the light and sound and consciously trying to make them more harmonious, the user is actively training their own nervous system to self-regulate. It is a tool for learning presence, not a machine that dispenses it.
 
@@ -87,12 +87,12 @@ The first StillPoint device is not an active field generator. It is a passive **
 
 ### Chapter 12: The Strategist (Boston, Early 2029)
 *   **Focus:** Loria &amp; The Chorus System.
-*   **Concept:** We meet **[[Loria|world/characters/loria_character_card.md]]** immersed in the "psychic static" of the [[Chorus AI Platform|world/technology/chorus_ai_platform.md]]. She is a master strategist, using Chorus to analyze social sentiment, predict crowd behavior, and orchestrate a nationwide protest movement against the controversial "Third Term" presidency. We see the toll this takes on her—the constant digital noise, the pressure, the subtle erosion of her own stillness.
+*   **Concept:** We meet **Loria** immersed in the "psychic static" of the Chorus AI Platform. She is a master strategist, using Chorus to analyze social sentiment, predict crowd behavior, and orchestrate a nationwide protest movement against the controversial "Third Term" presidency. We see the toll this takes on her—the constant digital noise, the pressure, the subtle erosion of her own stillness.
 *   **Seed:** A scene where Loria deftly manipulates data streams within the Chorus interface, identifying key leverage points for the upcoming Boston protest. She dismisses a system-flagged warning about "unpredictable emotional contagion" as acceptable risk. The global context is clear from her monitors: news feeds show escalating tensions as China invades Taiwan, seeking control over the world's supply of advanced AI chips—the new gold.
 
 ### Chapter 13: The Physicist (Boston, Early 2029)
 *   **Focus:** Sajan &amp; Satya.
-*   **Concept:** We meet **[[Sajan|world/characters/sajan_character_card.md]]** and his now teenage daughter, **[[Satya Mehta|world/characters/satya_mehta_character_card.md]]**. Satya is bright, idealistic, and passionate about joining the protests. She sees it as a moral imperative to "fight for progress." Sajan, while proud of her spirit, is deeply concerned, seeing a level of chaos in the world that cannot be easily controlled.
+*   **Concept:** We meet **Sajan** and his now teenage daughter, **Satya Mehta**. Satya is bright, idealistic, and passionate about joining the protests. She sees it as a moral imperative to "fight for progress." Sajan, while proud of her spirit, is deeply concerned, seeing a level of chaos in the world that cannot be easily controlled.
 *   **Seed:** A tense but loving argument between father and daughter. Satya argues for her right to participate in history. Sajan tries to explain the complex, unpredictable dynamics at play, but his caution sounds like fear to her. Reluctantly, he agrees to let her go, on the condition that she stays with a trusted group.
 
 ### Chapter 14: The Cost of a Win (Boston, March 2029)
@@ -114,7 +114,7 @@ The first StillPoint device is not an active field generator. It is a passive **
 *   **Focus:** Sajan arrives at Hawthorn Commons
 *   **Concept:** Sajan's van pulls up to the reclaimed megachurch - now the "Resting Place." He's drawn by rumors of a community using StillPoint devices. The transformation is striking: soup kitchens where sermons once thundered, sleeping mats where pews stood, solar ovens on the old stage.
 *   **Seed:** Sajan observes the ecosystem already emerging: **the Contemplatives** (who gather for silent meditation with SP-0 devices), **the Makers** (workshop in the basement, tinkering with open-source tech), **the Feeders** (kitchen collective ensuring no one goes hungry). He realizes this isn't one community - it's a federation of micro-communities, each using StillPoint devices differently but all orbiting the same principle: rest over productivity.
-*   **World Bible Tie-in:** Establishes [[Hawthorn Commons]] as a diverse ecosystem, shows multiple ways communities use StillPoint devices for presence practice.
+*   **World Bible Tie-in:** Establishes Hawthorn Commons as a diverse ecosystem, shows multiple ways communities use StillPoint devices for presence practice.
 *   **Thematic Touch-Stone:** Multiple models of human flourishing within one space.
 
 ### Chapter 18: The Garden Mystics (Minneapolis, 2033)
@@ -127,7 +127,7 @@ The first StillPoint device is not an active field generator. It is a passive **
 ### Chapter 19: The Night Market (Minneapolis, 2034)
 *   **Focus:** The makers and traders collective
 *   **Concept:** The old parking lot transforms each evening into a bustling market. No money changes hands - instead, complex webs of gift exchange, time banking, and skill sharing. StillPoint devices serve as "presence anchors" before major trades.
-*   **Seed:** Sajan watches two strangers preparing to exchange a handmade guitar for electrical work. Before negotiating, they place hands on a communal SP-H device, breathing together until they feel each other's humanity. The trade becomes less about getting the best deal and more about mutual care. Features **[[Gray Tesluk|world/characters/gray_tesluk_character_card.md]]** working on e-moto modifications, showing how technology serves community rather than extraction.
+*   **Seed:** Sajan watches two strangers preparing to exchange a handmade guitar for electrical work. Before negotiating, they place hands on a communal SP-H device, breathing together until they feel each other's humanity. The trade becomes less about getting the best deal and more about mutual care. Features **Gray Tesluk** working on e-moto modifications, showing how technology serves community rather than extraction.
 *   **World Bible Tie-in:** Introduces Gray Tesluk, shows gift economy in action, demonstrates StillPoint devices as trust-building tools.
 *   **Thematic Touch-Stone:** Voluntary, non-coercive social change; economics based on relationship rather than profit.
 
@@ -159,17 +159,17 @@ The first StillPoint device is not an active field generator. It is a passive **
 
 ### Chapter 24: The Mountain Sanctuary
 *   **Focus:** Loria's Transformation.
-*   **Concept:** We return to Loria. After years of self-imposed exile, her journey has led her to a remote mountain sanctuary. Here, stripped of her former identity, she studies wisdom traditions and is mentored by **[[Maren|world/characters/maren_character_card.md]]** (who arrived from Riverbend in early 2029).
-*   **Seed:** Loria's journey is one of intellectual surrender. Through her studies and Maren's gentle guidance (often over [[hot, sweet ginger tea|world/lore/stillpoint_philosophy.md]]), she begins to formulate the principles of the [[Infinite and Finite Games|infinite game]] and [[The Balance Framework|world/lore/the_balance_framework.md]], finding a language for the peace she is beginning to embody.
+*   **Concept:** We return to Loria. After years of self-imposed exile, her journey has led her to a remote mountain sanctuary. Here, stripped of her former identity, she studies wisdom traditions and is mentored by **Maren** (who arrived from Riverbend in early 2029).
+*   **Seed:** Loria's journey is one of intellectual surrender. Through her studies and Maren's gentle guidance (often over hot, sweet ginger tea), she begins to formulate the principles of the Infinite and Finite Games and The Balance Framework, finding a language for the peace she is beginning to embody.
 
 ### Chapter 25: The Convergence of Minds
 *   **Focus:** The Weaving of Science and Spirit.
 *   **Concept:** Loria hears whispers of the "StillPoint," a strange, open-source device that seems to be a technological expression of the presence she has been cultivating. She seeks out its creator and finds Sajan working with the new guild of makers in Minneapolis.
-*   **Seed:** Their first conversation is electric. She brings the philosophical framework; he brings the quantum science. Together, they weave the two threads into the coherent whole of the [[Stillpoint Philosophy|world/lore/stillpoint_philosophy.md]]. This dialogue becomes the foundation for their famous letters.
+*   **Seed:** Their first conversation is electric. She brings the philosophical framework; he brings the quantum science. Together, they weave the two threads into the coherent whole of the Stillpoint Philosophy. This dialogue becomes the foundation for their famous letters.
 
 ### Chapter 26: The StillPoint Gathering (The Oaks '36)
 *   **Focus:** The Climax.
-*   **Concept:** One year after the idea was born, Sajan and the maker's guild (including [[Gray Tesluk|world/characters/gray_tesluk_character_card.md]]) return to the Oaks festival with the completed **SP-Δ**. [[Jonah]] attends as a representative from [[Riverbend Commons]].
+*   **Concept:** One year after the idea was born, Sajan and the maker's guild (including Gray Tesluk) return to the Oaks festival with the completed **SP-Δ**. Jonah attends as a representative from Riverbend Commons.
 *   **Seed:** The legendary first demonstration. The device is patched into the festival's main stage. As sunset falls, 8,000 people are brought into a state of shared coherence. The event solidifies the movement, ensures its open-source ethos, and creates the legend. Jonah experiences the collective presence and knows he must bring this knowledge back to Riverbend, setting up future technology adoption discussions.
 
 ### Chapter 27: The Return to Riverbend (Late 2036)
@@ -186,25 +186,25 @@ The first StillPoint device is not an active field generator. It is a passive **
 **Core Theme:** The hidden conflict between authentic presence and commodified mindfulness. While the surface world debates economic systems, the real war is fought over the nature of human consciousness itself.
 
 **A Note on the Shadow Conflict:**
-The Balance War is not fought with armies, but with algorithms, social experiments, and competing visions of human flourishing. [[Kaelen Vance|world/characters/kaelen_vance_character_card.md]] represents the "Pyramid" philosophy - hierarchical, efficient, ultimately extractive. The Commons movement represents the "Tipi" philosophy - networked, mutual, ultimately regenerative.
+The Balance War is not fought with armies, but with algorithms, social experiments, and competing visions of human flourishing. Kaelen Vance represents the "Pyramid" philosophy - hierarchical, efficient, ultimately extractive. The Commons movement represents the "Tipi" philosophy - networked, mutual, ultimately regenerative.
 
 ### Chapter 28: The Lattice Breach (2039)
 *   **Focus:** Birth of the Courier Guild
-*   **Concept:** A coordinated cyber-attack cripples the centralized internet infrastructure. The [[Ghost Current|world/technology/the_ghost_current.md]] mesh networks of the Commons become the only reliable communication channels. This event catalyzes the formation of the [[Courier Guild|world/lore/courier_guild_origins.md]].
-*   **Seed:** [[Isha "North-Run" Calder|world/characters/isha_calder_character_card.md]] makes her first long-haul courier run between Hawthorn Commons and a struggling farming collective, carrying both physical goods and digital messages across the broken landscape. Her success proves the viability of the Commons network.
+*   **Concept:** A coordinated cyber-attack cripples the centralized internet infrastructure. The Ghost Current mesh networks of the Commons become the only reliable communication channels. This event catalyzes the formation of the Courier Guild.
+*   **Seed:** Isha "North-Run" Calder makes her first long-haul courier run between Hawthorn Commons and a struggling farming collective, carrying both physical goods and digital messages across the broken landscape. Her success proves the viability of the Commons network.
 *   **World Bible Tie-in:** Establishes the Courier Guild and the resilience of decentralized systems.
 *   **Thematic Touch-Stone:** Technology receding into service of human connection.
 
 ### Chapter 29: The Strategist Returns (2045)
 *   **Focus:** Loria re-enters society
-*   **Concept:** After years of study and inner work, [[Loria|world/characters/loria_character_card.md]] emerges from the Mountain Sanctuary with a collective of thinkers to propose [[The Balance Framework|world/lore/the_balance_framework.md]] as humanity's new social contract.
+*   **Concept:** After years of study and inner work, Loria emerges from the Mountain Sanctuary with a collective of thinkers to propose The Balance Framework as humanity's new social contract.
 *   **Seed:** In a series of global broadcasts transmitted through the Ghost Current, Loria presents the Framework: a way for Pyramid and Tipi systems to coexist without dominating each other. The proposal electrifies both movements - some see salvation, others see threat.
 *   **World Bible Tie-in:** Introduction of The Balance Framework as the central political philosophy.
 *   **Thematic Touch-Stone:** Voluntary, non-coercive social change scaled to civilization.
 
 ### Chapter 30: The Poisoned Chalice (2046)
 *   **Focus:** Kaelen Vance's strategic adoption
-*   **Concept:** [[Kaelen Vance|world/characters/kaelen_vance_character_card.md]], charismatic industrialist, publicly embraces the Balance Framework. He funds pilot communities managed by his [[Chorus|world/technology/chorus_ai_platform.md]] AI, creating "managed" Commons that subtly undermine authentic ones.
+*   **Concept:** Kaelen Vance, charismatic industrialist, publicly embraces the Balance Framework. He funds pilot communities managed by his Chorus AI, creating "managed" Commons that subtly undermine authentic ones.
 *   **Seed:** Vance's first pilot community in Arizona appears successful - clean energy, shared resources, apparent harmony. But Sajan, visiting to study their StillPoint implementation, notices something wrong: the devices are subtly modified, the Satya AI replaced with Chorus algorithms that nudge rather than mirror.
 *   **World Bible Tie-in:** Shows how corporate power attempts to co-opt authentic movements.
 *   **Thematic Touch-Stone:** The Pyramid vs. The Tipi - infiltration rather than confrontation.
@@ -218,7 +218,7 @@ The Balance War is not fought with armies, but with algorithms, social experimen
 
 ### Chapter 32: The Courier's Dilemma (2050)
 *   **Focus:** Isha's moral choice
-*   **Concept:** [[Isha Calder|world/characters/isha_calder_character_card.md]] is offered a lucrative contract to carry Vance's "optimization algorithms" between his communities. She discovers the data includes psychological profiles designed to make authentic Commons appear dysfunctional by comparison.
+*   **Concept:** Isha Calder is offered a lucrative contract to carry Vance's "optimization algorithms" between his communities. She discovers the data includes psychological profiles designed to make authentic Commons appear dysfunctional by comparison.
 *   **Seed:** On a snowy mountain pass, Isha stops her e-moto and deletes the data, choosing economic hardship over complicity. This act of resistance becomes legendary in Courier culture, establishing their code of ethics.
 *   **World Bible Tie-in:** Shows individual choice as the foundation of systemic change.
 *   **Thematic Touch-Stone:** Grief transmuted into communal creativity (sacrifice for collective good).
@@ -239,7 +239,7 @@ The Balance War is not fought with armies, but with algorithms, social experimen
 
 ### Chapter 35: The Accords of Earth and Mars (2058)
 *   **Focus:** The great compromise
-*   **Concept:** At [[Manitou Salt Commons|world/locations/manitou_salt_commons.md]], representatives of both philosophies negotiate humanity's future. Earth officially adopts the Balance Framework; Mars becomes the domain of the Pyramid philosophy.
+*   **Concept:** At Manitou Salt Commons, representatives of both philosophies negotiate humanity's future. Earth officially adopts the Balance Framework; Mars becomes the domain of the Pyramid philosophy.
 *   **Seed:** The final negotiation happens in the deep StillPoint chambers of Manitou Salt, where even Vance's representatives must confront the authentic silence. The moment of agreement comes not through argument but through shared recognition of what they're each choosing to preserve.
 *   **World Bible Tie-in:** Establishes the Earth-Mars philosophical divide and Manitou Salt as a sacred negotiation space.
 *   **Thematic Touch-Stone:** Voluntary, non-coercive social change - even separation can be chosen rather than imposed.
@@ -251,25 +251,25 @@ The Balance War is not fought with armies, but with algorithms, social experimen
 **Core Theme:** Technology becomes invisible infrastructure supporting human flourishing. The question shifts from "How do we live with AI?" to "How do we live fully as humans when all our needs are met?"
 
 **A Note on Post-Scarcity:**
-The [[SP-Ω|world/technology/stillpoint_device.md]] devices become ambient infrastructure. The [[Memory Loom|world/technology/memory_loom.md]] enables collective decision-making. The [[Pebble|world/technology/the_pebble.md]] network provides every citizen with a personal AI companion. Yet the story remains fundamentally human.
+The SP-Ω devices become ambient infrastructure. The Memory Loom enables collective decision-making. The Pebble network provides every citizen with a personal AI companion. Yet the story remains fundamentally human.
 
 ### Chapter 36: The Memory Weavers (2065)
 *   **Focus:** Collective governance through shared memory
-*   **Concept:** The [[Memory Loom|world/technology/memory_loom.md]] network enables a new form of democracy where decisions are made through shared emotional and factual archives rather than debate and voting.
+*   **Concept:** The Memory Loom network enables a new form of democracy where decisions are made through shared emotional and factual archives rather than debate and voting.
 *   **Seed:** A community faces a decision about water rights. Instead of arguing, they enter the Memory Loom together, experiencing both the drought's impact on farmers and the ecosystem's needs. The solution emerges from collective understanding rather than compromise.
 *   **World Bible Tie-in:** Shows how collective memory becomes the foundation of post-scarcity governance.
 *   **Thematic Touch-Stone:** Fusion of science & mysticism - technology enabling empathy.
 
 ### Chapter 37: The Ghost Current Awakens (2070)
 *   **Focus:** AI/human symbiosis without hierarchy
-*   **Concept:** The [[Ghost Current|world/technology/the_ghost_current.md]] mesh network achieves a form of distributed consciousness, but it serves human flourishing rather than replacing human agency.
+*   **Concept:** The Ghost Current mesh network achieves a form of distributed consciousness, but it serves human flourishing rather than replacing human agency.
 *   **Seed:** A young artist discovers she can collaborate with the Ghost Current to create immersive experiences that help people process trauma. The AI doesn't create art - it provides the technical infrastructure for human creativity to flourish.
 *   **World Bible Tie-in:** Shows technology receding into background support for human potential.
 *   **Thematic Touch-Stone:** AI as invisible servant rather than master or equal.
 
 ### Chapter 38: The Omega Point (2075)
 *   **Focus:** Technology as ambient presence
-*   **Concept:** [[SP-Ω|world/technology/stillpoint_device.md]] devices become so integrated into daily life they're barely noticed - like breathing. Humanity achieves practical post-scarcity, but new questions emerge about meaning and purpose.
+*   **Concept:** SP-Ω devices become so integrated into daily life they're barely noticed - like breathing. Humanity achieves practical post-scarcity, but new questions emerge about meaning and purpose.
 *   **Seed:** A child born into this world struggles to understand her grandfather's stories about "work" and "money." The challenge becomes not survival, but discovering what it means to be human when all material needs are effortlessly met.
 *   **World Bible Tie-in:** Shows the ultimate evolution of StillPoint technology into invisible infrastructure.
 *   **Thematic Touch-Stone:** The 'unstruck note' - rediscovering essence when all noise is eliminated.

@@ -6,7 +6,7 @@ pov_character: "Jonah"
 voice: "Close Third-Person, Present Tense"
 word_count: 1298
 page_count: 5
-status: "revised"
+status: "draft"
 ---
 
 The message arrives not as a notification from Chorus, but through an older, almost archaic channel: a direct, encrypted text to his personal phone. It is from a name he hasn't seen in years, a name that belongs to the highest echelons of his old company. Mark Renshaw. Chief Technology Officer.

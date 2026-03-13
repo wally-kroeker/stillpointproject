@@ -6,7 +6,7 @@ pov_character: "Jonah, Liam, Chloë"
 voice: "Close Third-Person, Present Tense, shifting POV"
 word_count: 697
 page_count: 3
-status: "revised"
+status: "draft"
 ---
 
 The news breaks not as a single event, but as a cascade of digital confetti, a coordinated media blitz that saturates every screen and speaker in the city. It is the lead story on the national broadcast, the top trending topic on every social feed, the subject of a dozen breathless push notifications that chime in unison on phones across the city.

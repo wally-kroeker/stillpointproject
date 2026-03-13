@@ -13,6 +13,7 @@ characters: ["Keiko Chen", "Mrs. Okoye", "Tomas", "Yuki"]
 featured: true
 themes: ["presence", "technology", "human_dignity", "efficiency_vs_humanity"]
 related_world: ["stillpoint_device", "luminous_presence_era"]
+audio_file: "/audio/stories/the_unscheduled_moment.mp3"
 ---
 
 Keiko's hand hovered over the emergency override, her finger a centimeter from the button that would halt seventeen thousand commuters mid-journey.

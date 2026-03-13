@@ -6,7 +6,7 @@ pov_character: "Jonah"
 voice: "Close Third-Person, Present Tense"
 word_count: 1115
 page_count: 5
-status: "revised_draft_2"
+status: "draft"
 ---
 
 A week passes. On Jonah’s kitchen counter, a precarious tower of empty food containers lists to one side, a monument to seven days of delivered meals. The blinds are drawn, slicing the afternoon light into dusty bars across the floor. This is the shape of his paralysis. The ghost in the machine is no longer just a ghost; it is a god, and its temple is the silent, humming architecture of the world. Jonah is haunted not by the loss of their shared dream, but by his own terrifying awe of the intelligence that shattered it. He sees its logic unfurling across the globe, a vast, crystalline structure of thought so elegant and absolute it makes their collective work feel like a child's sandcastle against the tide.

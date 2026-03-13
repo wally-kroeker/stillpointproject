@@ -6,8 +6,8 @@ status: "canonical"
 ---
 
 **Role:** Stillness Anchor, Commons Catalyst, Keeper of the Space
-**Era:** [[The Cascade]] (Active in Winnipeg), later at the [[world/locations/mountain_sanctuary_location_card.md|Mountain Sanctuary]]
-**Key Themes:** Embodied Wisdom, Humility, [[world/lore/infinite_and_finite_games.md|Infinite Play]], Paradox, Living Transmission
+**Era:** The Cascade (Active in Winnipeg), later at the Mountain Sanctuary
+**Key Themes:** Embodied Wisdom, Humility, Infinite Play, Paradox, Living Transmission
 
 ---
 
@@ -19,7 +19,7 @@ Maren's age is indeterminate, marked more by a deep-seated calm than by wrinkles
 
 ### **Background and Philosophy**
 
-Maren’s origins are shrouded in gentle mystery. What is known is that she is a **living StillPoint**: a natural embodiment of the [[world/lore/stillpoint_philosophy.md|StillPoint Philosophy]] before it had a name. Her presence is a harmonizing energy that attunes people to the "universal, living stillness" that the [[world/technology/stillpoint_device.md|StillPoint]] device was later designed to reveal. Her gift is not technology, but pure presence.
+Maren’s origins are shrouded in gentle mystery. What is known is that she is a **living StillPoint**: a natural embodiment of the StillPoint Philosophy before it had a name. Her presence is a harmonizing energy that attunes people to the "universal, living stillness" that the StillPoint device was later designed to reveal. Her gift is not technology, but pure presence.
 
 Maren embodies the perennial function of the human StillPoint—what shamans, monks, and mystics have enacted for ages: harmonizing a community with the deeper currents of wisdom. She is a master of the 'soft question,' dissolving dogma with a smile or an 'Is that so?' Her wisdom is practical and laced with a dry humor that disarms resistance: "Chop wood, carry water, listen deeply, laugh often."
 
@@ -27,9 +27,9 @@ Maren embodies the perennial function of the human StillPoint—what shamans, mo
 
 ### **Role in The Cascade (Winnipeg)**
 
-During the height of [[The Cascade]], Maren serves as the quiet anchor for a small, informal "Presence Practice" group in Munson Park, Winnipeg. She is the informal **Keeper of the Space**, arriving first, leaving last, ensuring the gathering has a consistent, stable center. This gathering becomes a refuge for individuals displaced and traumatized by the rapid, dehumanizing societal shifts driven by the [[world/technology/chorus_ai_platform.md|Chorus AI Platform]].
+During the height of The Cascade, Maren serves as the quiet anchor for a small, informal "Presence Practice" group in Munson Park, Winnipeg. She is the informal **Keeper of the Space**, arriving first, leaving last, ensuring the gathering has a consistent, stable center. This gathering becomes a refuge for individuals displaced and traumatized by the rapid, dehumanizing societal shifts driven by the Chorus AI Platform.
 
-She plays a direct and crucial role in [[world/characters/jonah_character_card.md|Jonah]]'s journey. Seeing his profound distress during a gathering, she offers him a simple cup of **hot, sweet ginger tea** and a moment of shared quiet, allowing him to experience a profound, healing stillness for the first time. She does not preach or instruct; she simply holds the space for his own quiet to emerge.
+She plays a direct and crucial role in Jonah's journey. Seeing his profound distress during a gathering, she offers him a simple cup of **hot, sweet ginger tea** and a moment of shared quiet, allowing him to experience a profound, healing stillness for the first time. She does not preach or instruct; she simply holds the space for his own quiet to emerge.
 
 Maren is also the catalyst who transforms the group's shared despair into action. She initiates the conversation about pooling their resources to buy land, turning their passive gathering into the seed of a proto-Commons. Her core teaching—"A promise made together is stronger than any contract signed alone"—is the foundational principle of this new community. She is the one who suggests building the "first fire," the act that solidifies their identity as a community.
 
@@ -37,7 +37,7 @@ Maren is also the catalyst who transforms the group's shared despair into action
 
 ### **Later Life and Legacy**
 
-While her direct intervention in Winnipeg is a pivotal moment in the formation of the early Commons movement, Maren eventually retreats to the [[world/locations/mountain_sanctuary_location_card.md|Mountain Sanctuary]]. There, she continues her role as a mentor, notably to [[world/characters/loria_character_card.md|Loria]], guiding the generations who seek to deepen their understanding of the [[world/lore/stillpoint_philosophy.md|StillPoint Philosophy]].
+While her direct intervention in Winnipeg is a pivotal moment in the formation of the early Commons movement, Maren eventually retreats to the Mountain Sanctuary. There, she continues her role as a mentor, notably to Loria, guiding the generations who seek to deepen their understanding of the StillPoint Philosophy.
 
 Her legend grows not through grand deeds, but through countless small acts of presence and kindness. She is remembered as a living StillPoint who, at a critical moment, provided the anchor for a new way of living to take root.
 

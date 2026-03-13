@@ -18,7 +18,7 @@ As a hobby, Gray designed and built complex, interactive lighting systems for fe
 
 In the summer of 2035, Gray was responsible for the mainstage lighting at The Oaks Lakeside Festival. Their system was a marvel of open-source ingenuity: a network of custom-built LED arrays and holographic projectors managed by an AI that responded to the music's tempo and frequency.
 
-When **[[Sajan]]** arrived with his humble, shoebox-sized SP-0, Gray saw something profound. While others saw a wellness gadget, Gray saw the missing piece of their own system: a real-time, biological data source. They realized they could stop making the lights respond to the *music* and start making them respond to the *audience's own nervous systems*.
+When **Sajan** arrived with his humble, shoebox-sized SP-0, Gray saw something profound. While others saw a wellness gadget, Gray saw the missing piece of their own system: a real-time, biological data source. They realized they could stop making the lights respond to the *music* and start making them respond to the *audience's own nervous systems*.
 
 This insight was the catalyst for the **SP-Δ**. When Sajan stayed in the Twin Cities, Gray became his lead collaborator. Sajan had the core technology for reading the "still point" in an individual; Gray had the expertise to architect a system that could read and reflect the collective stillness of a crowd of thousands. They integrated Sajan's sensor data into their lighting and sound control systems, creating a feedback loop where the crowd's own coherence would shape the ambient environment. Gray wasn't just the machinist who built the case; they were the systems architect who made the StillPoint a communal experience. This partnership forged a deep, quiet friendship with Sajan, built on the shared joy of seeing complex systems create simple beauty.
 
@@ -26,7 +26,7 @@ This insight was the catalyst for the **SP-Δ**. When Sajan stayed in the Twin C
 
 ## Life in Hawthorn Commons (Era 2)
 
-By the 2050s, Gray is a beloved elder in **[[Hawthorn Commons]]**. Their workshop, converted from a shipping container and adorned with wind chimes made from salvaged parts, is the community's heart. It's a place for repair, skill-sharing, and quiet counsel.
+By the 2050s, Gray is a beloved elder in **Hawthorn Commons**. Their workshop, converted from a shipping container and adorned with wind chimes made from salvaged parts, is the community's heart. It's a place for repair, skill-sharing, and quiet counsel.
 
 **Personality & Skills:**
 - **Systems Thinker:** Sees the connections between things—code and community, circuits and compassion.

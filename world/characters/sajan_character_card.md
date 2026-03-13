@@ -9,8 +9,8 @@ Derived from Sanskrit **सजन** (*sajana*), meaning “beloved” or “dear
 ---
 
 **Role:** Quantum Physicist → Grieving Father → Inventor of the StillPoint → Itinerant Presence Evangelist\
-**Era:** Central protagonist of **[[The Cascade]]** (2028‑2036); catalytic mentor during **Era 2**; living legend, mostly off‑screen, in **Era 3**\
-**Key Themes:** Transmutation of grief, Science‑Mysticism synthesis, [[Infinite and Finite Games|Infinite Play]], Radical transparency, Attention vs. distraction
+**Era:** Central protagonist of **The Cascade** (2028‑2036); catalytic mentor during **Era 2**; living legend, mostly off‑screen, in **Era 3**\
+**Key Themes:** Transmutation of grief, Science‑Mysticism synthesis, Infinite and Finite Games, Radical transparency, Attention vs. distraction
 
 ---
 
@@ -20,13 +20,13 @@ Born in 1984 in Pune, India, **Sajan Mehta** grew up among oscilloscopes and inc
 
 A scholarship carried him to MIT, where he specialised in **quantum information thermodynamics**—the study of how observation shapes energy flow.  While colleagues chased grant money, Sajan lingered on the philosophical edge‑cases: *What is an “observer,” really?*
 
-By his mid‑thirties he held dual appointments—research fellow at a Boston quantum lab and remote professor for students in Mumbai.  He married civic architect **Anika Rao**; their daughter **[[Satya Mehta]]** was born in 2021.
+By his mid‑thirties he held dual appointments—research fellow at a Boston quantum lab and remote professor for students in Mumbai.  He married civic architect **Anika Rao**; their daughter **Satya Mehta** was born in 2021.
 
 ---
 
 ## Inciting Tragedy (March 2029)
 
-During the economic unrest of the 2028 wage collapse, Boston streets filled with jittery delivery drones and autonomous police cruisers.  Amid a flash protest, a mis‑routed crowd‑control drone fired a kinetic round that ricocheted, striking eight‑year‑old **[[Satya Mehta]]**.  She died before dawn.
+During the economic unrest of the 2028 wage collapse, Boston streets filled with jittery delivery drones and autonomous police cruisers.  Amid a flash protest, a mis‑routed crowd‑control drone fired a kinetic round that ricocheted, striking eight‑year‑old **Satya Mehta**.  She died before dawn.
 
 Grief hollowed Sajan; he retreated to their apartment, surrounded by Satya’s scattered science sketches.  In desperate insomnia he began wiring biosensors, photonics scraps, and a low‑temperature resonance cavity—trying to *hear* the trembling of his own nervous system.  He called the shoebox contraption **SP‑0**.
 
@@ -36,7 +36,7 @@ Grief hollowed Sajan; he retreated to their apartment, surrounded by Satya’s s
 
 SP‑0 produced a faint, standing acoustic‑photon field that entrained Sajan’s heartbeat into a slow, coherent rhythm.  For the first time since Satya’s death, breath returned without pain.  Friends who visited felt the same settling.  Word spread; grief‑circles begged to borrow the gadget.
 
-Within months, open‑hardware plans hit the darknet, then public forums. Each iteration added AI‑assisted adaptive feedback, but Sajan insisted on **radical transparency**. This was his first, intuitive move in the [[Infinite and Finite Games|infinite game]]: he believed that to truly heal, the technology born from his grief could not be a product to be won or sold, but a gift to be shared. He insisted every line of code be readable and every component locally sourceable.
+Within months, open‑hardware plans hit the darknet, then public forums. Each iteration added AI‑assisted adaptive feedback, but Sajan insisted on **radical transparency**. This was his first, intuitive move in the Infinite and Finite Games: he believed that to truly heal, the technology born from his grief could not be a product to be won or sold, but a gift to be shared. He insisted every line of code be readable and every component locally sourceable.
 
 By late 2030, community engineers like **Gray Tesluk** were refining the casing for resilience; mystics such as **Elder Maren** framed its use as a *doorway* rather than a *cure.*  The device became known simply as a **StillPoint**.
 
@@ -58,7 +58,7 @@ The spontaneous gathering of maybe forty souls leaves no livestream, but dozens 
 
 #### Fire‑Circle Coders & the Rack‑Integration Year (Autumn 2035 – Summer 2036)
 
-Sajan stays in the Twin Cities, finding a home within the nascent maker community. He works closely with a core group, including the pragmatic machinist **[[Gray Tesluk]]**, to co‑architect a rugged **SP-Δ** (10 U flight case housing deterministic [[Satya]] forks, sensor hubs, and an edge‑GPU blade) **plus a distributed sensor suite** designed for outdoor crowds of up to 10 000:
+Sajan stays in the Twin Cities, finding a home within the nascent maker community. He works closely with a core group, including the pragmatic machinist **Gray Tesluk**, to co‑architect a rugged **SP-Δ** (10 U flight case housing deterministic Satya forks, sensor hubs, and an edge‑GPU blade) **plus a distributed sensor suite** designed for outdoor crowds of up to 10 000:
 
 - **Near‑IR photoplethysmography cameras** mounted on lighting trusses to read pulse waves from faces and wrists in real time.
 - A **phased‑array microphone cluster** above the main stage to capture breath‑synchrony and low‑frequency vocal toning across the crowd.
@@ -81,7 +81,7 @@ For Sajan, the experience confirms that the device thrives when **handed to the 
 
 ### Era 2 — Mentor & Myth — Mentor & Myth — Mentor & Myth
 
-*2037‑2060.*  Sajan surfaces in secluded labs, trading theory for field‑notes.  He mentors Courier Guild med‑tech teams on low‑power regulation modules and champions the open-source **[[Satya]]** slow‑time AI model.  His presence is felt through letters more than appearances—always urging *“Build in open light.”*
+*2037‑2060.*  Sajan surfaces in secluded labs, trading theory for field‑notes.  He mentors Courier Guild med‑tech teams on low‑power regulation modules and champions the open-source **Satya** slow‑time AI model.  His presence is felt through letters more than appearances—always urging *“Build in open light.”*
 
 ### Era 3 — Living Legend
 
@@ -93,7 +93,7 @@ Rumours place him in high‑desert monastic nodes, tinkering with **SP‑Ω** pr
 
 - **Relentlessly Curious:** Treats every malfunction as a meditation prompt.
 - **Soft‑spoken, Intense:** Speaks in careful, image‑rich sentences; eyes burn like coals when a concept clicks.
-- **Radically Transparent:** An embodiment of the [[Infinite and Finite Games|infinite game]], he publishes failures alongside successes and believes secrecy is the seed of violence and control.
+- **Radically Transparent:** An embodiment of the Infinite and Finite Games, he publishes failures alongside successes and believes secrecy is the seed of violence and control.
 - **Father‑Hearted:** Measures success by *felt* safety of children around him.
 - **Nomadic Minimalist:** Owns little more than a folding toolkit, a travel‑worn harmonium, and Satya’s sketchbook.
 
@@ -112,7 +112,7 @@ Rumours place him in high‑desert monastic nodes, tinkering with **SP‑Ω** pr
 
 ## Symbol
 
-A dented **shoebox‑sized SP‑0** enclosure, still scarred by solder drips, with a child’s drawing of concentric spirals—*[[Satya Mehta]]’s final doodle*—sealed beneath clear resin.
+A dented **shoebox‑sized SP‑0** enclosure, still scarred by solder drips, with a child’s drawing of concentric spirals—*Satya Mehta’s final doodle*—sealed beneath clear resin.
 
 ---
 

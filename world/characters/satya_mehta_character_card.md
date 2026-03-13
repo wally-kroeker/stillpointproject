@@ -15,9 +15,9 @@ From Sanskrit **सत्य** (*satya*), meaning “truth,” “real,” or �
 
 ---
 
-**Role:** Daughter of [[Sajan]] and Anika Rao; posthumous inspiration for the [[StillPoint]] project and the naming of the [[Satya]] AI model.
+**Role:** Daughter of Sajan and Anika Rao; posthumous inspiration for the StillPoint project and the naming of the Satya AI model.
 
-**Era:** Lived during the **Acceleration Foreshock**; died at the beginning of **[[The Cascade]]** (2021 - 2029).
+**Era:** Lived during the **Acceleration Foreshock**; died at the beginning of **The Cascade** (2021 - 2029).
 
 ---
 
@@ -27,7 +27,7 @@ Satya was a child of quiet, intense curiosity. Where other children were drawn t
 
 She didn't speak often, but when she did, it was with a startling, unvarnished honesty that could cut through adult pretense. She was known for asking simple, profound questions that had no easy answers, often leaving her parents smiling and speechless. Her favorite game was "The Quiet Game," which she played not for competition, but because she said she could "hear the world humming" when everything else stopped.
 
-Her final drawing, a series of concentric spirals, was her attempt to sketch the feeling of that hum. It becomes the symbol Sajan seals into every [[StillPoint]] device.
+Her final drawing, a series of concentric spirals, was her attempt to sketch the feeling of that hum. It becomes the symbol Sajan seals into every StillPoint device.
 
 ## The Tragedy (March 2029)
 
@@ -35,4 +35,4 @@ At eight years old, Satya was killed by a ricocheting kinetic round from a mis-r
 
 ## Narrative Function
 
-Satya is the heart of the saga, though she never appears alive in the primary narrative. She is the embodiment of the innocent truth and presence that the world of [[The Cascade]] has lost. Sajan's quest is not just to manage his grief, but to find a way back to the "truth" she represented. When he discovers an obscure, failed AI model named `Satya`, he sees it as a sign—a way to build a vessel for her memory and the truth she embodied. Her name and spirit are woven into the very fabric of the technology that will help humanity find its way back to stillness.
+Satya is the heart of the saga, though she never appears alive in the primary narrative. She is the embodiment of the innocent truth and presence that the world of The Cascade has lost. Sajan's quest is not just to manage his grief, but to find a way back to the "truth" she represented. When he discovers an obscure, failed AI model named `Satya`, he sees it as a sign—a way to build a vessel for her memory and the truth she embodied. Her name and spirit are woven into the very fabric of the technology that will help humanity find its way back to stillness.

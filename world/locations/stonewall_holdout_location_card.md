@@ -2,14 +2,14 @@
 
 **Type:** Insular, Christian Prepper Community
 **Era:** 1 (Post-Cascade)
-**Location:** Manitoba, Canada (one day's walk from [[world/locations/riverbend_commons_location_card.md|Riverbend Commons]])
+**Location:** Manitoba, Canada (one day's walk from Riverbend Commons)
 **Status:** Canonical
 
 ---
 
 ## Overview
 
-Stonewall Holdout is a small, agrarian community founded by fundamentalist Christian preppers who had been preparing for societal collapse for years. They interpreted [[world/lore/the_cascade.md|The Cascade]]—the AI-driven job displacement and subsequent social unrest—as a prophesied time of trial. They chose to isolate themselves behind a massive, hand-built stone wall, not just for physical protection, but to create a "sanctuary" free from the "godless" influence of the technologically saturated outside world.
+Stonewall Holdout is a small, agrarian community founded by fundamentalist Christian preppers who had been preparing for societal collapse for years. They interpreted The Cascade—the AI-driven job displacement and subsequent social unrest—as a prophesied time of trial. They chose to isolate themselves behind a massive, hand-built stone wall, not just for physical protection, but to create a "sanctuary" free from the "godless" influence of the technologically saturated outside world.
 
 ## Physical Description
 
@@ -26,9 +26,9 @@ The most prominent feature is the Wall. It is an impressive feat of manual labor
 
 ## Relationship to the Saga
 
-Stonewall Holdout serves as a narrative foil to [[world/locations/riverbend_commons_location_card.md|Riverbend Commons]]. Where Riverbend's philosophy is open, emergent, and spiritually inclusive (leaning towards a form of secular Zen), Stonewall is closed, dogmatic, and rooted in a specific Christian eschatology. The conflict highlights a key question for the [[world/lore/the_balance_framework.md|Balance Framework]]: can a truly pluralistic society accommodate communities whose core beliefs are inherently exclusionary?
+Stonewall Holdout serves as a narrative foil to Riverbend Commons. Where Riverbend's philosophy is open, emergent, and spiritually inclusive (leaning towards a form of secular Zen), Stonewall is closed, dogmatic, and rooted in a specific Christian eschatology. The conflict highlights a key question for the Balance Framework: can a truly pluralistic society accommodate communities whose core beliefs are inherently exclusionary?
 
-The community becomes a crucible for generational change. The founding generation sees their isolation as a spiritual success. However, the next generation, represented by [[world/characters/elara_character_card.md|Elara]], has no memory of the world before. They begin to question the joyless, rigid nature of their existence. Elara's journey to Riverbend is not just for a machine part; it's a search for a different way of being, exposing her to the laughter and ease that is absent from her home. Her return with a "perfect" solution from a "godless" AI creates a profound theological and social crisis.
+The community becomes a crucible for generational change. The founding generation sees their isolation as a spiritual success. However, the next generation, represented by Elara, has no memory of the world before. They begin to question the joyless, rigid nature of their existence. Elara's journey to Riverbend is not just for a machine part; it's a search for a different way of being, exposing her to the laughter and ease that is absent from her home. Her return with a "perfect" solution from a "godless" AI creates a profound theological and social crisis.
 
 ---
 

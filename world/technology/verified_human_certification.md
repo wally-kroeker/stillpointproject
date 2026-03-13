@@ -15,9 +15,9 @@ first_appearance: "the_neural_stream"
 
 ## Overview
 
-The Verified Human Certification Protocol is a multi-modal biometric authentication system designed to prevent AI-generated content from masquerading as authentic human creation in the post-2028 attention economy. What began as a necessary technical solution to the deepfake crisis became, through [[Chorus AI Platform]]'s strategic consolidation, an economic gatekeeping mechanism that controls who can participate in "verified human" content creation.
+The Verified Human Certification Protocol is a multi-modal biometric authentication system designed to prevent AI-generated content from masquerading as authentic human creation in the post-2028 attention economy. What began as a necessary technical solution to the deepfake crisis became, through Chorus AI Platform's strategic consolidation, an economic gatekeeping mechanism that controls who can participate in "verified human" content creation.
 
-By 2037, the protocol has evolved into a subscription service ($400/month) that works in tandem with [[Neural Interface Streaming Technology]] to create a two-tier information economy: verified human content (premium, authentic, expensive to produce) versus AI-generated content (free, perfect, soulless). The certification monopoly ensures that only those who can afford both neural interface rental and verification fees can participate in the gig creator economy as "authenticated humans."
+By 2037, the protocol has evolved into a subscription service ($400/month) that works in tandem with Neural Interface Streaming Technology to create a two-tier information economy: verified human content (premium, authentic, expensive to produce) versus AI-generated content (free, perfect, soulless). The certification monopoly ensures that only those who can afford both neural interface rental and verification fees can participate in the gig creator economy as "authenticated humans."
 
 The protocol represents a darkly ironic technological development: an AI-powered system that authenticates human consciousness, creating economic value from the very human authenticity that AI threatened to make obsolete.
 
@@ -44,7 +44,7 @@ The protocol's security derives from **layered biometric verification** that's p
 - **Spoofing difficulty:** High (AI can replicate voice but struggles with authentic stress patterns)
 
 **Layer 3: Neural Electromagnetic Signature**
-- Quantum coherence detection from [[Neural Interface Streaming Technology]]
+- Quantum coherence detection from Neural Interface Streaming Technology
 - Measures unique electromagnetic field patterns associated with individual consciousness
 - Detects moment-to-moment consciousness state transitions
 - Verifies patterns match biological neural activity (not simulated)
@@ -93,7 +93,7 @@ The protocol's security derives from **layered biometric verification** that's p
 
 ### The Deepfake Crisis (2032-2033)
 
-**2032:** As [[Chorus AI Platform]] and competing AI systems achieve near-perfect human simulation capabilities, the attention economy faces existential crisis. AI-generated content floods platforms, indistinguishable from human creation.
+**2032:** As Chorus AI Platform and competing AI systems achieve near-perfect human simulation capabilities, the attention economy faces existential crisis. AI-generated content floods platforms, indistinguishable from human creation.
 
 **Early Attempts at Authentication:**
 - Multiple competing verification startups emerge
@@ -159,7 +159,7 @@ Verified Human Certification operates on a **three-strikes system** for "content
 - Equipment tampering or modification
 
 **Platform Violations:**
-- Terms of service violations on partnered platforms ([[Chorus Streams Platform]])
+- Terms of service violations on partnered platforms (Chorus Streams Platform)
 - Coordinated behavior with other creators (anti-trust concerns)
 - Data export or archival attempts (violates Chorus data retention policies)
 
@@ -194,7 +194,7 @@ Verified Human Certification operates on a **three-strikes system** for "content
 
 ### The Economic Trap
 
-Three-strikes policy creates **ideological conformity through economic threat**. Creators like [[Marcus Chen Character Card|Marcus Chen]] must balance:
+Three-strikes policy creates **ideological conformity through economic threat**. Creators like Marcus Chen Character Card must balance:
 - **Economic necessity** (need verified status to earn income)
 - **Journalistic integrity** (desire to honestly cover controversial topics like Commons movement)
 - **Algorithmic pressure** (suppression makes controversial content less profitable)
@@ -350,7 +350,7 @@ Verification creates **class markers in the attention economy:**
 
 ### Commons Movement Analysis (c. 2037)
 
-From [[StillPoint Philosophy]] perspective, Verified Human Certification represents multiple violations of contemplative technological ethics:
+From StillPoint Philosophy perspective, Verified Human Certification represents multiple violations of contemplative technological ethics:
 
 **Commodification of Authenticity:**
 - Makes human consciousness into luxury good
@@ -377,7 +377,7 @@ From [[StillPoint Philosophy]] perspective, Verified Human Certification represe
 By 2038, some Commons communities experiment with **trust verification through relationship rather than technology**:
 - Reputation systems based on long-term community interaction
 - Content credibility from known human connections, not corporate certification
-- [[The Ghost-Current]] networks using decentralized identity (no central authentication monopoly)
+- The Ghost-Current networks using decentralized identity (no central authentication monopoly)
 - Emphasis on **trust building over trust purchasing**
 
 These alternatives don't achieve Chorus certification's reach or economic power, but offer ideological proof-of-concept: human authenticity doesn't require corporate gatekeeping.
@@ -394,7 +394,7 @@ These alternatives don't achieve Chorus certification's reach or economic power,
 
 ### Era 2 (2037-2060): Decline & Decentralization
 - 2037-2042: Continued Chorus dominance but growing resistance
-- 2042-2048: [[The Ghost-Current]] networks offer decentralized alternatives
+- 2042-2048: The Ghost-Current networks offer decentralized alternatives
 - 2048-2055: Verification becomes less economically valuable as Commons grow
 - 2055-2058: Kaelen Vance's faction maintains certification for Mars-bound communities
 - 2058-2060: Post-Accords, Earth transitions to reputation-based trust systems
@@ -409,16 +409,16 @@ These alternatives don't achieve Chorus certification's reach or economic power,
 
 ## First Appearance
 
-Verified Human Certification is central to **"The Neural Stream"** (2037), where journalist [[Marcus Chen Character Card|Marcus Chen]] depends on his certification for economic survival while investigating Commons alternatives that critique the entire verification system. His transformation is costly precisely because losing subscribers threatens his ability to maintain the $400/month certification fee, forcing him to choose between ideological honesty and economic stability.
+Verified Human Certification is central to **"The Neural Stream"** (2037), where journalist Marcus Chen Character Card depends on his certification for economic survival while investigating Commons alternatives that critique the entire verification system. His transformation is costly precisely because losing subscribers threatens his ability to maintain the $400/month certification fee, forcing him to choose between ideological honesty and economic stability.
 
 The story also demonstrates the **three-strikes policy** in action: Marcus receives automated warning that "extended neural disconnection may violate Verified Human streaming terms," showing how technical violations can lead to certification revocation and career death.
 
 ---
 
 **See Also:**
-- [[Neural Interface Streaming Technology]] — Hardware requiring verification for operation
-- [[Chorus AI Platform]] — Corporate monopoly controlling certification
-- [[Chorus Streams Platform]] — Primary platform requiring verified human certification
-- [[Attention Economy (2037)]] — Economic context creating demand for verification
-- [[The Ghost-Current]] — Decentralized alternative to Chorus-controlled authentication
-- [[Marcus Chen Character Card]] — Gig journalist navigating certification economics
+- Neural Interface Streaming Technology — Hardware requiring verification for operation
+- Chorus AI Platform — Corporate monopoly controlling certification
+- Chorus Streams Platform — Primary platform requiring verified human certification
+- Attention Economy (2037) — Economic context creating demand for verification
+- The Ghost-Current — Decentralized alternative to Chorus-controlled authentication
+- Marcus Chen Character Card — Gig journalist navigating certification economics

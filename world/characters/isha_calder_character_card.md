@@ -8,7 +8,7 @@ status: "canonical"
 ---
 
 **Role:** Pathfinder Courier
-**Affiliation:** [[world/lore/courier_guild_origins.md|Courier Guild]]
+**Affiliation:** Courier Guild
 **Era:** 2
 **Key Themes:** Resilience, Pathfinding, Physical Trust Chain
 
@@ -16,13 +16,13 @@ status: "canonical"
 
 ## Overview
 
-Isha Calder, known throughout the commons as “North-Run,” is a legendary figure in the [[world/lore/courier_guild_origins.md|Courier Guild]]. She was one of the first long-haul couriers, pioneering the treacherous northern routes of the [[Prairie Presence Corridor]] on her custom-built e-moto. Her successful, verified deliveries of critical data seeds and cryptographic keys helped establish the Guild's reputation for reliability in the wake of the [[Lattice Breach]].
+Isha Calder, known throughout the commons as “North-Run,” is a legendary figure in the Courier Guild. She was one of the first long-haul couriers, pioneering the treacherous northern routes of the Prairie Presence Corridor on her custom-built e-moto. Her successful, verified deliveries of critical data seeds and cryptographic keys helped establish the Guild's reputation for reliability in the wake of the Lattice Breach.
 
 ## Core Attributes
 
 *   **Pathfinder:** She possesses an uncanny ability to navigate by landscape and intuition, often finding safer or faster routes than those plotted by digital maps.
 *   **Resilient:** Known for her endurance and resourcefulness in the harsh conditions of the northern prairies.
-*   **Mentee of Gray Tesluk:** She was an early apprentice of [[world/characters/gray_tesluk_character_card.md|Gray Tesluk]], who helped her build and maintain her first e-moto and instilled in her the practical ethos of the Guild.
+*   **Mentee of Gray Tesluk:** She was an early apprentice of Gray Tesluk, who helped her build and maintain her first e-moto and instilled in her the practical ethos of the Guild.
 
 ## Narrative Function
 

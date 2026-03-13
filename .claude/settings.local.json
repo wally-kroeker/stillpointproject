@@ -10,7 +10,11 @@
       "mcp__playwright__browser_navigate",
       "Skill(telos)",
       "mcp__playwright__browser_evaluate",
-      "mcp__playwright__browser_click"
+      "mcp__playwright__browser_click",
+      "Bash(./scripts/sync-content-to-astro.sh:*)",
+      "Bash(npm run build)",
+      "Bash(./scripts/deploy-production.sh:*)",
+      "Bash(yes:*)"
     ],
     "deny": [],
     "ask": []

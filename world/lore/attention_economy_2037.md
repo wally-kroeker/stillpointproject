@@ -15,17 +15,17 @@ first_appearance: "the_neural_stream"
 
 ## Overview
 
-The Post-Wage Attention Economy represents the economic structure that emerged after [[The Cascade|the 2028 wage collapse]], where AI cognitive labor became functionally free, making human knowledge work economically unviable. What replaced traditional employment was a fractured attention-based marketplace where:
+The Post-Wage Attention Economy represents the economic structure that emerged after The Cascade, where AI cognitive labor became functionally free, making human knowledge work economically unviable. What replaced traditional employment was a fractured attention-based marketplace where:
 - **Verified human consciousness** became premium commodity
 - **Gig creators** rented infrastructure to produce content
 - **Professional class survivors** consumed authenticated human experience
 - **Platform monopolies** extracted rent at every transaction layer
 
-By 2037, the attention economy functions as dominant income source for displaced workers unable to compete with [[Chorus AI Platform|Chorus]] automation. What appears as entrepreneurial opportunity is actually **digital feudalism**: creators must rent tools of production from the same platform monopoly that displaced them, paying 40-45% of gross earnings in combined fees while maintaining zero job security.
+By 2037, the attention economy functions as dominant income source for displaced workers unable to compete with Chorus AI Platform automation. What appears as entrepreneurial opportunity is actually **digital feudalism**: creators must rent tools of production from the same platform monopoly that displaced them, paying 40-45% of gross earnings in combined fees while maintaining zero job security.
 
-The economy's dark irony is that it commodifies the very human authenticity that AI threatened to make obsolete—creating artificial scarcity through [[Verified Human Certification Protocol|verified human certification]] while extracting maximum rent from creators desperate for income.
+The economy's dark irony is that it commodifies the very human authenticity that AI threatened to make obsolete—creating artificial scarcity through Verified Human Certification Protocol while extracting maximum rent from creators desperate for income.
 
-For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention economy represents both lifeline (only viable income source) and trap (economic dependency on extractive platforms). The system is designed to ensure that resistance to Chorus-optimized society becomes economically suicidal.
+For characters like Marcus Chen Character Card, the attention economy represents both lifeline (only viable income source) and trap (economic dependency on extractive platforms). The system is designed to ensure that resistance to Chorus-optimized society becomes economically suicidal.
 
 ---
 
@@ -34,7 +34,7 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 ### The 2028 Wage Collapse
 
 **Precipitating Factors:**
-- **2026-2027:** [[Chorus AI Platform|Chorus Workforce]] "digital staff" automations displace 40% of office workers
+- **2026-2027:** Chorus AI Platform "digital staff" automations displace 40% of office workers
 - **2027-2028:** Tin Men robots replace manual and service labor in major cities
 - **Q1 2028:** AI cognitive labor reaches commodity pricing—services cost fractions of a cent per task
 - **Q2-Q4 2028:** Cascading unemployment wave hits urban centers
@@ -49,7 +49,7 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 - Median household income drops 58% (2025-2028)
 - Wealth concentration accelerates (top 10% captures 89% of AI productivity gains)
 - Traditional employment becomes privilege reserved for Chorus-aligned professionals
-- Displaced workers forced into gig economy or [[Cascade Era Class Structure|Commons migration]]
+- Displaced workers forced into gig economy or Cascade Era Class Structure
 
 ### The Attention Market Emerges (2029-2033)
 
@@ -66,8 +66,8 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 - Audiences skeptical of AI fraud
 
 **Chorus Consolidation (2032-2034):**
-- [[Chorus Streams Platform|Chorus Streams]] launches with integrated [[Neural Interface Streaming Technology|neural interface]] support
-- [[Verified Human Certification Protocol|Verified human certification]] becomes industry standard
+- Chorus Streams Platform launches with integrated Neural Interface Streaming Technology support
+- Verified Human Certification Protocol becomes industry standard
 - Competing platforms collapse (network effects favor Chorus)
 - Infrastructure costs increase as Chorus monopolizes
 
@@ -84,10 +84,10 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 ### Required Infrastructure for Verified Human Creation
 
 **Minimum Viable Creator (Monthly Costs):**
-- [[Neural Interface Streaming Technology|Neural interface rental]]: ₵800
-- [[Verified Human Certification Protocol|Verified human certification]]: ₵400
-- [[Chorus Streams Platform|Streaming platform]] premium features: ₵150-300
-- [[Chorus Credits Currency System|Chorus Credits]] transaction/conversion fees: ₵100-200
+- Neural Interface Streaming Technology: ₵800
+- Verified Human Certification Protocol: ₵400
+- Chorus Streams Platform premium features: ₵150-300
+- Chorus Credits Currency System transaction/conversion fees: ₵100-200
 - Research/production tools (databases, software): ₵200
 - Internet/bandwidth tier: ₵150
 - **Total: ₵1,800-2,050/month ($1,638-1,865 after conversion fees)**
@@ -148,7 +148,7 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 **Revenue Volatility:**
 - Subscriber counts fluctuate wildly (±20-40% monthly swings common)
 - Algorithm changes can halve visibility overnight
-- Ideological content triggers [[Chorus Streams Platform|Coherence Score suppression]]
+- Ideological content triggers Chorus Streams Platform
 - Illness/life events = zero income (can't stream = can't earn)
 
 **Debt Trap:**
@@ -205,7 +205,7 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 
 **Premium Tier (Verified Human Content):**
 - Costs ₵5-15/month per creator subscription
-- Requires [[Neural Interface Streaming Technology|neural interface]] for full experience
+- Requires Neural Interface Streaming Technology for full experience
 - Perceived as trustworthy, authentic, valuable
 - Algorithmic prioritization in search/recommendations
 - Accessible only to professional class with disposable income
@@ -319,7 +319,7 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 **How Platform Suppresses Critique Without Censorship:**
 
 **Economic Disincentives:**
-- Ideologically non-conforming content triggers [[Chorus Streams Platform|Coherence Score suppression]]
+- Ideologically non-conforming content triggers Chorus Streams Platform
 - Lower scores reduce algorithmic visibility
 - Reduced visibility decreases new subscriber acquisition
 - Decreased growth means lower revenue
@@ -343,7 +343,7 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 ### Topics That Trigger Suppression
 
 **Anti-Productivity Content:**
-- Positive coverage of [[The Cascade|Commons movement]] alternatives
+- Positive coverage of The Cascade alternatives
 - Questioning need for constant productivity optimization
 - Discussing presence/contemplation as valuable
 - Critiquing hustle culture or gig economy
@@ -357,8 +357,8 @@ For characters like [[Marcus Chen Character Card|Marcus Chen]], the attention ec
 - **Why suppressed:** Makes professional class subscribers uncomfortable (primary revenue source)
 
 **Alternative Technology Promotion:**
-- [[StillPoint Device|StillPoint]] devices vs. Chorus productivity tools
-- [[The Ghost-Current]] decentralized networks
+- StillPoint Device devices vs. Chorus productivity tools
+- The Ghost-Current decentralized networks
 - Open-source alternatives to Chorus services
 - **Why suppressed:** Threatens Chorus technology monopolies
 
@@ -378,7 +378,7 @@ Content that questions Chorus-optimized society or proposes alternatives becomes
 
 ### Commons Response to Attention Economy
 
-**Philosophical Critique ([[StillPoint Philosophy]]):**
+**Philosophical Critique (StillPoint Philosophy):**
 - Attention economy treats consciousness as extractable resource
 - Commodifies authentic human connection
 - Creates artificial scarcity (verified human certification) to extract rent
@@ -394,8 +394,8 @@ Content that questions Chorus-optimized society or proposes alternatives becomes
 - Trust-based rather than transaction-based
 - **Limited reach but zero extraction**
 
-**Mutual Credit Systems ([[The Ghost-Current]]):**
-- Decentralized alternative to [[Chorus Credits Currency System|Chorus Credits]]
+**Mutual Credit Systems (The Ghost-Current):**
+- Decentralized alternative to Chorus Credits Currency System
 - Community-issued credit based on relationship
 - No conversion fees or platform lock-in
 - Transparent algorithms (open-source)
@@ -434,7 +434,7 @@ Content that questions Chorus-optimized society or proposes alternatives becomes
 
 ### Era 2 (2037-2060): Decline & Fragmentation
 - 2037-2042: Continued dominance but growing creator resistance
-- 2042-2048: [[The Ghost-Current]] networks offer decentralized alternatives
+- 2042-2048: The Ghost-Current networks offer decentralized alternatives
 - 2048-2055: Commons growth reduces attention economy labor supply
 - 2055-2058: Attention economy associated with Kaelen Vance's Pyramid faction
 - 2058-2060: Post-Accords, Earth transitions away from platform-extractive models
@@ -466,7 +466,7 @@ Content that questions Chorus-optimized society or proposes alternatives becomes
 **Ideological Battle:**
 - Attention economy represents Pyramid philosophy (extraction, scarcity, competition)
 - Commons alternatives represent Tipi philosophy (gift economy, abundance, mutual support)
-- [[The Balance Framework|Balance War]] fought partly over which economic model prevails
+- The Balance Framework fought partly over which economic model prevails
 - **Economy as ideology made material**
 
 **Technology Critique:**
@@ -492,12 +492,12 @@ The story crystallizes attention economy's essential dynamic: **creators economi
 ---
 
 **See Also:**
-- [[The Cascade]] — Wage collapse that created attention economy necessity
-- [[Cascade Era Class Structure]] — Economic stratification reinforced by attention economy
-- [[Chorus AI Platform]] — Corporate monopoly controlling attention economy infrastructure
-- [[Chorus Streams Platform]] — Dominant platform extracting 35-40% of creator revenue
-- [[Neural Interface Streaming Technology]] — Required rental infrastructure ($800/month)
-- [[Verified Human Certification Protocol]] — Gatekeeping mechanism creating artificial scarcity
-- [[Chorus Credits Currency System]] — Platform scrip enabling extraction at currency level
-- [[Marcus Chen Character Card]] — Gig journalist navigating attention economy survival
-- [[StillPoint Philosophy]] — Alternative vision of supportive vs. extractive technology
+- The Cascade — Wage collapse that created attention economy necessity
+- Cascade Era Class Structure — Economic stratification reinforced by attention economy
+- Chorus AI Platform — Corporate monopoly controlling attention economy infrastructure
+- Chorus Streams Platform — Dominant platform extracting 35-40% of creator revenue
+- Neural Interface Streaming Technology — Required rental infrastructure ($800/month)
+- Verified Human Certification Protocol — Gatekeeping mechanism creating artificial scarcity
+- Chorus Credits Currency System — Platform scrip enabling extraction at currency level
+- Marcus Chen Character Card — Gig journalist navigating attention economy survival
+- StillPoint Philosophy — Alternative vision of supportive vs. extractive technology

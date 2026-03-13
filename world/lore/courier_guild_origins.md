@@ -6,7 +6,7 @@
 
 ## 1. The Need: A Post-Breach World
 
-The Courier Guild wasn't born from tradition, but from catastrophic failure. After **The Lattice Breach** of 2039, it became clear that purely digital verification was a brittle, [[Infinite and Finite Games|finite game]] solution. In a world of perfect deepfakes, the community realized that the most robust security layer wasn't a better algorithm, but a trusted human presence.
+The Courier Guild wasn't born from tradition, but from catastrophic failure. After **The Lattice Breach** of 2039, it became clear that purely digital verification was a brittle, Infinite and Finite Games solution. In a world of perfect deepfakes, the community realized that the most robust security layer wasn't a better algorithm, but a trusted human presence.
 
 The solution was a deliberate return to a principle from the early internet: **"sneaker net."** The ultimate security layer wasn't a better algorithm, but a trusted person physically bridging the gap between two secure, air-gapped systems.
 
@@ -49,4 +49,4 @@ The Courier Guild is a professional organization built on reputation and verifia
 *   **Tools of the Trade:** They travel with practical equipment: rugged e-motos, solar chargers, repair kits, and personal communication devices (Pebbles) for navigation and emergencies.
 *   **Reputation is Everything:** A courier's career is defined by their logbook of successful, verified deliveries. There are no mystical ranks, only a public record of reliability that earns them more critical assignments.
 
-In a world where truth can be fabricated digitally, the Courier Guild is an expression of the [[StillPoint Philosophy]] in action. They are the ultimate guardians of truth not through superior technology, but through their commitment to an [[Infinite and Finite Games|infinite game]] of relational trust, ensuring that the most important information is anchored to the most reliable thing they have: a trusted human being.
+In a world where truth can be fabricated digitally, the Courier Guild is an expression of the StillPoint Philosophy in action. They are the ultimate guardians of truth not through superior technology, but through their commitment to an Infinite and Finite Games of relational trust, ensuring that the most important information is anchored to the most reliable thing they have: a trusted human being.

@@ -18,7 +18,7 @@ ASTRO_DIR="$PROJECT_ROOT/astro-dev-site"
 PRODUCTION_SERVER="docker@10.10.10.30"
 PRODUCTION_DIR="/home/docker/stillpoint-production"
 BACKUP_DIR="/home/docker/astro-backup-$(date +%Y%m%d-%H%M%S)"
-SSH_KEY="$HOME/.ssh/id_rsa_stillpoint"
+SSH_KEY="$HOME/.ssh/id_ed25519"
 
 # Functions
 log_info() {
@@ -198,7 +198,10 @@ const mimeTypes = {
     '.svg': 'image/svg+xml',
     '.ico': 'image/x-icon',
     '.woff': 'font/woff',
-    '.woff2': 'font/woff2'
+    '.woff2': 'font/woff2',
+    '.mp3': 'audio/mpeg',
+    '.ogg': 'audio/ogg',
+    '.wav': 'audio/wav'
 };
 
 const server = http.createServer((req, res) => {
@@ -328,6 +331,22 @@ EOF
     log_info "Rolled back to previous deployment from $ROLLBACK_DIR"
 }
 
+# Generate audio for published content
+generate_audio() {
+    log_step "Generating audio for published content..."
+
+    local audio_script="$PROJECT_ROOT/scripts/generate-audio.sh"
+    if [[ -f "$audio_script" ]]; then
+        if bash "$audio_script" --all; then
+            log_info "Audio generation completed"
+        else
+            log_warn "Audio generation had errors (continuing with deployment)"
+        fi
+    else
+        log_warn "Audio generation script not found, skipping"
+    fi
+}
+
 # Main execution
 main() {
     echo -e "${BLUE}🚀 StillPoint Astro - Production Deployment${NC}"
@@ -343,6 +362,7 @@ main() {
     fi
 
     check_prerequisites
+    generate_audio
     backup_production
     sync_content
     build_site

@@ -5,6 +5,7 @@ location: "Riverbend Commons & Stonewall Holdout"
 pov_character: "Elara"
 word_count: 1529
 page_count: 6
+audio_file: "/audio/stories/e1_ss_tmd_s03_the_millers_choice.mp3"
 ---
 
 The stillness stayed with her. It followed her from the riverbank, a luminous presence that walked beside her through the deepening twilight of Riverbend. It was a quiet she had never known, a stillness that didn’t feel empty, but full. Full of the scent of woodsmoke, the sound of distant laughter, the feeling of the solid earth beneath her feet. For the first time, she wasn’t just *in* a place; she was *of* it. It felt like grace.

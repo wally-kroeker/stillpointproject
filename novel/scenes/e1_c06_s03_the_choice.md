@@ -6,7 +6,7 @@ pov_character: "Jonah"
 voice: "Close Third-Person, Present Tense"
 word_count: 1048
 page_count: 4
-status: "revised"
+status: "draft"
 ---
 
 The walk home from the park is a journey through a city that looks the same but feels entirely different. The neon lights seem sharper, the automated buses more menacing, the entire glittering infrastructure of the Chorus-managed world a monument to the choice he now has to make.

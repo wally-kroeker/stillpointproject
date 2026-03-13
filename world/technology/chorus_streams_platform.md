@@ -15,15 +15,15 @@ first_appearance: "the_neural_stream"
 
 ## Overview
 
-Chorus Streams is the dominant platform for verified human content creation in the 2037 attention economy, operated by [[Chorus AI Platform]]'s Media division. What presents as a creator-friendly streaming service functions as sophisticated infrastructure for ideological control, extracting revenue while suppressing content that questions Chorus-optimized society.
+Chorus Streams is the dominant platform for verified human content creation in the 2037 attention economy, operated by Chorus AI Platform's Media division. What presents as a creator-friendly streaming service functions as sophisticated infrastructure for ideological control, extracting revenue while suppressing content that questions Chorus-optimized society.
 
-The platform integrates seamlessly with [[Neural Interface Streaming Technology]] and [[Verified Human Certification Protocol]] to create a walled garden where creators depend on Chorus for:
+The platform integrates seamlessly with Neural Interface Streaming Technology and Verified Human Certification Protocol to create a walled garden where creators depend on Chorus for:
 - Technical infrastructure (neural feed processing, bandwidth, CDN)
 - Audience access (algorithmic distribution, discovery, recommendations)
 - Monetization (subscriber payments, donations, Chorus Credits exchange)
 - Professional legitimacy (verified human badge, Coherence Score visibility)
 
-By 2037, Chorus Streams controls approximately 73% of verified human streaming market share. Alternative platforms exist but struggle with network effects, lacking the critical mass of both creators and audiences necessary to compete. For gig creators like [[Marcus Chen Character Card|Marcus Chen]], opting out of Chorus Streams means abandoning the only economically viable avenue for verified human content distribution.
+By 2037, Chorus Streams controls approximately 73% of verified human streaming market share. Alternative platforms exist but struggle with network effects, lacking the critical mass of both creators and audiences necessary to compete. For gig creators like Marcus Chen Character Card, opting out of Chorus Streams means abandoning the only economically viable avenue for verified human content distribution.
 
 The platform's true power lies not in explicit censorship but in **algorithmic soft suppression**—making ideologically non-conforming content less profitable through reduced visibility, lower Coherence Scores, and strategic counter-content recommendations.
 
@@ -34,7 +34,7 @@ The platform's true power lies not in explicit censorship but in **algorithmic s
 ### Core Infrastructure Components
 
 **Neural Feed Processing:**
-- Receives consciousness data from [[Neural Interface Streaming Technology]]
+- Receives consciousness data from Neural Interface Streaming Technology
 - Translates quantum coherence patterns into audience-facing visualizations
 - Calculates real-time Coherence Score (algorithmic authenticity metric)
 - Compresses and distributes neural feed alongside audio/video streams
@@ -48,14 +48,14 @@ The platform's true power lies not in explicit censorship but in **algorithmic s
 - **Creator cost:** Included in 35% platform revenue share
 
 **Authentication Integration:**
-- Continuous verification with [[Verified Human Certification Protocol]]
+- Continuous verification with Verified Human Certification Protocol
 - Real-time certification status checks (prevents decertified creators from streaming)
 - Automated "CERTIFICATION SUSPENDED" overlay if verification fails mid-stream
 - Strike tracking and enforcement for content compliance violations
 - Biometric data handoff to Chorus Conscious division for authentication
 
 **Monetization Infrastructure:**
-- Subscriber management and billing (integrated with [[Chorus Credits Currency System]])
+- Subscriber management and billing (integrated with Chorus Credits Currency System)
 - Donation processing (Chorus Credits only, no external payment processors)
 - Revenue distribution (65/35 split after processing fees)
 - Tax reporting and withholding for gig creators
@@ -176,7 +176,7 @@ The algorithm created perfect conditions for Marcus to lose subscribers while ap
 **Donation Revenue:**
 - Creators receive 70% of donations (lower than subscriptions)
 - Platform takes 30% of donation revenue
-- Donations only accepted in [[Chorus Credits Currency System|Chorus Credits]] (no external payment processors)
+- Donations only accepted in Chorus Credits Currency System (no external payment processors)
 - Minimum donation: 10 Chorus Credits (~$1 equivalent)
 
 **Total Effective Platform Take:**
@@ -269,7 +269,7 @@ The system is **self-enforcing through economic pressure** rather than explicit 
 
 **Pre-Stream Setup:**
 - Neural interface integration check (~30 seconds)
-- [[Verified Human Certification Protocol|Verified human certification]] authentication
+- Verified Human Certification Protocol authentication
 - Stream title, description, thumbnail upload
 - Category selection (Economics, Technology, Culture, Politics, etc.)
 - Monetization settings (subscriber-only vs. free tier access)
@@ -327,7 +327,7 @@ The system is **self-enforcing through economic pressure** rather than explicit 
 - No "misuse of verified human certification" (extended interface disconnection)
 
 **Creator Obligations:**
-- Maintain active [[Verified Human Certification Protocol|verified human certification]] subscription
+- Maintain active Verified Human Certification Protocol subscription
 - Respond to platform inquiries within 48 hours
 - Allow automated content analysis and archiving
 - Accept algorithmic distribution decisions (cannot appeal Coherence Score)
@@ -410,7 +410,7 @@ The system is **self-enforcing through economic pressure** rather than explicit 
 
 ### Commons Movement Analysis
 
-From [[StillPoint Philosophy]] perspective, Chorus Streams epitomizes extractive attention economy architecture:
+From StillPoint Philosophy perspective, Chorus Streams epitomizes extractive attention economy architecture:
 
 **Attention Extraction:**
 - Optimizes for engagement over wellbeing
@@ -458,7 +458,7 @@ This is more insidious than censorship—creators believe they're freely choosin
 
 ### Era 2 (2037-2060): Decline & Fragmentation
 - 2037-2042: Continued dominance but growing creator dissatisfaction
-- 2042-2048: [[The Ghost-Current]] networks offer decentralized alternatives
+- 2042-2048: The Ghost-Current networks offer decentralized alternatives
 - 2048-2052: Market share erodes as Commons communities build parallel infrastructure
 - 2052-2058: Platform becomes associated with Kaelen Vance's Pyramid faction
 - 2058-2060: Post-Accords, platform restructured or dissolved
@@ -467,13 +467,13 @@ This is more insidious than censorship—creators believe they're freely choosin
 - Chorus Streams remembered as cautionary tale of platform monopoly
 - Attention economy replaced by relationship-based trust networks
 - Content creation decentralized, non-commercial
-- Archives preserved in [[Memory Loom]] as historical evidence
+- Archives preserved in Memory Loom as historical evidence
 
 ---
 
 ## First Appearance
 
-Chorus Streams is the primary setting for **"The Neural Stream"** (2037), where [[Marcus Chen Character Card|Marcus Chen]] streams his investigation of the StillPoint Gathering. The story demonstrates:
+Chorus Streams is the primary setting for **"The Neural Stream"** (2037), where Marcus Chen Character Card streams his investigation of the StillPoint Gathering. The story demonstrates:
 - Real-time Coherence Score manipulation (dropping from 73 to 41 during ideologically non-conforming content)
 - Automated warnings about certification violations
 - Subscriber loss caused by algorithmic suppression
@@ -486,9 +486,9 @@ The platform's invisible architecture shapes the entire narrative—Marcus's tra
 ---
 
 **See Also:**
-- [[Chorus AI Platform]] — Parent corporation controlling Chorus Streams
-- [[Neural Interface Streaming Technology]] — Hardware integrated with platform
-- [[Verified Human Certification Protocol]] — Authentication required for platform access
-- [[Chorus Credits Currency System]] — Currency for platform transactions
-- [[Attention Economy (2037)]] — Economic context for platform dominance
-- [[Marcus Chen Character Card]] — Gig creator navigating platform suppression
+- Chorus AI Platform — Parent corporation controlling Chorus Streams
+- Neural Interface Streaming Technology — Hardware integrated with platform
+- Verified Human Certification Protocol — Authentication required for platform access
+- Chorus Credits Currency System — Currency for platform transactions
+- Attention Economy (2037) — Economic context for platform dominance
+- Marcus Chen Character Card — Gig creator navigating platform suppression

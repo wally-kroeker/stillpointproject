@@ -17,11 +17,11 @@ first_appearance: "the_neural_stream"
 
 ## Overview
 
-Marcus Chen is a 34-year-old verified human content creator navigating the contradictions of the [[Attention Economy (2037)|post-wage attention economy]]. A former cryptocurrency trader displaced by [[The Cascade|the 2028 wage collapse]], he rebuilt himself as a gig journalist specializing in economic pattern recognition. By 2037, he operates "Pattern Recognition," a verified human stream analyzing intentional communities and economic trends for a professional class audience.
+Marcus Chen is a 34-year-old verified human content creator navigating the contradictions of the Attention Economy (2037). A former cryptocurrency trader displaced by The Cascade, he rebuilt himself as a gig journalist specializing in economic pattern recognition. By 2037, he operates "Pattern Recognition," a verified human stream analyzing intentional communities and economic trends for a professional class audience.
 
-Marcus embodies the **liminal figure**—caught between the [[Chorus AI Platform|Chorus]]-dominated world he economically depends on and the [[Riverbend Commons|Commons]] alternatives he's drawn to investigate. His transformation during "The Neural Stream" (2037) demonstrates the cost of authentic journalism in an economy designed to punish ideological non-conformity: he loses 25% of his subscriber base while discovering his own nervous system has "voted" for a path that might destroy his livelihood.
+Marcus embodies the **liminal figure**—caught between the Chorus AI Platform-dominated world he economically depends on and the Riverbend Commons alternatives he's drawn to investigate. His transformation during "The Neural Stream" (2037) demonstrates the cost of authentic journalism in an economy designed to punish ideological non-conformity: he loses 25% of his subscriber base while discovering his own nervous system has "voted" for a path that might destroy his livelihood.
 
-As "everyman eyes" for readers, Marcus provides POV access to Commons culture while carrying the skepticism and economic pressures of [[Cascade Era Class Structure|Tier 3 gig economy]]. His arc across Era 1 and into Era 2 explores whether someone economically trapped in an extractive system can authentically document—and eventually join—alternatives to it.
+As "everyman eyes" for readers, Marcus provides POV access to Commons culture while carrying the skepticism and economic pressures of Cascade Era Class Structure. His arc across Era 1 and into Era 2 explores whether someone economically trapped in an extractive system can authentically document—and eventually join—alternatives to it.
 
 ---
 
@@ -67,7 +67,7 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 - His trading losses triggered her ultimatum (she left, October 2028)
 
 **The Collapse (Q2-Q4 2028):**
-- [[Chorus AI Platform|Chorus Workforce]] automation hit financial sector
+- Chorus AI Platform automation hit financial sector
 - Trading algorithms became too sophisticated for human arbitrage
 - AI trading algorithms operating at near-zero cost crashed all market inefficiencies
 - Marcus's edge evaporated in weeks
@@ -86,7 +86,7 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 **The Pivot (2029-2031):**
 - Recognized skills: Pattern recognition, economic analysis, communication
 - Available work: Gig content creation (traditional journalism collapsed)
-- Borrowed $10K from parents for [[Neural Interface Streaming Technology|neural interface]] setup
+- Borrowed $10K from parents for Neural Interface Streaming Technology setup
 - Moved to Minneapolis (cheaper than Seattle, emerging creator scene)
 - Launched "Pattern Recognition" stream (economics analysis)
 - First year: 50-200 subscribers, operating at loss
@@ -245,7 +245,7 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 
 **Audience (800+ subscribers before transformation):**
 - Parasocial relationship (they feel they know him, he performs for them)
-- Primarily [[Cascade Era Class Structure|Tier 2 professional class]]
+- Primarily Cascade Era Class Structure
 - Want economic analysis that doesn't threaten their position
 - When he challenges them, they unsubscribe
 - **The revelation:** His "community" is transactional, contingent on conformity
@@ -429,7 +429,7 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 ### Era 2 Involvement (2040-2045) — The Balance War Correspondent
 
 **"Embedded in Contradiction" (2040-2043):**
-- Documents [[The Balance Framework]] emergence
+- Documents The Balance Framework emergence
 - Still streaming from Chorus platform while covering Commons victory
 - Unique position: Insider access to Commons, platform to reach Chorus world
 - Ideologically committed to Commons but economically trapped
@@ -443,7 +443,7 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 - **Crisis:** Economic lifeline severed, must fully commit
 
 **"The Choice" (2045):**
-- Offered position: Continue journalism through [[The Ghost-Current]] (decentralized, minimal income)
+- Offered position: Continue journalism through The Ghost-Current (decentralized, minimal income)
 - Or: Join Commons fully, contribute labor instead of documentation
 - Chooses: Ghost-Current journalism (calling too strong to abandon)
 - Means accepting permanent Tier 4 status, material simplicity
@@ -465,7 +465,7 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 **Liminal Figure:**
 - Trapped between two incompatible systems
 - Can't fully commit to either (economic necessity vs. ideological alignment)
-- Embodies [[Cascade Era Class Structure|Tier 3]] contradiction
+- Embodies Cascade Era Class Structure contradiction
 - Demonstrates difficulty of resistance when resistance has cost
 - **Thematic function:** Shows transition isn't simple or clean
 
@@ -512,7 +512,7 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 **Era 3:**
 - Could appear as elder figure remembering Cascade era
 - Mentor to younger generation about "rental trap years"
-- Contributor to [[Memory Loom]] emotional history archives
+- Contributor to Memory Loom emotional history archives
 
 ---
 
@@ -566,12 +566,12 @@ As "everyman eyes" for readers, Marcus provides POV access to Commons culture wh
 ---
 
 **See Also:**
-- [[Attention Economy (2037)]] — Economic system Marcus navigates
-- [[Neural Interface Streaming Technology]] — Tool Marcus rents/depends on
-- [[Verified Human Certification Protocol]] — Gatekeeping Marcus submits to
-- [[Chorus Streams Platform]] — Platform extracting from Marcus
-- [[Cascade Era Class Structure]] — Tier 3 position Marcus occupies
-- [[The Neural Stream]] — Story of Marcus's transformation
-- [[Riley Martinez]] — Commons resident who catalyzes Marcus's change
-- [[Gray Tesluk]] — Hawthorn tinkerer Marcus will document
-- [[Riverbend Commons]] — Community Marcus may eventually join
+- Attention Economy (2037) — Economic system Marcus navigates
+- Neural Interface Streaming Technology — Tool Marcus rents/depends on
+- Verified Human Certification Protocol — Gatekeeping Marcus submits to
+- Chorus Streams Platform — Platform extracting from Marcus
+- Cascade Era Class Structure — Tier 3 position Marcus occupies
+- The Neural Stream — Story of Marcus's transformation
+- Riley Martinez — Commons resident who catalyzes Marcus's change
+- Gray Tesluk — Hawthorn tinkerer Marcus will document
+- Riverbend Commons — Community Marcus may eventually join

@@ -5,6 +5,7 @@ location: "Stonewall Holdout"
 pov_character: "Elara"
 word_count: 1511
 page_count: 6
+audio_file: "/audio/stories/e1_ss_tmd_s01_the_grindstone.mp3"
 ---
 
 The silence in the mill wasn't peace; it was judgment. For twenty years, its steady, grinding rhythm had been the sound of Stonewall’s virtue—a testament to their righteous labor. Now, its quiet felt like a rebuke from God. The great central grindstone, a disc of granite hauled here by the founding generation to build their sanctuary, sat inert. A hairline crack smiled grimly across its face, a flaw in the heart of their covenant.

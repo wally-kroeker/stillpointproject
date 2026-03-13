@@ -22,7 +22,7 @@ This section will serve as the master tracking board for all chapters. Use a mar
 | E1C06 | The Offer, The Promise & The Choice | In Progress | Editorial Implementation | Ready for editorial revision. |
 | E1C07 | The First Fire | Completed | Done | Ready for Lore Keeper review. |
 | E1C08 | The Strategist | Not Started | Drafting | - |
-| E1C09 | The Physicist | Not Started | Drafting | - |
+| E1C09 | The Physicist | Not Started | Drafting | **PRE-WORK:** Ground Sajan's device mechanism in real physics (Landauer, Wheeler, Hoffman, Tononi). See `world/technology/stillpoint_physics_grounding.md`. Start NotebookLM thread on physics-consciousness connection. |
 | E1C10 | The Cost of a Win | Not Started | Drafting | - |
 | E1C11 | The Grief Group | Not Started | Drafting | - |
 | E1C12 | The First LogBook | Not Started | Drafting | - |

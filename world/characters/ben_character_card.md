@@ -9,7 +9,7 @@ status: "canonical"
 
 ### **Role:** Commons Member, Quiet Contributor
 
-A member of the fledgling community at [[Hawthorn Commons]].
+A member of the fledgling community at Hawthorn Commons.
 
 ### **Core Principle:** Pragmatic Humility
 
@@ -17,7 +17,7 @@ Ben represents the value of simple, practical solutions over complex, idealistic
 
 ### **Key Scene:** The First Fire
 
-In [[e1_c07_s01_the_first_fire]], when [[Liam]]'s high-tech fire-striker fails to light the community's first ceremonial fire, Ben quietly offers a simple, nearly-empty Bic lighter. This small, humble act succeeds where the more advanced tool failed, symbolizing the importance of practical skills and unpretentious contributions in building a resilient community.
+In e1_c07_s01_the_first_fire, when Liam's high-tech fire-striker fails to light the community's first ceremonial fire, Ben quietly offers a simple, nearly-empty Bic lighter. This small, humble act succeeds where the more advanced tool failed, symbolizing the importance of practical skills and unpretentious contributions in building a resilient community.
 
 ### **Description**
 

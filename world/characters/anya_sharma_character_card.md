@@ -2,7 +2,7 @@
 
 ## Overview
 
-Anya Sharma is the Chief Operating Officer of Aethelred, the logistical and operational genius who translates [[Kaelen Vance]]'s grand visions into flawless execution. Where Vance is the charismatic storyteller, Anya is the master architect of the complex systems that project his power across the solar system. She is a firm believer in the Pyramid, not for the glory of the peak, but for the elegant, undeniable efficiency of its structure.
+Anya Sharma is the Chief Operating Officer of Aethelred, the logistical and operational genius who translates Kaelen Vance's grand visions into flawless execution. Where Vance is the charismatic storyteller, Anya is the master architect of the complex systems that project his power across the solar system. She is a firm believer in the Pyramid, not for the glory of the peak, but for the elegant, undeniable efficiency of its structure.
 
 ---
 
@@ -32,4 +32,4 @@ Anya is not driven by ambition or power in the same way Vance is. She is driven 
 
 ## Narrative Role
 
-Anya serves as the intellectual and pragmatic core of Aethelred. She is the internal counterpoint to Vance's ideological fervor. Her journey will be one of disillusionment with purely technical solutions. As she is exposed to the [[StillPoint Philosophy]] and the messy resilience of the Commons, she will begin to question whether the most efficient system is truly the best one, making her a potential fulcrum of change within the story's central conflict.
+Anya serves as the intellectual and pragmatic core of Aethelred. She is the internal counterpoint to Vance's ideological fervor. Her journey will be one of disillusionment with purely technical solutions. As she is exposed to the StillPoint Philosophy and the messy resilience of the Commons, she will begin to question whether the most efficient system is truly the best one, making her a potential fulcrum of change within the story's central conflict.

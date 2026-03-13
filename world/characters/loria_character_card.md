@@ -9,14 +9,14 @@ The name **Loria** echoes “glory” and “light”—suggesting illumination,
 ---
 
 **Role:** Finite Game Player (Political Strategist) → Seeker → Infinite Game Guide
-**Era:** Spans [[The Cascade]] through Era Two and Three
-**Key Themes:** Transformation from Finite to Infinite Play, Redemption, Integration, [[StillPoint Philosophy]], Presence
+**Era:** Spans The Cascade through Era Two and Three
+**Key Themes:** Transformation from Finite to Infinite Play, Redemption, Integration, StillPoint Philosophy, Presence
 
 ---
 
 ### **Background and Early Life**
 
-Loria began her adult life as a master of the [[Infinite and Finite Games|finite game]]. As a highly capable political strategist, she was sharp, driven, and sought after for her ability to win—to manage narratives and secure political victories on a national scale. During the escalating turmoil of [[The Cascade]], her worldview was pragmatic and rational, rooted in crisis management and achieving specific outcomes. She prided herself on her ability to remain emotionally detached, viewing it as a necessary tool to win in a world of chaos.
+Loria began her adult life as a master of the Infinite and Finite Games. As a highly capable political strategist, she was sharp, driven, and sought after for her ability to win—to manage narratives and secure political victories on a national scale. During the escalating turmoil of The Cascade, her worldview was pragmatic and rational, rooted in crisis management and achieving specific outcomes. She prided herself on her ability to remain emotionally detached, viewing it as a necessary tool to win in a world of chaos.
 
 **Secretly, however, Loria harbored doubts.** Despite her outward confidence, she wrestled with a nagging sense of emptiness and an unarticulated yearning for something deeper than the endless cycle of crisis management.
 
@@ -52,7 +52,7 @@ Loria’s leadership emerges organically. She never claims authority; instead, s
 
 **Her greatest contribution is her presence and her intellect, finally integrated:** Loria teaches, by example, that redemption is always possible and that the journey from a finite game of regret to the infinite game of wisdom is not only personal but collective. She models the integration of intellect and intuition, the blending of old and new, and the importance of holding paradox without dogma.
 
-Drawing on her deep study of the [[The Pyramid and the Tipi|historical misinterpretation of Maslow's work]] and her skills as a former strategist, Loria becomes the primary architect and champion of **[[The Balance Framework]]**. She uses her unique position as a bridge between worlds to articulate a political and social structure that honors both communal well-being and individual drive, making her the central political figure of the Transitional Era.
+Drawing on her deep study of the The Pyramid and the Tipi and her skills as a former strategist, Loria becomes the primary architect and champion of **The Balance Framework**. She uses her unique position as a bridge between worlds to articulate a political and social structure that honors both communal well-being and individual drive, making her the central political figure of the Transitional Era.
 
 **In the later eras,** Loria is remembered as a bridge-builder: the strategist who became a seeker, the skeptic who became a guide, the one who turned her greatest mistake into the seed of the community’s greatest gift—teaching others how to find the stillness at the center of the storm.
 

@@ -15,11 +15,11 @@ first_appearance: "the_neural_stream"
 
 ## Overview
 
-Neural interface streaming technology represents the terminal stage of consciousness commodification in [[The Cascade]] era—a system that extracts authentic human awareness and transforms it into premium content for the post-wage attention economy. Unlike traditional biometric monitoring or earlier EEG systems, neural interfaces employ quantum coherence detection to capture not just physiological responses but the subtle electromagnetic signatures of consciousness itself.
+Neural interface streaming technology represents the terminal stage of consciousness commodification in The Cascade era—a system that extracts authentic human awareness and transforms it into premium content for the post-wage attention economy. Unlike traditional biometric monitoring or earlier EEG systems, neural interfaces employ quantum coherence detection to capture not just physiological responses but the subtle electromagnetic signatures of consciousness itself.
 
-By 2037, these devices have become the defining technology of "verified human" content creation, enabling audiences to experience a streamer's emotional resonance and cognitive states in real-time. The technology is exclusively controlled by [[Chorus AI Platform]]'s Conscious division through a rental-based monopoly that creates economic dependency while extracting both subscription fees and consciousness data.
+By 2037, these devices have become the defining technology of "verified human" content creation, enabling audiences to experience a streamer's emotional resonance and cognitive states in real-time. The technology is exclusively controlled by Chorus AI Platform's Conscious division through a rental-based monopoly that creates economic dependency while extracting both subscription fees and consciousness data.
 
-Neural streaming represents the ultimate expression of extractive technology—making human awareness itself into a consumable resource—and stands in direct philosophical opposition to [[StillPoint Philosophy]]'s supportive approach to consciousness technology.
+Neural streaming represents the ultimate expression of extractive technology—making human awareness itself into a consumable resource—and stands in direct philosophical opposition to StillPoint Philosophy's supportive approach to consciousness technology.
 
 ---
 
@@ -27,7 +27,7 @@ Neural streaming represents the ultimate expression of extractive technology—m
 
 ### Quantum Coherence Detection
 
-Unlike crude biometric monitoring used in [[Chorus]] productivity surveillance, neural interfaces employ **photonic sensors** to measure minute electromagnetic fluctuations in neural tissue. The system doesn't capture gross electrical patterns (traditional EEG) but rather the subtle **quantum field effects** that emerge when consciousness achieves certain states of clarity, stress, curiosity, or emotional engagement.
+Unlike crude biometric monitoring used in Chorus productivity surveillance, neural interfaces employ **photonic sensors** to measure minute electromagnetic fluctuations in neural tissue. The system doesn't capture gross electrical patterns (traditional EEG) but rather the subtle **quantum field effects** that emerge when consciousness achieves certain states of clarity, stress, curiosity, or emotional engagement.
 
 These quantum coherence patterns are detected through:
 
@@ -79,7 +79,7 @@ These quantum coherence patterns are detected through:
 
 **2031:** Multiple startups developing neural interface prototypes for medical, gaming, and communication applications. Technology is expensive, experimental, fragmented across competing standards.
 
-**Q2 2032:** [[Chorus AI Platform]] begins acquiring neural interface patents and companies through its venture arm. Initial public positioning: "making consciousness technology safe and accessible."
+**Q2 2032:** Chorus AI Platform begins acquiring neural interface patents and companies through its venture arm. Initial public positioning: "making consciousness technology safe and accessible."
 
 **Q4 2032:** Chorus launches "Conscious" division, announcing unified neural interface standard. Offers subsidized hardware to early adopters and content creators, undercutting remaining independent manufacturers.
 
@@ -145,7 +145,7 @@ By 2035, Chorus Conscious division has achieved total monopoly over consumer neu
 - Processing unit authenticates with Chorus Conscious servers (15-30 seconds)
 - Verification dongle performs certified human check
 - Baseline consciousness calibration (user must achieve "neutral awareness" state for 60 seconds)
-- Stream platforms (like [[Chorus Streams Platform]]) connect to consciousness feed
+- Stream platforms (like Chorus Streams Platform) connect to consciousness feed
 
 **During Streaming:**
 - Constant subtle pressure against temple (becomes unconscious after acclimation)
@@ -180,7 +180,7 @@ By 2035, Chorus Conscious division has achieved total monopoly over consumer neu
 - Parasocial intimacy—feeling connected to "real" consciousness
 - Status symbol among professional class ("I support verified human creators")
 
-**Platform Presentation ([[Chorus Streams Platform]] example):**
+**Platform Presentation (Chorus Streams Platform example):**
 - Neural feed appears as ambient color shifts, visualization patterns
 - Emotional state indicators: curiosity.surge, stress.spike, recognition.wave
 - Coherence Score shown as /100 metric (algorithm determines authenticity)
@@ -201,7 +201,7 @@ Neural streaming represents **peak extractive consciousness technology:**
 - Benefits platform monopoly over individual creators
 - Treats authentic human experience as scarce resource to mine
 
-**Contrast with [[StillPoint Device]] (Supportive):**
+**Contrast with StillPoint Device (Supportive):**
 - StillPoint creates conditions for consciousness to align naturally
 - No extraction, commodification, or surveillance
 - Open-source, non-commercial, community-controlled
@@ -290,14 +290,14 @@ Neural interfaces could theoretically be redesigned for supportive use—some Co
 - Biometric authentication systems
 
 **Dependent Technologies:**
-- [[Verified Human Certification Protocol]]: Authentication system ensuring interfaces read actual human consciousness
-- [[Chorus Streams Platform]]: Primary commercial platform for neural streaming content
-- [[Chorus Credits Currency System]]: Economic infrastructure for attention economy transactions
+- Verified Human Certification Protocol: Authentication system ensuring interfaces read actual human consciousness
+- Chorus Streams Platform: Primary commercial platform for neural streaming content
+- Chorus Credits Currency System: Economic infrastructure for attention economy transactions
 
 **Philosophical Opposition:**
-- [[StillPoint Device]]: Supportive consciousness technology vs. extractive
-- [[Satya AI Model]]: Reflective slow-time AI vs. surveillance optimization
-- [[The Ghost-Current]]: Decentralized privacy-first networks vs. Chorus monopoly
+- StillPoint Device: Supportive consciousness technology vs. extractive
+- Satya AI Model: Reflective slow-time AI vs. surveillance optimization
+- The Ghost-Current: Decentralized privacy-first networks vs. Chorus monopoly
 
 ---
 
@@ -339,9 +339,9 @@ Neural interface technology is featured centrally in **"The Neural Stream"** (20
 ---
 
 **See Also:**
-- [[Chorus AI Platform]] — Corporate monopoly controlling neural interface technology
-- [[Verified Human Certification Protocol]] — Authentication system preventing AI-generated fraud
-- [[Chorus Streams Platform]] — Primary commercial platform for neural streaming
-- [[Attention Economy (2037)]] — Economic context of gig creator infrastructure rental
-- [[StillPoint Philosophy]] — Contrasting vision of supportive vs. extractive technology
-- [[Marcus Chen Character Card]] — Gig journalist navigating neural streaming economy
+- Chorus AI Platform — Corporate monopoly controlling neural interface technology
+- Verified Human Certification Protocol — Authentication system preventing AI-generated fraud
+- Chorus Streams Platform — Primary commercial platform for neural streaming
+- Attention Economy (2037) — Economic context of gig creator infrastructure rental
+- StillPoint Philosophy — Contrasting vision of supportive vs. extractive technology
+- Marcus Chen Character Card — Gig journalist navigating neural streaming economy

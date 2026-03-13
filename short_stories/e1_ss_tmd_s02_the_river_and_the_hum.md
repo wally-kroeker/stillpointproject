@@ -5,6 +5,7 @@ location: "Riverbend Commons"
 pov_character: "Elara"
 word_count: 1549
 page_count: 6
+audio_file: "/audio/stories/e1_ss_tmd_s02_the_river_and_the_hum.mp3"
 ---
 
 The first thing Elara heard was the laughter. It wasn't the loud, foolish noise Elder Thomas had warned her about, but a low, easy sound that drifted on the pine-scented air. It was the sound of people at ease with their work and with each other. It was a sound of grace.

@@ -15,18 +15,18 @@ first_appearance: "the_neural_stream"
 
 ## Overview
 
-Chorus Credits (₵) are a digital currency introduced by [[Chorus AI Platform]] in 2027 as the primary medium of exchange within the Chorus ecosystem. What initially appeared as convenient digital payment infrastructure evolved into a **platform scrip system** that locks users into Chorus-controlled economic networks while extracting value through currency conversion, transaction fees, and restricted usage policies.
+Chorus Credits (₵) are a digital currency introduced by Chorus AI Platform in 2027 as the primary medium of exchange within the Chorus ecosystem. What initially appeared as convenient digital payment infrastructure evolved into a **platform scrip system** that locks users into Chorus-controlled economic networks while extracting value through currency conversion, transaction fees, and restricted usage policies.
 
 By 2037, Chorus Credits function as the dominant currency for:
-- [[Chorus Streams Platform]] transactions (subscriptions, donations, premium features)
-- [[Neural Interface Streaming Technology]] rental and [[Verified Human Certification Protocol]] fees
+- Chorus Streams Platform transactions (subscriptions, donations, premium features)
+- Neural Interface Streaming Technology rental and Verified Human Certification Protocol fees
 - Chorus Workforce digital labor payments
 - Chorus Marketplace goods and services
 - Some Commons communities' external trade (when interfacing with Chorus economy)
 
 The currency operates as **hybrid between legitimate payment system and company scrip**—it has real exchange value but features deliberately designed to keep value circulating within Chorus ecosystem rather than flowing to external economies. This creates a closed-loop economic system where Chorus extracts rent at every transaction while maintaining plausible deniability about monopolistic practices.
 
-For gig creators and displaced workers, Chorus Credits represent the new reality of [[Cascade Era Class Structure|post-wage stratification]]: earning digital tokens from the same platform that displaced them, convertible to traditional currency only at significant cost.
+For gig creators and displaced workers, Chorus Credits represent the new reality of Cascade Era Class Structure: earning digital tokens from the same platform that displaced them, convertible to traditional currency only at significant cost.
 
 ---
 
@@ -110,7 +110,7 @@ For gig creators and displaced workers, Chorus Credits represent the new reality
 ### For Gig Creators (Primary Use Case)
 
 **Revenue Receipt:**
-- [[Chorus Streams Platform]] pays creator earnings in Chorus Credits only
+- Chorus Streams Platform pays creator earnings in Chorus Credits only
 - No option to receive payment in traditional currency
 - Example: Marcus Chen earns ₵1,625 per month from 500 subscribers
   - If he converts all to USD: $1,475 (9% loss to conversion fees)
@@ -151,7 +151,7 @@ For gig creators and displaced workers, Chorus Credits represent the new reality
 ### For Commons Communities (Reluctant Use)
 
 **External Trade Interface:**
-- Commons operate internal [[StillPoint Philosophy|gift economies]]
+- Commons operate internal StillPoint Philosophy
 - But need to trade with external Chorus economy for some goods
 - Sell surplus (crafts, preserved foods, consulting) for Credits
 - Convert Credits to USD at unfavorable rates to buy external necessities
@@ -231,7 +231,7 @@ For gig creators and displaced workers, Chorus Credits represent the new reality
 **Regulatory Gray Area (2037):**
 - Critics argue Credits function as digital scrip
 - Chorus argues it's legitimate payment system with competitive fees
-- Government regulators captured/slow-moving during [[The Cascade]]
+- Government regulators captured/slow-moving during The Cascade
 - Legal challenges pending but no enforcement actions yet
 
 ### Tax Implications
@@ -275,7 +275,7 @@ For gig creators and displaced workers, Chorus Credits represent the new reality
 
 ### Class Stratification Effects
 
-**Credits Reinforce [[Cascade Era Class Structure]]:**
+**Credits Reinforce Cascade Era Class Structure:**
 
 **Chorus Elite (5%):**
 - Receive majority of income in USD (executive salaries, investment returns)
@@ -303,7 +303,7 @@ For gig creators and displaced workers, Chorus Credits represent the new reality
 
 ### Commons Movement Critique
 
-From [[StillPoint Philosophy]] perspective, Chorus Credits exemplify extractive economic architecture:
+From StillPoint Philosophy perspective, Chorus Credits exemplify extractive economic architecture:
 
 **Fictitious Commodity:**
 - Credits presented as "money" but function as control mechanism
@@ -322,7 +322,7 @@ From [[StillPoint Philosophy]] perspective, Chorus Credits exemplify extractive 
 - **Digital enclosure parallels historical land enclosure**
 
 **Alternative Vision:**
-- [[The Ghost-Current]] networks experimenting with mutual credit systems
+- The Ghost-Current networks experimenting with mutual credit systems
 - Some Commons use time-banking instead of Credits
 - Others maintain direct barter relationships
 - But full escape from Credits economy difficult without complete isolation
@@ -340,7 +340,7 @@ From [[StillPoint Philosophy]] perspective, Chorus Credits exemplify extractive 
 
 ### Era 2 (2037-2060): Peak & Decline
 - 2037-2042: Continued dominance but growing Commons resistance
-- 2042-2048: [[The Ghost-Current]] offers alternative mutual credit systems
+- 2042-2048: The Ghost-Current offers alternative mutual credit systems
 - 2048-2055: Credits market share erodes as Commons grow
 - 2055-2058: Kaelen Vance's Mars faction maintains Credits for internal economy
 - 2058-2060: Post-Accords, Earth transitions away from Credits
@@ -400,7 +400,7 @@ From [[StillPoint Philosophy]] perspective, Chorus Credits exemplify extractive 
 ## First Appearance
 
 Chorus Credits are integral to **"The Neural Stream"** (2037), where:
-- [[Marcus Chen Character Card|Marcus Chen]] receives streamer earnings in Credits only
+- Marcus Chen Character Card receives streamer earnings in Credits only
 - Subscribers pay for content using Credits
 - Donations appear as "₵25 Chorus Credits," "₵100 Chorus Credits," etc.
 - Marcus's economic precarity tied to Credits earnings volatility
@@ -412,10 +412,10 @@ The story demonstrates Credits as invisible infrastructure shaping economic poss
 ---
 
 **See Also:**
-- [[Chorus AI Platform]] — Parent corporation issuing Chorus Credits
-- [[Chorus Streams Platform]] — Primary platform using Credits for transactions
-- [[Neural Interface Streaming Technology]] — Rentals paid in Credits
-- [[Verified Human Certification Protocol]] — Certification fees paid in Credits
-- [[Attention Economy (2037)]] — Economic context for Credits dominance
-- [[Cascade Era Class Structure]] — How Credits reinforce stratification
-- [[The Ghost-Current]] — Decentralized alternative to Credits system
+- Chorus AI Platform — Parent corporation issuing Chorus Credits
+- Chorus Streams Platform — Primary platform using Credits for transactions
+- Neural Interface Streaming Technology — Rentals paid in Credits
+- Verified Human Certification Protocol — Certification fees paid in Credits
+- Attention Economy (2037) — Economic context for Credits dominance
+- Cascade Era Class Structure — How Credits reinforce stratification
+- The Ghost-Current — Decentralized alternative to Credits system

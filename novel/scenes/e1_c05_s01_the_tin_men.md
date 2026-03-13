@@ -6,7 +6,7 @@ pov_character: "Jonah, Liam, Chloë"
 voice: "Close Third-Person, Present Tense, shifting POV"
 word_count: 1410
 page_count: 5
-status: "revised"
+status: "draft"
 ---
 
 The change happens on a Tuesday. It isn’t an arrival, not really. The city has been buzzing with automated traffic for years—delivery drones like metal insects, self-driving buses hissing to a stop. People have grown used to them. But these are different.

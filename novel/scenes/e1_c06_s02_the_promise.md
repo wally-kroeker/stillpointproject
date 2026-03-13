@@ -6,7 +6,7 @@ pov_character: "Jonah"
 voice: "Close Third-Person, Present Tense"
 word_count: 1215
 page_count: 5
-status: "revised"
+status: "draft"
 ---
 
 The job offer from Renshaw feels like a toxic secret burning a hole in Jonah's mind. He carries it with him to the park that Tuesday, the memory of the six-figure salary a stark, jarring contrast to the quiet simplicity of the gathering. The crisp, digital contract feels more real, more solid, than the damp grass beneath him.

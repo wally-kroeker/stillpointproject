@@ -14,7 +14,7 @@ related_lore: ["the_cascade", "attention_economy_2037", "chorus_credits_currency
 
 ## Overview
 
-The [[The Cascade|2028 wage collapse]] shattered pre-existing class structures and created new stratification based on proximity to [[Chorus AI Platform]] automation systems. What emerged was not a **post-scarcity society** where AI abundance liberated humanity but rather **intensified scarcity** where 5% captured 89% of productivity gains while 80% faced economic displacement.
+The The Cascade shattered pre-existing class structures and created new stratification based on proximity to Chorus AI Platform automation systems. What emerged was not a **post-scarcity society** where AI abundance liberated humanity but rather **intensified scarcity** where 5% captured 89% of productivity gains while 80% faced economic displacement.
 
 By 2037, North American society stratifies into four distinct tiers:
 
@@ -32,7 +32,7 @@ By 2037, North American society stratifies into four distinct tiers:
 
 **Tier 3: Gig/Precariat (40%)**
 - Freelancers, gig workers, human-touch service providers
-- Income through [[Attention Economy (2037)|attention economy]] or Chorus-mediated platforms
+- Income through Attention Economy (2037) or Chorus-mediated platforms
 - Income: $15K-50K/year (highly volatile)
 - Economic survival requires Chorus platform participation
 
@@ -57,14 +57,14 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 - Income sources: Executive compensation, major shareholding, passive investment returns
 
 **Key Demographics:**
-- [[Chorus AI Platform]] C-suite and board members
+- Chorus AI Platform C-suite and board members
 - Aethelred executives and major shareholders
 - Venture capital / private equity managing AI investments
 - Tech startup founders whose companies were acquired by Chorus
 - Legacy wealth that invested early in automation
 
 **Exemplar Character:**
-- [[Kaelen Vance]] represents apex of this tier (Aethelred founder, Chorus board member)
+- Kaelen Vance represents apex of this tier (Aethelred founder, Chorus board member)
 - Others in tier aspire to Vance's level or serve his interests
 
 ### Economic Position
@@ -96,7 +96,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 
 ### Psychological Profile
 
-**Worldview ([[The Pyramid and the Tipi|Pyramid Philosophy]]):**
+**Worldview (The Pyramid and the Tipi):**
 - Success is individual achievement (ignore systemic advantages)
 - Wealth reflects merit (just-world fallacy internalized)
 - Displaced workers "didn't adapt" or "lack skills"
@@ -118,7 +118,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 - Others cynically maintaining advantage
 
 **Era 2 Trajectory:**
-- Majority support [[Kaelen Vance]]'s co-optation of [[The Balance Framework]]
+- Majority support Kaelen Vance's co-optation of The Balance Framework
 - When exposed, many join Martian Exodus (2055-2058)
 - View Earth's adoption of Balance Framework as "socialist failure"
 - Tier 1 largely exits to Mars, reorganizes around Pyramid principles
@@ -143,7 +143,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 
 **Exemplar Characters:**
 - Marcus Chen's brother David (Chorus AI management) represents typical Tier 2
-- [[Marcus Chen Character Card|Marcus Chen]] fell from Tier 2 (trading job) to Tier 3 (gig creator) during 2028 collapse
+- Marcus Chen Character Card fell from Tier 2 (trading job) to Tier 3 (gig creator) during 2028 collapse
 - Many Tier 2 are former Tier 1 who fell but caught themselves
 
 ### Economic Position
@@ -193,7 +193,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 - **Close enough to displacement to fear it, far enough to avoid it**
 
 **Consumer Behavior:**
-- Primary audience for [[Attention Economy (2037)|verified human content]]
+- Primary audience for Attention Economy (2037)
 - Subscribe to 5-12 creators (monthly entertainment budget: ₵60-180)
 - Consume verified human as status symbol ("I support authentic creators")
 - Prefer content that doesn't threaten their class position
@@ -204,7 +204,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 - Vote for "responsible" candidates (maintain stability)
 - Uncomfortable with radical change (Vance's Pyramid or Commons' Tipi)
 - Want both security and moral high ground
-- Generally support [[The Balance Framework]] in principle (until it threatens them)
+- Generally support The Balance Framework in principle (until it threatens them)
 
 **Era 2 Trajectory:**
 - Many support Balance Framework initially (seems fair)
@@ -221,7 +221,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 **Economic Definition:**
 - Household income: $15K-50K/year (highly volatile)
 - Net worth: -$20K to +$30K (often negative due to debt)
-- Income sources: Gig work, freelancing, human-touch services, [[Attention Economy (2037)|attention economy]]
+- Income sources: Gig work, freelancing, human-touch services, Attention Economy (2037)
 
 **Key Demographics:**
 - Verified human content creators (180,000 active)
@@ -231,7 +231,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 - Former professionals who fell from Tier 2 but haven't given up on employment
 
 **Exemplar Characters:**
-- [[Marcus Chen Character Card|Marcus Chen]] (gig journalist, verified human streamer)
+- Marcus Chen Character Card (gig journalist, verified human streamer)
 - Riley Martinez (former $150K software engineer → Commons documentarian)
 - Many characters in "The Neural Stream" chat are Tier 3 (DisplacedCoder, CryptoRefugee2029)
 
@@ -327,7 +327,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 - Rural poor in regions bypassed by Chorus infrastructure
 
 **Exemplar Characters:**
-- [[Jonah]], [[Maren]], [[Liam]], [[Chloë]] (Riverbend Commons founders) voluntarily in Tier 4
+- Jonah, Maren, Liam, Chloë (Riverbend Commons founders) voluntarily in Tier 4
 - Most Tier 4 are there involuntarily but some choose it
 - StreamingGrandma_47's nephew (mentioned in "The Neural Stream")
 
@@ -381,9 +381,9 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 
 **Commons Residents (Intentional Alternative):**
 - Reject Chorus-optimized society as spiritually bankrupt
-- Embrace [[StillPoint Philosophy]] (presence over productivity)
+- Embrace StillPoint Philosophy (presence over productivity)
 - View displacement as liberation opportunity
-- Build parallel economic systems ([[The Ghost-Current]], gift economy)
+- Build parallel economic systems (The Ghost-Current, gift economy)
 - **Using Tier 4 position to experiment with different civilization model**
 
 **Relationship to Other Tiers:**
@@ -394,7 +394,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 
 **Political Alignment:**
 - Urban displaced: Often apolitical (disengaged) or radical (both left and right extremes)
-- Commons residents: Align with Tipi philosophy, support [[The Balance Framework]]
+- Commons residents: Align with Tipi philosophy, support The Balance Framework
 - Both groups excluded from mainstream political participation
 - **Organizing happening in Commons networks, invisible to Chorus systems**
 
@@ -491,7 +491,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 **Characteristics:**
 - Majority displaced (agriculture automated)
 - Commons communities concentrated (land available)
-- [[Riverbend Commons]], Hawthorn Commons, etc.
+- Riverbend Commons, Hawthorn Commons, etc.
 - Mix of intentional communities and rural poverty
 
 ---
@@ -536,7 +536,7 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 
 **Political Goals:**
 - Build parallel Commons societies
-- Support [[The Balance Framework]]
+- Support The Balance Framework
 - Resist Chorus expansion
 - Demonstrate Tipi viability through lived example
 
@@ -556,10 +556,10 @@ The system's cruelty lies in ideological framing: **displacement blamed on indiv
 - Every character situated within class structure
 - Choices shaped by class constraints
 - Cross-class solidarity difficult but necessary
-- [[Marcus Chen]] navigates Tier 2→3 fall, faces Tier 4 option
+- Marcus Chen navigates Tier 2→3 fall, faces Tier 4 option
 
 **Ideological Stakes:**
-- Class structure embodies [[The Pyramid and the Tipi|Pyramid vs. Tipi]] conflict
+- Class structure embodies The Pyramid and the Tipi conflict
 - Balance War fought over which tier's vision prevails
 - Era 2 asks: Can society reorganize around Tier 4's values?
 - Era 3 answers: Yes, when Tier 1 exits to Mars
@@ -607,10 +607,10 @@ The story crystallizes class dynamics: **Those economically dependent on a tier 
 ---
 
 **See Also:**
-- [[The Cascade]] — Event that created class stratification
-- [[Attention Economy (2037)]] — Economic system reinforcing stratification
-- [[Chorus AI Platform]] — Corporate infrastructure controlling Tier 1-2-3
-- [[StillPoint Philosophy]] — Tier 4 alternative vision
-- [[The Pyramid and the Tipi]] — Ideological conflict between tier alliances
-- [[The Balance Framework]] — Era 2 attempt to reorganize class structure
-- [[Marcus Chen Character Card]] — Character navigating Tier 2→3 fall
+- The Cascade — Event that created class stratification
+- Attention Economy (2037) — Economic system reinforcing stratification
+- Chorus AI Platform — Corporate infrastructure controlling Tier 1-2-3
+- StillPoint Philosophy — Tier 4 alternative vision
+- The Pyramid and the Tipi — Ideological conflict between tier alliances
+- The Balance Framework — Era 2 attempt to reorganize class structure
+- Marcus Chen Character Card — Character navigating Tier 2→3 fall
