@@ -17,7 +17,7 @@ PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ASTRO_DIR="$PROJECT_ROOT/astro-dev-site"
 PRODUCTION_SERVER="docker@10.10.10.30"
 STAGING_DIR="/home/docker/stillpoint-staging"
-SSH_KEY="$HOME/.ssh/id_rsa_stillpoint"
+SSH_KEY="$HOME/.ssh/id_ed25519"
 
 # Functions
 log_info() {

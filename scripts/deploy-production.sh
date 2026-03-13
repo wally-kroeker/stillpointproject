@@ -390,7 +390,7 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
             echo "Usage: $0 rollback /home/docker/astro-backup-YYYYMMDD-HHMMSS"
             echo ""
             echo "Available backups:"
-            ssh -i "$HOME/.ssh/id_rsa_stillpoint" docker@10.10.10.30 "ls -lhd /home/docker/astro-backup-* 2>/dev/null | tail -5"
+            ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" "ls -lhd /home/docker/astro-backup-* 2>/dev/null | tail -5"
             exit 1
         fi
         rollback_to_previous "$2"
