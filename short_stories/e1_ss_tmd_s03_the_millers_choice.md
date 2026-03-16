@@ -1,5 +1,6 @@
 ---
 title: "The Miller's Daughter, Part 3: The Miller's Choice (Rewrite)"
+description: "Elara brings a perfect, alien gear home to Stonewall -- and a lie to protect it. The mill turns true again, but the serpent is already inside the garden."
 era: "Era 1 (Post-Cascade, c. 2037)"
 location: "Riverbend Commons & Stonewall Holdout"
 pov_character: "Elara"

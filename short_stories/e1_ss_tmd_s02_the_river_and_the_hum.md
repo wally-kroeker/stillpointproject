@@ -1,5 +1,6 @@
 ---
 title: "The Miller's Daughter, Part 2: The River and The Hum (Rewrite)"
+description: "At Riverbend Commons, Elara is offered two paths: the slow fellowship of human hands, or a perfect machine-made miracle. The StillPoint device shows her a peace more sacred than any prayer -- and more terrifying."
 era: "Era 1 (Post-Cascade, c. 2037)"
 location: "Riverbend Commons"
 pov_character: "Elara"

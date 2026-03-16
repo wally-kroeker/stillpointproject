@@ -1,5 +1,6 @@
 ---
 title: "The Miller's Daughter, Part 1: The Grindstone (Rewrite)"
+description: "A cracked grindstone and a community losing its joy force the miller's daughter to walk through the only gate she was taught never to open."
 era: "Era 1 (Post-Cascade, c. 2037)"
 location: "Stonewall Holdout"
 pov_character: "Elara"

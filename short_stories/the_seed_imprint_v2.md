@@ -1,5 +1,6 @@
 ---
 title: "The Seed Imprint"
+description: "Nine-year-old Kaia carves her own StillPoint Pebble from salt crystal deep underground, and discovers that the line between a tool that knows you and a friend who holds your grief is a question worth carrying forever."
 status: "revision"
 type: "short_story"
 era: "The Contested Stillness"

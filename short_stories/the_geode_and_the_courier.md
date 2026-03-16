@@ -1,3 +1,15 @@
+---
+title: "The Geode and the Courier"
+description: "A courier racing between waypoints delivers seeds to a crystal-lined commons and discovers that the most important journey is learning to stop moving."
+status: "published"
+type: "short_story"
+era: "Era 2 - The Balance War"
+location: "Geode Commons"
+pov_character: "Kael"
+word_count: 2000
+page_count: 8
+---
+
 ERA: Second Era (c. 2048)
 LOCATION: Geode Commons
 POV CHARACTER(S): Kael, Elara
