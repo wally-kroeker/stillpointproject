@@ -1,8 +1,24 @@
 # The StillPoint Saga
 
-A multi-era science fiction novel spanning 2029-2095, exploring humanity's path from technological acceleration crisis to contemplative renaissance.
+**A human-AI collaborative novel about what happens when humanity learns to be still.**
 
 **Read it now:** [stillpointproject.org](https://stillpointproject.org)
+
+## About This Project
+
+The StillPoint Saga is an experiment in transparent human-AI storytelling. It started in late 2024 as a simple idea — what if someone invented a device that could induce genuine contemplative presence? — and has grown over two years into a full science fiction world spanning seven decades, with a cast of characters, a deep technology canon, and a philosophy grounded in the tension between acceleration and stillness.
+
+From the beginning, this has been a collaboration between a human author (Wally Kroeker) and AI creative partners. There has never been an attempt to hide that. The project is as much about exploring what human-AI creative partnership looks like in practice as it is about telling a story.
+
+### How it's made
+
+The early development used Roo Code (a VS Code AI coding assistant) with a multi-agent system: a **Creative Partner** for brainstorming and story architecture, a **Narrator** for producing scene prose, an **Editor** for craft feedback from a fresh-reader perspective, and a **Lore Keeper** for maintaining canon consistency across the world bible. Each agent had its own system prompt and personality. The Creative Partner would produce scene briefs — detailed documents specifying the core tension, emotional arc, sensory palette, and key beats — and hand them off to the Narrator for prose generation. The Editor would review without any world-building context, deliberately canon-blind, so it could catch craft issues a lore-steeped reader might miss.
+
+The project later migrated to Claude Code with similar specialized agents, and the tooling has evolved continuously — from manual prompting to structured workflows to automated content pipelines. The world bible, character cards, location descriptions, and technology specs are all maintained as structured markdown files that the AI agents read before producing any content. Nothing is generated in a vacuum.
+
+The human role is vision, architecture, editorial judgment, and the question of *why this story matters*. The AI role is prose generation, consistency checking, and the kind of tireless iteration that turns a rough scene brief into polished narrative. Both are essential. Neither is sufficient alone.
+
+This repository is the whole thing — the stories, the world, the platform, and the process — published openly because transparency is the point.
 
 ## The Story
 
@@ -64,10 +80,6 @@ npm run dev
 Visit [localhost:4321](http://localhost:4321)
 
 Content lives in the source directories (`novel/`, `short_stories/`, `world/`) and syncs to the Astro site via `./scripts/sync-content-to-astro.sh`.
-
-## A Human-AI Collaboration
-
-This project is written transparently as a collaboration between a human author and AI creative partners. The world-building, story architecture, and editorial direction are human-driven. Scene prose is produced by specialized AI writing agents grounded in the world bible, then edited through multiple passes. The process is part of the story the project tells about human-AI partnership.
 
 ## License
 
