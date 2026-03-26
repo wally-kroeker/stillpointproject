@@ -1,0 +1,134 @@
+---
+import { getCollection, render } from 'astro:content';
+import ReaderLayout from '../../layouts/ReaderLayout.astro';
+import AudioPlayer from '../../components/AudioPlayer.tsx';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('stories');
+  return stories.map((story) => ({
+    params: { slug: story.id },
+    props: story,
+  }));
+}
+
+const story = Astro.props;
+const { Content } = await render(story);
+
+const storySchema = {
+	"@context": "https://schema.org",
+	"@type": "ShortStory",
+	"name": story.data.title,
+	"url": `https://stillpointproject.org/stories/${story.id}`,
+	"author": {
+		"@type": "Person",
+		"name": "Wally Kroeker"
+	},
+	"inLanguage": "en",
+	"genre": ["Science Fiction", "Contemplative Fiction"],
+	"isPartOf": {
+		"@type": "CreativeWorkSeries",
+		"name": "The StillPoint Saga",
+		"url": "https://stillpointproject.org"
+	},
+	"description": story.data.description || `A short story from The StillPoint universe.`,
+	"wordCount": story.data.word_count
+};
+
+const breadcrumbSchema = {
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{
+			"@type": "ListItem",
+			"position": 1,
+			"name": "Home",
+			"item": "https://stillpointproject.org"
+		},
+		{
+			"@type": "ListItem",
+			"position": 2,
+			"name": "Short Stories",
+			"item": "https://stillpointproject.org/stories"
+		},
+		{
+			"@type": "ListItem",
+			"position": 3,
+			"name": story.data.title,
+			"item": `https://stillpointproject.org/stories/${story.id}`
+		}
+	]
+};
+---
+
+<ReaderLayout title={`${story.data.title} - StillPoint Stories`} description={story.data.description || story.data.excerpt || `Read "${story.data.title}" — a short story from The StillPoint universe.`}>
+	<script type="application/ld+json" set:html={JSON.stringify(storySchema)} />
+	<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+	<main>
+		<div class="container">
+			<nav class="breadcrumb">
+				<a href="/stories">← Back to Stories</a>
+			</nav>
+
+			<article class="story">
+				<header class="story-header">
+					<h1>{story.data.title}</h1>
+				</header>
+
+				<div class="story-content">
+					<Content />
+				</div>
+			</article>
+		</div>
+	</main>
+	{story.data.audio_file && (
+		<AudioPlayer client:load audioSrc={story.data.audio_file} title={story.data.title} />
+	)}
+</ReaderLayout>
+
+<style>
+	@import '../../styles/design-tokens.css';
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.breadcrumb {
+		margin-bottom: 2rem;
+	}
+
+	.breadcrumb a {
+		color: var(--color-accent-1);
+		text-decoration: none;
+		font-size: var(--font-size-sm);
+		font-family: var(--font-sans);
+		font-weight: 500;
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-xs);
+		padding: var(--space-xs) var(--space-sm);
+		border-radius: 4px;
+		transition: all var(--transition-fast);
+	}
+
+	.breadcrumb a:hover {
+		background: var(--color-bg-accent);
+		color: var(--color-accent-2);
+	}
+
+	.story-header {
+		border-bottom: 1px solid var(--color-border);
+		padding-bottom: 2rem;
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+
+	.story-header h1 {
+		color: var(--color-heading);
+		font-size: 2.5rem;
+		line-height: 1.2;
+		font-weight: 600;
+		font-family: var(--font-serif);
+	}
+
+</style>

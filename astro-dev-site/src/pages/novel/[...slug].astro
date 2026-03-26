@@ -1,0 +1,246 @@
+---
+import { getCollection, render } from 'astro:content';
+import ReaderLayout from '../../layouts/ReaderLayout.astro';
+import AudioPlayer from '../../components/AudioPlayer.tsx';
+
+export async function getStaticPaths() {
+  const novelScenes = await getCollection('novel');
+
+  // Sort scenes by ID to get proper order
+  const sortedScenes = novelScenes.sort((a, b) => a.id.localeCompare(b.id));
+
+  return sortedScenes.map((scene, index) => ({
+    params: { slug: scene.id },
+    props: {
+      scene,
+      prevScene: index > 0 ? sortedScenes[index - 1] : null,
+      nextScene: index < sortedScenes.length - 1 ? sortedScenes[index + 1] : null,
+    },
+  }));
+}
+
+const { scene, prevScene, nextScene } = Astro.props;
+const { Content } = await render(scene);
+
+const chapterSchema = {
+	"@context": "https://schema.org",
+	"@type": "Chapter",
+	"name": scene.data.title,
+	"url": `https://stillpointproject.org/novel/${scene.id}`,
+	"isPartOf": {
+		"@type": "Book",
+		"name": "The StillPoint Saga",
+		"author": { "@type": "Person", "name": "Wally Kroeker" },
+		"url": "https://stillpointproject.org/novel"
+	},
+	"author": {
+		"@type": "Person",
+		"name": "Wally Kroeker"
+	},
+	"inLanguage": "en",
+	"genre": ["Science Fiction", "Contemplative Fiction"],
+	"wordCount": scene.data.word_count,
+	"locationCreated": scene.data.location,
+	"abstract": scene.data.excerpt || `A chapter from The StillPoint Saga set in ${scene.data.location}.`
+};
+
+const breadcrumbSchema = {
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{
+			"@type": "ListItem",
+			"position": 1,
+			"name": "Home",
+			"item": "https://stillpointproject.org"
+		},
+		{
+			"@type": "ListItem",
+			"position": 2,
+			"name": "Novel",
+			"item": "https://stillpointproject.org/novel"
+		},
+		{
+			"@type": "ListItem",
+			"position": 3,
+			"name": scene.data.title,
+			"item": `https://stillpointproject.org/novel/${scene.id}`
+		}
+	]
+};
+---
+
+<ReaderLayout title={`${scene.data.title} - The StillPoint Saga`} description={scene.data.excerpt || `Read "${scene.data.title}" — a chapter from The StillPoint Saga, set in ${scene.data.location}. POV: ${scene.data.pov_character}.`}>
+	<script type="application/ld+json" set:html={JSON.stringify(chapterSchema)} />
+	<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+	<main>
+		<div class="container">
+			<nav class="breadcrumb">
+				<a href="/novel">← Back to Novel</a>
+			</nav>
+
+			<article class="scene">
+				<header class="scene-header">
+					<h1>{scene.data.title}</h1>
+					{scene.data.audio_file && (
+						<AudioPlayer client:load audioSrc={scene.data.audio_file} title={scene.data.title} />
+					)}
+				</header>
+
+				<div class="scene-content">
+					<Content />
+				</div>
+
+				<nav class="chapter-nav">
+					{prevScene && (
+						<a href={`/novel/${prevScene.id}`} class="nav-link prev">
+							<span class="nav-label">← Previous</span>
+							<span class="nav-title">{prevScene.data.title}</span>
+						</a>
+					)}
+					{nextScene && (
+						<a href={`/novel/${nextScene.id}`} class="nav-link next">
+							<span class="nav-label">Next →</span>
+							<span class="nav-title">{nextScene.data.title}</span>
+						</a>
+					)}
+				</nav>
+			</article>
+		</div>
+	</main>
+</ReaderLayout>
+
+<style>
+	@import '../../styles/design-tokens.css';
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.breadcrumb {
+		margin-bottom: var(--space-lg);
+	}
+
+	.breadcrumb a {
+		color: var(--color-accent-1);
+		text-decoration: none;
+		font-size: var(--font-size-sm);
+		font-family: var(--font-sans);
+		font-weight: 500;
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-xs);
+		padding: var(--space-xs) var(--space-sm);
+		border-radius: 4px;
+		transition: all var(--transition-fast);
+	}
+
+	.breadcrumb a:hover {
+		background: var(--color-bg-accent);
+		color: var(--color-accent-2);
+	}
+
+	.scene-header {
+		border-bottom: 1px solid var(--color-border);
+		padding-bottom: 1.5rem;
+		margin-bottom: 3rem;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.scene-header h1 {
+		color: var(--color-heading);
+		font-size: 2.5rem;
+		line-height: 1.2;
+		font-weight: 600;
+		font-family: var(--font-serif);
+	}
+
+	.scene-content {
+		line-height: 1.7;
+		color: var(--color-text);
+	}
+
+	.scene-content :global(p) {
+		margin-bottom: 1.2rem;
+	}
+
+	.scene-content :global(p:first-child) {
+		font-size: 1.1em;
+		color: var(--color-text);
+	}
+
+	.scene-content :global(em) {
+		font-style: italic;
+		color: var(--color-text);
+	}
+
+	.scene-content :global(strong) {
+		font-weight: 600;
+		color: var(--color-heading);
+	}
+
+	.chapter-nav {
+		display: flex;
+		justify-content: space-between;
+		gap: 2rem;
+		margin-top: 4rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--color-border);
+	}
+
+	.nav-link {
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
+		padding: 1rem;
+		border-radius: 8px;
+		transition: all 0.2s ease;
+		flex: 1;
+		max-width: 45%;
+	}
+
+	.nav-link:hover {
+		background: var(--color-bg-accent);
+		transform: translateY(-2px);
+	}
+
+	.nav-link.prev {
+		align-items: flex-start;
+	}
+
+	.nav-link.next {
+		align-items: flex-end;
+		text-align: right;
+	}
+
+	.nav-label {
+		font-size: 0.85rem;
+		color: var(--color-accent-1);
+		font-weight: 500;
+		margin-bottom: 0.5rem;
+	}
+
+	.nav-title {
+		font-size: 0.95rem;
+		color: var(--color-text);
+		font-weight: 500;
+	}
+
+	@media (max-width: 640px) {
+		.chapter-nav {
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+		.nav-link {
+			max-width: 100%;
+		}
+
+		.nav-link.next {
+			align-items: flex-start;
+			text-align: left;
+		}
+	}
+</style>

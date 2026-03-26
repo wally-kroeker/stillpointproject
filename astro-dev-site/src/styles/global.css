@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import "./design-tokens.css";
+
+@theme {
+  /* Map Tailwind theme to design tokens - use literal values since Tailwind 4 @theme may not resolve var() */
+  --color-deep-space: #0f1a1e;
+  --color-accent-cyber: #6b9e85;
+  --color-accent-bio: #6b9e85;
+  --color-accent-gold: #c4a35a;
+  --color-text-primary: #e0ddd5;
+  --color-glass-surface: rgba(26, 42, 46, 0.6);
+  --color-border-glow: rgba(196, 163, 90, 0.15);
+  --font-serif: "Crimson Text", serif;
+  --font-sans: "Inter", sans-serif;
+  --container-narrow: 700px;
+  --container-default: 900px;
+  --container-wide: 1100px;
+}
+
+/* Prevent horizontal overflow */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Reader Themes - delegate to design-tokens.css overrides */
+:root[data-theme="light"] {
+  --color-deep-space: var(--color-bg);
+  --color-text-primary: var(--color-text);
+  --color-glass-surface: var(--color-bg-glass);
+  --color-border-glow: var(--color-border);
+}
+
+:root[data-theme="sepia"] {
+  --color-deep-space: var(--color-bg);
+  --color-text-primary: var(--color-text);
+  --color-glass-surface: var(--color-bg-glass);
+  --color-border-glow: var(--color-border);
+}
+
+/* Utilities */
+@utility glass-panel {
+  @apply bg-glass-surface backdrop-blur-md border border-border-glow;
+}
+
+@utility text-glow {
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.15);
+}
+
+@utility skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-md);
+  z-index: 100;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-accent-1);
+  color: var(--color-bg);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 4px 4px;
+  &:focus {
+    top: 0;
+  }
+}
+
+/* Base Styles */
+@layer base {
+  body {
+    @apply bg-deep-space text-text-primary font-sans antialiased;
+    font-size: 18px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-accent-1);
+    outline-offset: 2px;
+  }
+}

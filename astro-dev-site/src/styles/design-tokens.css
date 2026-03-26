@@ -1,0 +1,231 @@
+:root {
+  /* ===== CORE PALETTE: BIOLUMINESCENCE ===== */
+  /* Backgrounds - Deep Charcoal & Teal */
+  --color-bg: #0f1a1e;
+  /* Deepest charcoal/teal */
+  --color-bg-accent: #1a2a2e;
+  /* Slightly lighter, for cards/panels */
+  --color-bg-glass: rgba(26, 42, 46, 0.6);
+  /* Glassmorphism background */
+
+  /* Text - Warmed from pure gray */
+  --color-text: #e0ddd5;
+  /* Warm off-white */
+  --color-text-muted: #b0b5bd;
+  /* Slightly warmer muted */
+  --color-heading: #f0ece4;
+  /* Warm white */
+
+  /* Accents - Softened from trophy gold and neon teal */
+  --color-accent-1: #c4a35a;
+  /* Aged book gold */
+  --color-accent-2: #6b9e85;
+  /* Sage green */
+  --color-border: rgba(196, 163, 90, 0.15);
+  /* Matches new gold */
+  --color-selection: rgba(107, 158, 133, 0.3);
+  /* Matches new sage */
+
+  /* ===== TYPOGRAPHY ===== */
+  /* Human (Serif) vs Machine (Mono) */
+  --font-serif: 'Crimson Text', serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+  /* Fallback/Body */
+
+  /* Sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* ===== SPACING ===== */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* ===== CONTAINER WIDTHS ===== */
+  --container-narrow: 700px;
+  --container-default: 900px;
+  --container-wide: 1100px;
+
+  /* ===== ANIMATION ===== */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --anim-breathe: 6s ease-in-out infinite;
+  --anim-glitch: 0.3s steps(2) infinite;
+
+  /* ===== SHADOWS & BLURS ===== */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+  --backdrop-blur: blur(10px);
+
+  /* ===== SEMANTIC TOKENS ===== */
+  --chat-bg: var(--color-bg-accent);
+  --metric-text: var(--color-accent-2);
+  --alert-text: var(--color-accent-1);
+
+  /* Legacy/Compatibility Tokens (mapped to new palette) */
+  --color-sage-dark: var(--color-accent-2);
+  --color-sage-medium: var(--color-accent-2);
+  --color-sage-light: var(--color-text-muted);
+  --color-amber-warm: var(--color-accent-1);
+  --color-dark-primary: var(--color-bg);
+
+  /* Chat Component Specifics */
+  --chat-border: var(--color-accent-2);
+  --chat-border-width: 1px;
+  --chat-border-radius: 8px;
+  --chat-padding: 1.5rem;
+  --chat-margin: 2rem 0;
+  --chat-shadow: var(--shadow-md);
+  --chat-connection-border: var(--color-border);
+  --chat-sequential-margin: -1rem;
+  --chat-sequential-tight-margin: -0.5rem;
+
+  /* Metric Component Specifics */
+  --metric-bg: rgba(90, 153, 117, 0.1);
+  --metric-border: var(--color-accent-2);
+  --metric-padding: 0.5rem 1rem;
+  --metric-margin: 1rem 0;
+  --metric-margin-block: 1.5rem;
+  --metric-border-width: 1px;
+  --metric-text-bright: var(--color-accent-2);
+
+  /* Alert Component Specifics */
+  --alert-bg: rgba(212, 175, 55, 0.1);
+  --alert-border: var(--color-accent-1);
+  --alert-padding: 1rem;
+  --alert-margin: 1rem 0;
+  --alert-border-radius: 4px;
+  --alert-border-width: 1px;
+  --alert-text-bright: var(--color-accent-1);
+
+  /* Event Component Specifics */
+  --event-bg: var(--color-bg-accent);
+  --event-border: var(--color-text-muted);
+  --event-text: var(--color-text-muted);
+  --event-text-bright: var(--color-text);
+  --event-padding: 1rem;
+  --event-margin: 1rem 0;
+  --event-border-radius: 4px;
+  --event-border-width: 1px;
+
+  /* Typography Specifics */
+  --font-family-system: var(--font-sans);
+  --font-family-mono: var(--font-mono);
+  --font-size-content: var(--font-size-base);
+  --font-size-metric: var(--font-size-sm);
+  --letter-spacing-metric: 0.05em;
+  --letter-spacing-bot: 0.1em;
+
+  --spacing-chat-internal: 0.5rem;
+  --spacing-regular: var(--space-md);
+
+  --username-font-weight: 700;
+  --username-display: inline-block;
+  --username-margin-right: 0.5rem;
+
+  --bot-opacity: 0.8;
+  --bot-letter-spacing: 0.1em;
+}
+
+/* ===== THEME OVERRIDES ===== */
+
+:root[data-theme="light"] {
+  /* Backgrounds */
+  --color-bg: #f3f4f6;
+  --color-bg-accent: #ffffff;
+  --color-bg-glass: rgba(255, 255, 255, 0.8);
+
+  /* Text - Darker for better contrast */
+  --color-text: #111827;
+  /* Dark gray/black */
+  --color-text-muted: #4b5563;
+  --color-heading: #000000;
+
+  /* Accents */
+  --color-accent-1: #b45309;
+  /* Darker amber */
+  --color-accent-2: #059669;
+  /* Darker emerald */
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-selection: rgba(5, 150, 105, 0.2);
+
+  /* Semantic Tokens */
+  --chat-bg: #ffffff;
+  --chat-text: #1f2937;
+  --chat-border: #e5e7eb;
+
+  --metric-bg: #f0fdf4;
+  --metric-text: #166534;
+  --metric-border: #bbf7d0;
+  --metric-text-bright: #14532d;
+
+  --alert-bg: #fffbeb;
+  --alert-text: #92400e;
+  --alert-border: #fcd34d;
+  --alert-text-bright: #78350f;
+
+  --event-bg: #f9fafb;
+  --event-text: #374151;
+  --event-border: #d1d5db;
+  --event-text-bright: #111827;
+}
+
+:root[data-theme="sepia"] {
+  /* Backgrounds */
+  --color-bg: #f4ecd8;
+  --color-bg-accent: #eaddc5;
+  --color-bg-glass: rgba(244, 236, 216, 0.9);
+
+  /* Text - Dark Brown for better contrast */
+  --color-text: #433422;
+  /* Dark brown */
+  --color-text-muted: #785c3a;
+  --color-heading: #2c2114;
+
+  /* Accents */
+  --color-accent-1: #a16207;
+  /* Darker gold/brown */
+  --color-accent-2: #15803d;
+  /* Forest green */
+  --color-border: rgba(67, 52, 34, 0.15);
+  --color-selection: rgba(21, 128, 61, 0.2);
+
+  /* Semantic Tokens */
+  --chat-bg: #eaddc5;
+  --chat-text: #433422;
+  --chat-border: #d4c5a9;
+
+  --metric-bg: rgba(21, 128, 61, 0.1);
+  --metric-text: #14532d;
+  --metric-border: rgba(21, 128, 61, 0.3);
+  --metric-text-bright: #052e16;
+
+  --alert-bg: rgba(161, 98, 7, 0.1);
+  --alert-text: #713f12;
+  --alert-border: rgba(161, 98, 7, 0.3);
+  --alert-text-bright: #451a03;
+
+  --event-bg: #eaddc5;
+  --event-text: #5c4632;
+  --event-border: #c7b299;
+  --event-text-bright: #2c2114;
+}

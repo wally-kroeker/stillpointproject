@@ -1,0 +1,87 @@
+---
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import ErasSection from '../components/ErasSection';
+import AboutSection from '../components/AboutSection.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+import '../styles/global.css';
+
+const title = "The StillPoint Saga - Contemplative Sci-Fi Exploring Presence in an Age of AI";
+const description = "A serialized science fiction novel spanning 2029-2095. Follow humanity's journey from AI-driven crisis to contemplative renaissance. Read free online.";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL('/images/og-default.jpg', Astro.site);
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+		<script is:inline async src="https://umami.kroeker.fun/u" data-website-id="2d1b23db-e621-433d-9d98-c142ac145b5b"></script>
+
+		<!-- Canonical -->
+		<link rel="canonical" href={canonicalURL} />
+
+		<!-- Sitemap & RSS -->
+		<link rel="sitemap" href="/sitemap-index.xml" />
+		<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL('rss.xml', Astro.site)} />
+
+		<!-- Robots -->
+		<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+		<!-- Primary Meta Tags -->
+		<title>{title}</title>
+		<meta name="title" content={title} />
+		<meta name="description" content={description} />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={canonicalURL} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:site_name" content="The StillPoint Project" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:url" content={canonicalURL} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImage} />
+
+		<!-- Structured Data -->
+		<script is:inline type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "The StillPoint Saga",
+			"alternateName": "The StillPoint Project",
+			"url": "https://stillpointproject.org",
+			"description": "A serialized science fiction novel spanning 2029-2095, exploring humanity's path from AI-driven crisis to contemplative renaissance.",
+			"author": {
+				"@type": "Person",
+				"name": "Wally Kroeker",
+				"url": "https://stillpointproject.org/about"
+			},
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://stillpointproject.org/novel"
+			}
+		}
+		</script>
+	</head>
+	<body class="bg-deep-space text-text-primary overflow-x-hidden">
+		<a href="#main-content" class="skip-link">Skip to content</a>
+		<Navbar client:load />
+
+		<main id="main-content">
+			<Hero />
+			<ErasSection />
+			<AboutSection />
+		</main>
+		
+		<Footer />
+	</body>
+</html>

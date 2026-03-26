@@ -1,0 +1,136 @@
+---
+// CallToAction component for The StillPoint Project
+// Displays a call to action at the end of content pages
+
+export interface Props {
+  title?: string;
+  description?: string;
+  primaryLink?: string;
+  primaryText?: string;
+  secondaryLink?: string;
+  secondaryText?: string;
+}
+
+const {
+  title = "Continue Your Journey",
+  description = "Explore more of The StillPoint Saga",
+  primaryLink = "/novel",
+  primaryText = "Read the Novel",
+  secondaryLink = "/stories",
+  secondaryText = "More Stories"
+} = Astro.props;
+---
+
+<section class="call-to-action">
+  <div class="cta-content">
+    <h2 class="cta-title">{title}</h2>
+    {description && <p class="cta-description">{description}</p>}
+
+    <div class="cta-buttons">
+      {primaryLink && primaryText && (
+        <a href={primaryLink} class="cta-button primary">
+          {primaryText}
+        </a>
+      )}
+      {secondaryLink && secondaryText && (
+        <a href={secondaryLink} class="cta-button secondary">
+          {secondaryText}
+        </a>
+      )}
+    </div>
+  </div>
+</section>
+
+<style>
+  .call-to-action {
+    margin-top: var(--space-xl);
+    padding: var(--space-xl) var(--space-lg);
+    background: var(--color-bg-accent);
+    border: 2px solid var(--color-border);
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: var(--color-heading);
+    margin-bottom: var(--space-sm);
+  }
+
+  .cta-description {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-lg);
+    line-height: 1.6;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+
+  .cta-button.primary {
+    background: var(--color-accent-1);
+    color: var(--color-bg);
+  }
+
+  .cta-button.primary:hover {
+    background: var(--color-accent-2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .cta-button.secondary {
+    background: transparent;
+    color: var(--color-accent-1);
+    border-color: var(--color-accent-1);
+  }
+
+  .cta-button.secondary:hover {
+    background: var(--color-accent-1);
+    color: var(--color-bg);
+    transform: translateY(-2px);
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 640px) {
+    .call-to-action {
+      padding: var(--space-lg) var(--space-md);
+    }
+
+    .cta-title {
+      font-size: 1.5rem;
+    }
+
+    .cta-description {
+      font-size: 1rem;
+    }
+
+    .cta-buttons {
+      flex-direction: column;
+    }
+
+    .cta-button {
+      width: 100%;
+    }
+  }
+</style>

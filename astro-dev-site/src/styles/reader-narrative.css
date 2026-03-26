@@ -1,0 +1,120 @@
+/* ===== SHARED NARRATIVE ELEMENT STYLES =====
+ * Chat messages, system metrics, alerts, and events
+ * Used by both novel scene and story reader pages
+ * Imported via ReaderLayout to avoid duplication
+ */
+
+/* Chat message blockquotes - HIGH-TECH DASHBOARD AESTHETIC */
+:is(.scene-content, .story-content) blockquote[data-type="chat"] {
+	border-left: var(--chat-border-width) solid var(--chat-border);
+	background: var(--chat-bg);
+	padding: var(--chat-padding);
+	margin: var(--chat-margin);
+	font-style: normal;
+	font-family: var(--font-family-system);
+	font-size: var(--font-size-content);
+	line-height: var(--line-height-tight);
+	color: var(--chat-text);
+	border-radius: var(--chat-border-radius);
+	box-shadow: var(--chat-shadow);
+}
+
+/* Individual chat messages - maintain spacing in dark container */
+:is(.scene-content, .story-content) blockquote[data-type="chat"] p {
+	margin: var(--spacing-chat-internal) 0;
+	color: var(--chat-text);
+}
+
+:is(.scene-content, .story-content) blockquote[data-type="chat"] p:first-child {
+	margin-top: 0;
+}
+
+:is(.scene-content, .story-content) blockquote[data-type="chat"] p:last-child {
+	margin-bottom: 0;
+}
+
+/* Consecutive chat blocks - tighter stacking for conversation flow */
+:is(.scene-content, .story-content) blockquote[data-type="chat"] + blockquote[data-type="chat"] {
+	margin-top: var(--chat-sequential-margin);
+	border-top: 1px solid var(--chat-connection-border);
+}
+
+/* Username styling within chat - vibrant, user-controllable colors */
+:is(.scene-content, .story-content) blockquote[data-type="chat"] strong {
+	font-weight: var(--username-font-weight);
+	display: var(--username-display);
+	margin-right: var(--username-margin-right);
+	/* User colors will override this, allowing personal branding */
+}
+
+/* Bot detection styling - make bots visually distinct from human chat */
+:is(.scene-content, .story-content) blockquote[data-type="chat"] :has(> p:first-child strong:contains("\1F916")) strong {
+	/* This pseudo-selector has limited support, but communicates the intent */
+	opacity: var(--bot-opacity);
+	letter-spacing: var(--bot-letter-spacing);
+}
+
+/* System metrics paragraphs - monospace, tech aesthetic */
+:is(.scene-content, .story-content) p[data-type="system-metric"] {
+	font-family: var(--font-family-mono);
+	font-size: var(--font-size-metric);
+	color: var(--metric-text);
+	background: var(--metric-bg);
+	padding: var(--metric-padding);
+	border-left: var(--metric-border-width) solid var(--metric-border);
+	margin: var(--metric-margin);
+	letter-spacing: var(--letter-spacing-metric);
+	font-weight: 500;
+}
+
+/* Individual metric values - highlight numbers */
+:is(.scene-content, .story-content) p[data-type="system-metric"] strong {
+	color: var(--metric-text-bright);
+	font-weight: 700;
+}
+
+/* Alert messages - amber/warning treatment */
+:is(.scene-content, .story-content) p[data-type="alert"] {
+	background: var(--alert-bg);
+	border-left: var(--alert-border-width) solid var(--alert-border);
+	padding: var(--alert-padding);
+	margin: var(--alert-margin);
+	color: var(--alert-text);
+	font-weight: 500;
+	border-radius: var(--alert-border-radius);
+}
+
+:is(.scene-content, .story-content) p[data-type="alert"] strong {
+	color: var(--alert-text-bright);
+}
+
+/* Donation/event messages - highlight treatment */
+:is(.scene-content, .story-content) p[data-type="event"] {
+	background: var(--event-bg);
+	border-left: var(--event-border-width) solid var(--event-border);
+	padding: var(--event-padding);
+	margin: var(--event-margin);
+	color: var(--event-text);
+	border-radius: var(--event-border-radius);
+	font-weight: 500;
+}
+
+:is(.scene-content, .story-content) p[data-type="event"] strong {
+	color: var(--event-text-bright);
+}
+
+/* Improved spacing & hierarchy */
+:is(.scene-content, .story-content) p:not([data-type]) {
+	margin-bottom: var(--spacing-regular);
+	line-height: var(--line-height-relaxed);
+}
+
+/* Reduce spacing between related chat messages */
+:is(.scene-content, .story-content) blockquote[data-type="chat"] + blockquote[data-type="chat"] {
+	margin-top: var(--chat-sequential-tight-margin);
+}
+
+/* Add space before/after system metrics */
+:is(.scene-content, .story-content) p[data-type="system-metric"] {
+	margin: var(--metric-margin-block);
+}

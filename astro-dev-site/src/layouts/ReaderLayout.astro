@@ -1,0 +1,52 @@
+---
+import Navbar from '../components/Navbar';
+import ReadingProgress from '../components/ReadingProgress';
+import ReaderControls from '../components/ReaderControls';
+import '../styles/global.css';
+import '../styles/reader-narrative.css';
+
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = "Read this chapter from The StillPoint Saga, a contemplative science fiction novel." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-theme="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+		<title>{title}</title>
+		<script is:inline async src="https://umami.kroeker.fun/u" data-website-id="2d1b23db-e621-433d-9d98-c142ac145b5b"></script>
+	</head>
+	<body class="bg-deep-space text-text-primary transition-colors duration-300 min-h-screen flex flex-col">
+		<a href="#main-content" class="skip-link">Skip to content</a>
+		<Navbar client:load />
+		<ReadingProgress client:only="react" />
+
+        <main id="main-content" class="flex-1 mt-20">
+            <div id="reader-content" class="mx-auto px-4 py-12 transition-all duration-300">
+                <slot />
+            </div>
+        </main>
+
+        <ReaderControls client:only="react" />
+	</body>
+</html>
+
+<style>
+	#reader-content {
+		max-width: 800px;
+		font-family: 'Crimson Text', serif;
+		font-size: 1.125rem;
+		line-height: 1.85;
+	}
+</style>

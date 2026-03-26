@@ -1,0 +1,32 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-content">
+    &copy; {currentYear} The StillPoint Project. All rights reserved.
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding: var(--space-xl) var(--space-md);
+    text-align: center;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-bg);
+  }
+
+  .footer-content {
+    max-width: var(--container-wide);
+    margin: 0 auto;
+    color: var(--color-text-muted);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-xs);
+  }
+
+  @media (min-width: 768px) {
+    .footer-content {
+      font-size: var(--font-size-sm);
+    }
+  }
+</style>

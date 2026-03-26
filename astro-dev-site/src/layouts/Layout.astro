@@ -1,0 +1,45 @@
+---
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer.astro';
+import BaseHead from '../components/BaseHead.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "A science fiction saga exploring humanity's relationship with technology and consciousness."
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <BaseHead title={`${title} | The StillPoint Project`} description={description} />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <Navbar client:load />
+
+  <main id="main-content" class="site-main">
+    <slot />
+  </main>
+
+  <Footer />
+</body>
+</html>
+
+<style>
+  .site-main {
+    max-width: var(--container-default);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+</style>
