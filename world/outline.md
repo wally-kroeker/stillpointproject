@@ -1,3 +1,9 @@
+# The StillPoint Saga — Story Outline
+
+> **Note:** This outline is a working draft and may not reflect the current state of the published story. Character names, chapter structure, and plot points are evolving as the project develops. The published content at [stillpointproject.org](https://stillpointproject.org) represents the canonical version.
+
+---
+
 # Part 1: Acceleration Foreshock (2025 – 2028)
 
 **Core Theme:** The thinning of the social fabric and the quiet, personal search for "living stillness" amidst the "dead noise" of an accelerating world, culminating in the formation of intentional communities as refuges during economic collapse.

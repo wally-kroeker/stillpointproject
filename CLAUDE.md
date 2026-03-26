@@ -38,7 +38,7 @@ The StillPoint Saga is a multi-era science fiction novel project spanning 2025-2
 - **Sync content:** `./scripts/sync-content-to-astro.sh` (Source -> Astro)
 - **Start dev server:** `cd astro-dev-site && npm run dev` (http://localhost:4321)
 - **Build site:** `cd astro-dev-site && npm run build`
-- **Deploy staging:** `./scripts/deploy-staging.sh` (http://10.10.10.30:4000)
+- **Deploy staging:** `./scripts/deploy-staging.sh`
 - **Deploy production:** `./scripts/deploy-production.sh` (https://stillpointproject.org)
 
 ### Content Workflow (CRITICAL)

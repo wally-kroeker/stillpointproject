@@ -15,9 +15,9 @@ NC='\033[0m' # No Color
 # Configuration
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ASTRO_DIR="$PROJECT_ROOT/astro-dev-site"
-PRODUCTION_SERVER="docker@10.10.10.30"
-STAGING_DIR="/home/docker/stillpoint-staging"
-SSH_KEY="$HOME/.ssh/id_ed25519"
+PRODUCTION_SERVER="${STILLPOINT_SERVER:-docker@your-server}"
+STAGING_DIR="${STILLPOINT_STAGING_DIR:-/home/docker/stillpoint-staging}"
+SSH_KEY="${STILLPOINT_SSH_KEY:-$HOME/.ssh/id_ed25519}"
 
 # Functions
 log_info() {
@@ -148,7 +148,11 @@ const mimeTypes = {
     '.jpg': 'image/jpeg',
     '.gif': 'image/gif',
     '.svg': 'image/svg+xml',
-    '.ico': 'image/x-icon'
+    '.ico': 'image/x-icon',
+    '.mp3': 'audio/mpeg',
+    '.wav': 'audio/wav',
+    '.ogg': 'audio/ogg',
+    '.m4a': 'audio/mp4'
 };
 
 const server = http.createServer((req, res) => {
@@ -179,19 +183,24 @@ const server = http.createServer((req, res) => {
                             res.writeHead(404);
                             res.end('Not Found');
                         } else {
-                            res.writeHead(200, { 'Content-Type': 'text/html' });
+                            res.writeHead(200, { 'Content-Type': 'text/html', 'Content-Length': htmlData.length, 'Accept-Ranges': 'bytes' });
                             res.end(htmlData);
                         }
                     });
                 } else {
-                    res.writeHead(200, { 'Content-Type': 'text/html' });
+                    res.writeHead(200, { 'Content-Type': 'text/html', 'Content-Length': dirData.length, 'Accept-Ranges': 'bytes' });
                     res.end(dirData);
                 }
             });
         } else {
             const ext = path.extname(filePath);
             const mimeType = mimeTypes[ext] || 'text/plain';
-            res.writeHead(200, { 'Content-Type': mimeType });
+            const headers = {
+                'Content-Type': mimeType,
+                'Content-Length': data.length,
+                'Accept-Ranges': 'bytes'
+            };
+            res.writeHead(200, headers);
             res.end(data);
         }
     });
@@ -217,7 +226,7 @@ generate_summary() {
     echo -e "\n${BLUE}🎯 Staging Deployment Summary:${NC}"
     echo "  Local build: $ASTRO_DIR/dist"
     echo "  Staging server: $PRODUCTION_SERVER:$STAGING_DIR"
-    echo "  Staging URL: http://10.10.10.30:4000"
+    echo "  Staging URL: http://${STILLPOINT_SERVER#*@}:4000"
     echo "  Server logs: ssh -i $SSH_KEY $PRODUCTION_SERVER 'tail -f /home/docker/staging.log'"
 
     # Check if staging server is responding
@@ -245,7 +254,7 @@ main() {
 
     echo
     log_info "Staging deployment completed successfully!"
-    log_info "Access staging site at: http://10.10.10.30:4000"
+    log_info "Access staging site at: http://${STILLPOINT_SERVER#*@}:4000"
 }
 
 # Execute main function

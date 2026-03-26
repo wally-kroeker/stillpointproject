@@ -1,219 +1,78 @@
 # The StillPoint Saga
 
-A multi-era science fiction novel project spanning 2025-2095, exploring humanity's path from technological acceleration crisis to contemplative renaissance.
+A multi-era science fiction novel spanning 2029-2095, exploring humanity's path from technological acceleration crisis to contemplative renaissance.
 
-**Live Site:** https://stillpointproject.org
+**Read it now:** [stillpointproject.org](https://stillpointproject.org)
 
-## Project Overview
+## The Story
 
-The StillPoint Saga is a structured creative writing project that tells the story of humanity navigating AI-powered change while staying rooted in presence, community, and wisdom. The project is written transparently as a human-AI collaboration, publishing as it's created.
+What happens when humanity builds a device that can induce genuine contemplative presence — and then has to decide what to do with it?
 
-### Story Structure
+The StillPoint Saga follows the invention of the StillPoint device and the world it creates across three eras:
 
-- **Era 1 (2029-2036):** The Cascade - Near-future crisis and StillPoint device invention
-- **Era 2 (2037-2060):** The Balance War - Societal transition and conflict
-- **Era 3 (2061+):** Luminous Presence - Integrated contemplative society
+- **Era 1: The Cascade (2029-2036)** — Near-future crisis. The attention economy has fractured society. A physicist named Sajan Mehta discovers something unexpected in his lab, and the world splits between those who want to control it and those who want to share it.
 
-## Project Structure
+- **Era 2: The Balance War (2037-2060)** — Societal transition. Commons communities emerge around StillPoint technology while powerful interests fight to contain what they can't commodify.
+
+- **Era 3: Luminous Presence (2061-2095)** — A new world. Decades after the transition, a nine-year-old girl named Kaia carves her first Pebble from a salt wall in an underground commons, and begins learning what it means to hold questions without needing answers.
+
+## What's Here
+
+This repository is the complete source for the StillPoint Saga — the stories, the world, and the web platform that publishes them.
 
 ```
 StillPoint/
-├── novel/                  # Novel scene source files (canonical)
-│   ├── briefs/            # Scene briefs
-│   ├── interludes/        # Interlude scenes
-│   └── scenes/            # Main scene files
-├── short_stories/         # Short story source files (canonical)
-├── world/                 # World building content (canonical)
-│   ├── characters/        # Character development cards
-│   ├── locations/         # Setting descriptions
-│   ├── technology/        # Technology explanations
-│   └── lore/              # Philosophical concepts
-├── astro-dev-site/        # Astro web application
-├── scripts/               # Deployment and sync scripts
-├── cline_docs/            # AI prompts and tracking
-├── _archive/              # Archived legacy files
-├── CLAUDE.md              # Complete project documentation
-├── AGENTS.md              # Agent instructions
-└── README.md              # This file
+├── novel/                  # Novel chapters and interludes
+│   ├── scenes/             # Main chapter scenes
+│   └── interludes/         # Historical vignettes spanning 1500 years
+├── short_stories/          # Standalone stories set in the StillPoint world
+├── world/                  # World bible, characters, locations, technology, lore
+│   ├── characters/         # Character cards
+│   ├── locations/          # Commons and setting descriptions
+│   ├── technology/         # StillPoint device, Ghost Current, Satya AI, Pebbles
+│   └── lore/               # Philosophy, governance, economics
+├── fan_fiction/             # Community and experimental stories
+├── astro-dev-site/         # Astro web platform (stillpointproject.org)
+└── scripts/                # Content sync and deployment tools
 ```
 
-## Getting Started
+## Published Content
 
-### Prerequisites
-
-- Node.js v18.20.8+ (v22.20.0 recommended)
-- SSH key at `~/.ssh/id_rsa_stillpoint` for deployment
-- Git
-
-### Local Development
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd StillPoint
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   cd astro-dev-site
-   npm install
-   ```
-
-3. **Sync content to Astro:**
-   ```bash
-   cd ..
-   ./scripts/sync-content-to-astro.sh
-   ```
-
-4. **Start development server:**
-   ```bash
-   cd astro-dev-site
-   npm run dev
-   ```
-   
-   Visit http://localhost:4321
-
-### Content Workflow
-
-**CRITICAL:** Always edit source files, never edit synced copies.
-
-1. **Edit source content:**
-   - Novel scenes: `/novel/scenes/`
-   - Short stories: `/short_stories/`
-   - World building: `/world/`
-
-2. **Sync to Astro:**
-   ```bash
-   ./scripts/sync-content-to-astro.sh
-   ```
-
-3. **Test locally:**
-   ```bash
-   cd astro-dev-site && npm run dev
-   ```
-
-4. **Deploy:**
-   - Staging: `./scripts/deploy-staging.sh`
-   - Production: `./scripts/deploy-production.sh`
-
-## Deployment
-
-### Staging Environment
-
-- **URL:** http://10.10.10.30:4000
-- **Command:** `./scripts/deploy-staging.sh`
-- **Purpose:** Test changes before production
-
-### Production Environment
-
-- **URL:** https://stillpointproject.org
-- **Command:** `./scripts/deploy-production.sh`
-- **Server:** `docker@10.10.10.30:8080`
-- **Tunnel:** CloudFlare tunnel (already configured)
-
-### Deployment Process
-
-The deployment scripts automatically:
-1. Sync content from source to Astro
-2. Build the Astro site
-3. Copy files to remote server
-4. Start Node.js HTTP server
-5. Verify deployment
-
-**Rollback:** Production deployments create timestamped backups. Rollback with:
-```bash
-./scripts/deploy-production.sh rollback /home/docker/astro-backup-YYYYMMDD-HHMMSS
-```
-
-## Content Standards
-
-All content must include proper YAML frontmatter. See `CLAUDE.md` for complete schemas.
-
-### Novel Scenes
-**Required:** `title`, `era`, `location`, `pov_character`, `voice`, `word_count`, `page_count`, `status`
+### Novel
+- **Prologue:** The Stillness
+- **Chapter 1:** The Daydream
+- **Chapter 2:** The Severance, The Unstruck Note
+- **Interludes:** Five contemplative vignettes spanning from 6th-century desert monasticism to 16th-century Dissolution of Monasteries
 
 ### Short Stories
-**Required:** `title`, `status`  
-**Recommended:** `type`, `description`, `word_count`, `page_count`, `era`
+- **The Neural Stream** — A streaming platform that reads your neural state
+- **The Seed Imprint** — A child's first year with a Pebble companion
+- **The Unfiltered Feed** — What happens when the filters come off
+- **The Unscheduled Moment** — Finding presence in an optimized world
+- **The Geode and the Courier** — A courier's delivery to a remote commons
+- **Instruction Layers** — The hidden architecture of attention
+- **The Miller's Daughter** (3 parts) — A prairie family navigating the transition
 
-### World Building
-**Required:** `title`, `type`, `status`
+## Running Locally
 
-## Key Documentation
+```bash
+cd astro-dev-site
+npm install
+npm run dev
+```
 
-- **`CLAUDE.md`** - Complete project documentation, specialized modes, and workflows
-- **`AGENTS.md`** - Quick reference for AI coding assistants
-- **`world/still_point_world_bible.md`** - Canonical world reference
-- **`world/outline.md`** - Complete 40-chapter story structure
-- **`world/workflow.md`** - Chapter development workflow
+Visit [localhost:4321](http://localhost:4321)
 
-## Technology Stack
+Content lives in the source directories (`novel/`, `short_stories/`, `world/`) and syncs to the Astro site via `./scripts/sync-content-to-astro.sh`.
 
-- **Framework:** Astro v5.14.1
-- **Content:** Markdown with MDX support
-- **Styling:** Tailwind CSS v4
-- **Deployment:** Node.js HTTP server on remote Linux host
-- **CDN:** CloudFlare tunnel
+## A Human-AI Collaboration
 
-## Changelog
-
-### 2025-12-04 - Chapter Visibility Update
-
-**Content Changes:**
-- ✅ **Unpublished Later Chapters:** Changed status to "draft" for chapters 3-7 (7 scene files)
-- ✅ **Published Chapters:** Only 3 chapters now visible on site (Chapters 1-2: The Daydream, The Severance, The Unstruck Note)
-- ✅ **Novel Index Filter:** Updated to exclude draft and revision status from published view
-- ✅ **Source Files Preserved:** All 10 scene files remain in source, ready for future publication
-
-**Technical:**
-- Updated `novel.astro` to filter content by status
-- Draft chapters remain in source files and can be republished by changing status
-
-### 2025-12-04 - Production Migration Complete
-
-**Major Changes:**
-- ✅ **Hugo to Astro Migration:** Successfully migrated from Hugo to Astro framework
-- ✅ **Production Deployment:** Astro site now live at https://stillpointproject.org
-- ✅ **Hugo Service Disabled:** Stopped and disabled `hugo-stillpoint.service` systemd service
-- ✅ **Project Cleanup:** Organized project structure, archived legacy files
-
-**New Features:**
-- New solarpunk 2100 hero image for about page
-- Automated deployment scripts for staging and production
-- Content sync script with frontmatter validation and auto-fixing
-
-**Infrastructure:**
-- Production server running Node.js HTTP server on port 8080
-- CloudFlare tunnel configured and verified
-- Automated backup system for production deployments
-
-**Project Organization:**
-- Created `_archive/` directory for legacy files
-- Archived Hugo site, audio files, and planning documents
-- Moved vision document to `world/stillpoint_answers.md`
-- Cleaned up temporary files and empty directories
-
-**Content:**
-- 3 novel chapters published (Chapters 1-2), 7 in draft (Chapters 3-7)
-- 9 short stories published
-- Complete world bible and character cards
-
-### 2025-11-XX - Pre-Migration
-
-**Previous State:**
-- Hugo-based site serving at https://stillpointproject.org
-- Manual content publishing workflow
-- Hugo systemd service managing production server
-
-## Contributing
-
-This is a personal creative project. For questions or feedback, see the [About page](https://stillpointproject.org/about).
+This project is written transparently as a collaboration between a human author and AI creative partners. The world-building, story architecture, and editorial direction are human-driven. Scene prose is produced by specialized AI writing agents grounded in the world bible, then edited through multiple passes. The process is part of the story the project tells about human-AI partnership.
 
 ## License
 
-Copyright © 2025 The StillPoint Project. All rights reserved.
+Copyright 2025-2026 Wally Kroeker. All rights reserved.
 
----
+The stories, world-building content, and creative works in this repository are published for reading and reference. They may not be reproduced, distributed, or used for AI training without permission.
 
-**Status:** Active development - Part 1 (E1C01-E1C02 published, E1C03-E1C07 in draft)
-
+The Astro web platform code is available under the MIT License.

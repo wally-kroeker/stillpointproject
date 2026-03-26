@@ -1,32 +1,47 @@
-# OS files
+# === OS ===
 .DS_Store
 Thumbs.db
 
-# Editor files
+# === Editors & IDEs ===
 .vscode/
 *.swp
 *.swo
 *~
 
-# Logs
+# === Logs & temp ===
 *.log
-
-# Temporary files
 *.tmp
 *.bak
-
-# Cache files
 .cache/
 
-# Hugo generated files (if running locally)
-public/
-resources/
+# === Node / Astro ===
+node_modules/
+dist/
+.astro/
 
-# Hugo generated content (don't version these)
-site/content/novel/
-site/public/
-site/resources/
-site/.hugo_build.lock
+# === Audio (generated, large binaries) ===
+*.mp3
+*.wav
+*.flac
+audio-chunks/
 
-# Hugo cache and build artifacts
-.hugo_build.lock
+# === AI tool configs (private) ===
+.claude/
+.cursor/
+.roo/
+.roomodes
+cline_docs/
+
+# === Private directories ===
+communications/
+MEMORY/
+Plans/
+drafts/
+editorial_notes/
+
+# === Testing artifacts ===
+.playwright-cli/
+.playwright-mcp/
+
+# === Archive (local reference, not for public) ===
+_archive/
