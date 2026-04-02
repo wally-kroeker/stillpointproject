@@ -15,7 +15,7 @@ NC='\033[0m' # No Color
 # Configuration
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ASTRO_DIR="$PROJECT_ROOT/astro-dev-site"
-PRODUCTION_SERVER="${STILLPOINT_SERVER:-docker@your-server}"
+PRODUCTION_SERVER="${STILLPOINT_SERVER:-docker@10.10.10.30}"
 PRODUCTION_DIR="${STILLPOINT_PROD_DIR:-/home/docker/stillpoint-production}"
 BACKUP_DIR="/home/docker/astro-backup-$(date +%Y%m%d-%H%M%S)"
 SSH_KEY="${STILLPOINT_SSH_KEY:-$HOME/.ssh/id_ed25519}"

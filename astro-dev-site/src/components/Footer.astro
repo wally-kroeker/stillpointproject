@@ -3,30 +3,156 @@ const currentYear = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
-  <div class="footer-content">
-    &copy; {currentYear} The StillPoint Project. All rights reserved.
+  <div class="footer-inner">
+    <div class="footer-grid">
+
+      <!-- Column 1: Brand -->
+      <div class="footer-brand">
+        <p class="brand-name">The StillPoint Project</p>
+        <p class="brand-tagline">Every civilization found it. We nearly forgot.</p>
+      </div>
+
+      <!-- Column 2: Navigation -->
+      <div class="footer-nav">
+        <p class="col-heading">Read</p>
+        <ul>
+          <li><a href="/novel">Novel</a></li>
+          <li><a href="/short-stories">Short Stories</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Connect -->
+      <div class="footer-connect">
+        <p class="col-heading">Connect</p>
+        <p class="subscribe-line">Follow the story as it's written. <a href="#" class="subscribe-link">Subscribe &rarr;</a></p>
+        <ul class="social-links">
+          <li><a href="#">Twitter / X</a></li>
+          <li><a href="#">Bluesky</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="footer-bottom">
+      <p>&copy; {currentYear} The StillPoint Project</p>
+    </div>
   </div>
 </footer>
 
 <style>
   .site-footer {
-    padding: var(--space-xl) var(--space-md);
-    text-align: center;
-    border-top: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-accent-gold, rgba(212, 175, 55, 0.2));
     background: var(--color-bg);
+    padding: 4rem 1rem;
   }
 
-  .footer-content {
-    max-width: var(--container-wide);
+  .footer-inner {
+    max-width: var(--container-wide, 64rem);
     margin: 0 auto;
-    color: var(--color-text-muted);
-    font-family: var(--font-sans);
-    font-size: var(--font-size-xs);
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
   }
 
   @media (min-width: 768px) {
-    .footer-content {
-      font-size: var(--font-size-sm);
+    .footer-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem;
     }
+  }
+
+  /* Brand column */
+  .brand-name {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-lg, 1.125rem);
+    color: var(--color-heading);
+    margin: 0 0 0.5rem;
+  }
+
+  .brand-tagline {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-sm, 0.875rem);
+    color: var(--color-text-muted);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* Column headings */
+  .col-heading {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-heading);
+    margin: 0 0 1rem;
+  }
+
+  /* Nav links */
+  .footer-nav ul,
+  .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .footer-nav a,
+  .social-links a {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-sm, 0.875rem);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .footer-nav a:hover,
+  .social-links a:hover {
+    color: var(--color-accent-gold, #d4af37);
+  }
+
+  /* Connect column */
+  .subscribe-line {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-sm, 0.875rem);
+    color: var(--color-text-muted);
+    margin: 0 0 1rem;
+    line-height: 1.6;
+  }
+
+  .subscribe-link {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+  }
+
+  .subscribe-link:hover {
+    color: var(--color-accent-gold, #d4af37);
+  }
+
+  .social-links {
+    margin-top: 0.5rem;
+  }
+
+  /* Bottom bar */
+  .footer-bottom {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .footer-bottom p {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-xs, 0.75rem);
+    color: var(--color-text-muted);
+    margin: 0;
   }
 </style>
