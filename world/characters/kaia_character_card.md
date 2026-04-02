@@ -195,7 +195,7 @@ Kaia and Lum's relationship is the emotional core of "The Seed Imprint." It is:
 - Not copying her — answering her
 
 **The Pause:**
-- Two-second delay before every response (Satya-µ protocol)
+- Two-second delay before every response (Satya-mu protocol)
 - Initially frustrating, becomes natural rhythm within days
 - "Making sure what I say is true"
 - The pause before the death message is five-six seconds (hesitation? calculation?)
@@ -296,6 +296,9 @@ Kaia's story shows what it's like to grow up in a post-scarcity, presence-center
 - Community as extended family
 
 She has never known precarity (Marcus Chen), displacement (Jonah), or extraction (Riley Martinez). She is the first generation raised entirely in the new way.
+
+### The Quiet Game Lineage
+The Quiet Game originated with Nani (Sajan Mehta's grandmother) in Pune, passed to Sajan, then to his daughter Satya. After the commons movement spread, the practice entered commons culture. Kaia's generation plays the Quiet Game with their Pebbles — the AI companion pausing to listen alongside the child. The game has traveled across three generations and now includes an AI participant that takes the pause seriously.
 
 ### The Pebble as Sovereignty Technology
 Unlike the neural interfaces of the Cascade era, the Pebble:

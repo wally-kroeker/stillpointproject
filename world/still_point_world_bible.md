@@ -33,7 +33,7 @@ Humanity teeters between acceleration-induced fracture and a contemplative, pres
 | **Sajan**                        | 1-2    | Quantum physicist; grief-forged inventor of StillPoint.     | 2029-2060; nomadic post-2035.               |
 | **Loria** Pronounced like Gloria | 1-3    | Finite Game strategist turned Infinite Game guide.          | Retreat begins 2029; studies with Maren; public guide 2045→. |
 | **Maren**                        | 1-3    | Stillness anchor; catalyst for Riverbend Commons; mentor at Mountain Sanctuary. | Winnipeg 2025-2028; Mountain Sanctuary 2029→. |
-| **Gray Tesluk**                  | 2      | Hawthorn tinkerer; courier mentor.                          | Prairie travel 2040-50.                     |
+| **Gray Tesluk**                  | 1-2    | Hawthorn tinkerer; courier mentor.                          | Prairie travel 2040-50.                     |
 | **Isha "North-Run" Calder**      | 2      | First long-haul courier; e-moto pathfinder.                 | Mobile 2040-Transitional.                   |
 | **Kaelen Vance**                 | 2      | Charismatic industrialist; champion of the "Pyramid" worldview and primary antagonist of the Balance War. | Active 2040s until Martian Exodus (2058). |
 | **Jonah**                        | 1-2    | Displaced coder; co-founder of Riverbend Commons; movement connector. | Riverbend founder 2027; attends Oaks 2036; active through Era 2. |
