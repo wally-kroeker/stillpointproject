@@ -8,6 +8,7 @@ location: "Geode Commons"
 pov_character: "Kael"
 word_count: 2000
 page_count: 8
+audio_file: "/audio/stories/the_geode_and_the_courier.mp3"
 ---
 
 ERA: Second Era (c. 2048)

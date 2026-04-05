@@ -89,7 +89,7 @@ She whispers to it in the dark. "Hello. I'm Kaia. I'm nine. I live in Gallery 3 
 
 The Pebble does not answer. Its glow, visible even through the pillow, is neutral white.
 
-Kaia talks anyway. She tells it about Gallery 4, where the ceiling is so high you can't see the top in dim-light hours. About the boy, Fen, who broke her drawing of the surface prairie last month and didn't apologize. About how she has never been to the ocean and her Nana Soleil lives on an island where the water goes all the way to the edge of everything.
+Kaia talks anyway. She tells it about Gallery 4, where the ceiling is so high you can't see the top in dim-light hours. About the boy, Fen, who broke her drawing of the prairie last month and didn't apologize. About how she has never been to the ocean and her Nana Soleil lives on an island where the water goes all the way to the edge of everything.
 
 Then she is quiet for a while, her hand under the pillow, fingertips on warm salt. And in the quiet she whispers one more thing:
 
@@ -243,7 +243,7 @@ Dim. Glow.
 
 "Is it the dark that scares you, or not knowing what's in it?"
 
-Kaia's stomach tightens. Her feet want to back up. But her hand is warm, and the amber glow pushes a small circle of gold onto the tunnel floor, and inside that circle the salt crystals glitter like stars in a sky she has never seen.
+Kaia's stomach tightens. Her feet want to back up. But her hand is warm, and the amber glow pushes a small circle of gold onto the tunnel floor, and inside that circle the salt crystals glitter like a night sky brought underground.
 
 She takes a step. Then another. The dark closes behind her and there is only the crystal in her hand and the two-step circle of light and the sound of her own breathing. Her heart hammers so loud she can feel it in her throat.
 
