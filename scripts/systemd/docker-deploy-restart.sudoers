@@ -1,0 +1,4 @@
+# Allow the `docker` user to manage the three site services without a password.
+# Scoped tightly: only start/stop/restart on these three units. No blanket sudo.
+# Install path: /etc/sudoers.d/docker-deploy-restart   (mode 0440, owned by root)
+docker ALL=(root) NOPASSWD: /bin/systemctl start stillpoint, /bin/systemctl stop stillpoint, /bin/systemctl restart stillpoint, /bin/systemctl start stillpoint-staging, /bin/systemctl stop stillpoint-staging, /bin/systemctl restart stillpoint-staging, /bin/systemctl start wookiefoot, /bin/systemctl stop wookiefoot, /bin/systemctl restart wookiefoot

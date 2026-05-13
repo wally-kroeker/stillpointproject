@@ -1,0 +1,20 @@
+[Unit]
+Description=StillPoint Astro staging server (port 4000)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=docker
+Group=docker
+WorkingDirectory=/home/docker
+ExecStart=/home/docker/.local/share/fnm/node-versions/v22.22.1/installation/bin/node /home/docker/staging-server.js
+Restart=always
+RestartSec=3
+StandardOutput=append:/home/docker/staging.log
+StandardError=append:/home/docker/staging.log
+KillSignal=SIGTERM
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

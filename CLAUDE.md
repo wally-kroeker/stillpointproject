@@ -28,11 +28,49 @@ The StillPoint Saga is a multi-era science fiction novel project spanning 2025-2
 - `/astro-dev-site/` - Astro web application (publishing platform)
 - `/scripts/` - Sync and deployment utilities
 
+## Deployment Infrastructure
+
+The site runs on **LXC 118** in the FabLab Proxmox cluster (Host2), shared with the WookieFoot band site.
+
+### Server Details
+- **Host:** `docker@10.10.10.30` (LXC 118, VLAN 10)
+- **Internal DNS:** `stillpoint.apps.kroeker.fun`
+- **Public URL:** `https://stillpointproject.org` (via Cloudflare Tunnel)
+- **SSH Key:** `~/.ssh/id_ed25519` (Ed25519)
+- **Production dir:** `/home/docker/stillpoint-production` (port 8080)
+- **Staging dir:** `/home/docker/stillpoint-staging` (port 4000)
+- **Server process:** Custom Node.js HTTP server (`production-server.js`), managed by systemd (`stillpoint.service`, `stillpoint-staging.service`). WookieFoot sibling site runs as `wookiefoot.service`. Auto-restart on crash and on host reboot. Unit files live in this repo at `scripts/systemd/` and are installed via `scripts/systemd/install-systemd-units.sh` (idempotent, root required).
+- **Cloudflare Account:** `fc6ac609a885ab8191809ec35bc8e58f`
+- **Wazuh Agent:** ID 015 (`stillproject-org`)
+
+### Quick Access
+```bash
+# SSH to server
+ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30
+
+# Service management (passwordless via /etc/sudoers.d/docker-deploy-restart)
+ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'sudo -n systemctl restart stillpoint'
+ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'systemctl status stillpoint --no-pager'
+ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'systemctl is-active stillpoint stillpoint-staging wookiefoot'
+
+# View production logs (systemd journal OR the legacy log file)
+ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'journalctl -u stillpoint -f'
+ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'tail -f /home/docker/production.log'
+
+# Read notes files (for draft review workflow)
+ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'ls /home/docker/stillpoint-production/nothingtoseehere/notes/'
+```
+
+### Shared Infrastructure
+- **Umami Analytics:** 10.10.10.41 (site ID: `2d1b23db-e621-433d-9d98-c142ac145b5bc`)
+- **Kokoro TTS:** walub.kroeker.fun (audio generation for narration)
+- **Backups:** Daily vzdump to OMV NFS (10.10.10.61), weekly to QNAP (10.10.10.62)
+
 ## Development Workflow
 
 ### Prerequisites
-- Node.js v18.20.8+ (v22.20.0 recommended)
-- SSH key at `~/.ssh/id_rsa_stillpoint` (for deployment)
+- Node.js v22.20.0+ (managed via FNM)
+- SSH key at `~/.ssh/id_ed25519` (for deployment)
 
 ### Common Commands
 - **Sync content:** `./scripts/sync-content-to-astro.sh` (Source -> Astro)
@@ -118,6 +156,16 @@ Briefs should reflect the era's tone:
 - **The Cascade (2029-2036):** Urgency, acceleration, fracture. Tech as unstoppable force.
 - **The Balance War (2037-2060):** Political tension, institutional language cracking. Measured pacing with sudden disruptions.
 - **Luminous Presence (2061+):** Contemplative, spacious. Natural rhythm. Silence matters.
+
+### The Didactic Trap
+
+The StillPoint Saga carries strong philosophy (Safety Thesis, Held vs. Hardened, commons vs. pyramid). This philosophy must be **invisible in the prose.** If a scene feels like the author is steering the reader toward a position, the scene has failed.
+
+**When producing scene briefs:**
+- Never frame a beat as "this scene shows that [thesis]"
+- Characters embody ideas through action, never through articulation
+- The Safety Thesis and Held vs. Hardened lens inform character *behavior* (Jonah makes food, Liam flinches, Chloë is open) — never character *speeches*
+- Thematic Resonance sections in briefs are for the writer's architecture, never for the reader's experience. If the resonance is visible on the page, it's too loud.
 
 ### Anti-Cliche Beat Writing
 

@@ -1,0 +1,23 @@
+[Unit]
+Description=WookieFoot band site (Next.js, port 4001)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=docker
+Group=docker
+WorkingDirectory=/home/docker/wookiefoot-staging
+Environment=PORT=4001
+Environment=API_PORT=4001
+Environment=NODE_ENV=production
+ExecStart=/home/docker/.local/share/fnm/node-versions/v22.22.1/installation/bin/node /home/docker/wookiefoot-staging/node_modules/next/dist/bin/next start -p 4001
+Restart=always
+RestartSec=3
+StandardOutput=append:/home/docker/wookiefoot-staging.log
+StandardError=append:/home/docker/wookiefoot-staging.log
+KillSignal=SIGTERM
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

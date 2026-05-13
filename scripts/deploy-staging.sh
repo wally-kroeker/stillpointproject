@@ -124,12 +124,12 @@ deploy_to_staging() {
 setup_staging_server() {
     log_step "Setting up staging server process..."
 
-    # Create a simple staging server script
+    # Refresh staging server script and restart via systemd
     ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" << 'EOF'
-        # Kill any existing staging process
-        pkill -f "staging-server" || true
+        # Stop the systemd unit before refreshing the JS file
+        sudo -n systemctl stop stillpoint-staging || true
 
-        # Create staging server script
+        # Refresh staging server script (kept here as source of truth)
         cat > /home/docker/staging-server.js << 'JSEOF'
 const http = require('http');
 const fs = require('fs');
@@ -155,8 +155,45 @@ const mimeTypes = {
     '.m4a': 'audio/mp4'
 };
 
+const DRAFT_USER = 'wally';
+const DRAFT_PASS = process.env.STILLPOINT_DRAFT_PASSWORD || 'stillpoint2026';
+const DRAFT_AUTH = 'Basic ' + Buffer.from(DRAFT_USER + ':' + DRAFT_PASS).toString('base64');
+const NOTES_DIR = path.join(STAGING_DIR, 'nothingtoseehere', 'notes');
+
 const server = http.createServer((req, res) => {
     let pathname = url.parse(req.url).pathname;
+
+    // Basic auth for draft pages and notes API
+    if (pathname.startsWith('/nothingtoseehere')) {
+        const auth = req.headers.authorization;
+        if (!auth || auth !== DRAFT_AUTH) {
+            res.writeHead(401, { 'WWW-Authenticate': 'Basic realm="Drafts"' });
+            res.end('Unauthorized');
+            return;
+        }
+    }
+
+    // POST handler for saving review notes
+    if (req.method === 'POST' && pathname === '/nothingtoseehere/api/notes') {
+        let body = '';
+        req.on('data', chunk => { body += chunk; });
+        req.on('end', () => {
+            try {
+                const json = JSON.parse(body);
+                const scene = String(json.scene).replace(/[^a-z0-9_-]/gi, '');
+                if (!scene) { res.writeHead(400); res.end('Bad scene name'); return; }
+                fs.mkdirSync(NOTES_DIR, { recursive: true });
+                const payload = { scene: json.scene, title: json.title, lastUpdated: new Date().toISOString(), notes: json.notes || [] };
+                fs.writeFileSync(path.join(NOTES_DIR, scene + '.json'), JSON.stringify(payload, null, 2));
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify({ ok: true }));
+            } catch (e) {
+                res.writeHead(400);
+                res.end('Invalid JSON');
+            }
+        });
+        return;
+    }
 
     // Handle root path
     if (pathname === '/') {
@@ -211,9 +248,9 @@ server.listen(PORT, '0.0.0.0', () => {
 });
 JSEOF
 
-        # Start staging server
-        nohup node /home/docker/staging-server.js > /home/docker/staging.log 2>&1 &
-        echo "Staging server started on port 4000"
+        # Start the systemd unit (passwordless via /etc/sudoers.d/docker-deploy-restart)
+        sudo -n systemctl start stillpoint-staging
+        echo "stillpoint-staging.service started on port 4000"
 EOF
 
     log_info "Staging server configured and started"

@@ -127,26 +127,11 @@ build_site() {
     log_info "Production build completed - $file_count files generated"
 }
 
-# Stop production server
+# Stop production server (systemd-managed)
 stop_production_server() {
-    log_step "Stopping production server..."
+    log_step "Stopping production server (systemd: stillpoint.service)..."
 
-    ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" << 'EOF'
-        # Stop any existing production server
-        pkill -f "production-server" || true
-
-        # Wait for process to fully terminate
-        sleep 2
-
-        # Verify it's stopped
-        if pgrep -f "production-server" > /dev/null; then
-            echo "Warning: Production server may still be running"
-            pkill -9 -f "production-server" || true
-            sleep 1
-        fi
-
-        echo "Production server stopped"
-EOF
+    ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" 'sudo -n systemctl stop stillpoint && echo "stillpoint.service stopped"'
 
     log_info "Production server stopped"
 }
@@ -166,18 +151,12 @@ deploy_to_production() {
     log_info "Deployed $remote_files files to production"
 }
 
-# Start production server
+# Start production server (systemd-managed)
 start_production_server() {
-    log_step "Starting production Astro server..."
+    log_step "Writing production-server.js and starting via systemd..."
 
     ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" << 'EOF'
-        # Install Node.js if not available
-        if ! command -v node &> /dev/null; then
-            curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-            sudo apt-get install -y nodejs
-        fi
-
-        # Create production server script
+        # Refresh production server script (kept here as source of truth)
         cat > /home/docker/production-server.js << 'JSEOF'
 const http = require('http');
 const fs = require('fs');
@@ -204,8 +183,45 @@ const mimeTypes = {
     '.wav': 'audio/wav'
 };
 
+const DRAFT_USER = 'wally';
+const DRAFT_PASS = process.env.STILLPOINT_DRAFT_PASSWORD || 'stillpoint2026';
+const DRAFT_AUTH = 'Basic ' + Buffer.from(DRAFT_USER + ':' + DRAFT_PASS).toString('base64');
+const NOTES_DIR = path.join(PRODUCTION_DIR, 'nothingtoseehere', 'notes');
+
 const server = http.createServer((req, res) => {
     let pathname = url.parse(req.url).pathname;
+
+    // Basic auth for draft pages and notes API
+    if (pathname.startsWith('/nothingtoseehere')) {
+        const auth = req.headers.authorization;
+        if (!auth || auth !== DRAFT_AUTH) {
+            res.writeHead(401, { 'WWW-Authenticate': 'Basic realm="Drafts"' });
+            res.end('Unauthorized');
+            return;
+        }
+    }
+
+    // POST handler for saving review notes
+    if (req.method === 'POST' && pathname === '/nothingtoseehere/api/notes') {
+        let body = '';
+        req.on('data', chunk => { body += chunk; });
+        req.on('end', () => {
+            try {
+                const json = JSON.parse(body);
+                const scene = String(json.scene).replace(/[^a-z0-9_-]/gi, '');
+                if (!scene) { res.writeHead(400); res.end('Bad scene name'); return; }
+                fs.mkdirSync(NOTES_DIR, { recursive: true });
+                const payload = { scene: json.scene, title: json.title, lastUpdated: new Date().toISOString(), notes: json.notes || [] };
+                fs.writeFileSync(path.join(NOTES_DIR, scene + '.json'), JSON.stringify(payload, null, 2));
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify({ ok: true }));
+            } catch (e) {
+                res.writeHead(400);
+                res.end('Invalid JSON');
+            }
+        });
+        return;
+    }
 
     // Handle root path
     if (pathname === '/') {
@@ -250,9 +266,9 @@ server.listen(PORT, '0.0.0.0', () => {
 });
 JSEOF
 
-        # Start production server on port 8080
-        nohup node /home/docker/production-server.js > /home/docker/production.log 2>&1 &
-        echo "Production server started on port 8080"
+        # Start the systemd unit (passwordless via /etc/sudoers.d/docker-deploy-restart)
+        sudo -n systemctl start stillpoint
+        echo "stillpoint.service started on port 8080"
 EOF
 
     log_info "Production server configured and started"
@@ -310,8 +326,8 @@ rollback_to_previous() {
     local ROLLBACK_DIR="$1"
 
     ssh -i "$SSH_KEY" "$PRODUCTION_SERVER" << EOF
-        # Stop current production server
-        pkill -f "production-server.js" || true
+        # Stop current production server (systemd)
+        sudo -n systemctl stop stillpoint || true
 
         # Restore previous production from backup
         if [[ -d "$ROLLBACK_DIR" ]]; then
@@ -319,8 +335,8 @@ rollback_to_previous() {
             cp -r $ROLLBACK_DIR $PRODUCTION_DIR
             echo "Production restored from $ROLLBACK_DIR"
 
-            # Restart production server
-            nohup node /home/docker/production-server.js > /home/docker/production.log 2>&1 &
+            # Restart production server (systemd)
+            sudo -n systemctl start stillpoint
             echo "Production server restarted"
         else
             echo "Error: Backup directory not found: $ROLLBACK_DIR"
