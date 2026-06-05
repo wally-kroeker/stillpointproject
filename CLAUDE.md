@@ -28,6 +28,16 @@ The StillPoint Saga is a multi-era science fiction novel project spanning 2025-2
 - `/astro-dev-site/` - Astro web application (publishing platform)
 - `/scripts/` - Sync and deployment utilities
 
+## Licensing (three-way split — OPENING-PLAN T10, executed 2026-06-05)
+
+The repo is **public** (`github.com/wally-kroeker/stillpointproject`). Three kinds of work, three licenses. See `LICENSE`, `LICENSE-MIT`, `LICENSE-CC-BY-SA` at the repo root.
+
+- **Creative work → All Rights Reserved.** `novel/`, `short_stories/`, `fan_fiction/`, `world/` (incl. the full world bible + lore). Published for reading/reference; **no reproduction, distribution, or AI training without permission.** Do NOT relicense these.
+- **Movement & practice materials → CC BY-SA 4.0.** Forward-looking tier for practice guides/frameworks (future `practice/` path). Mostly empty until those docs exist.
+- **Platform code → MIT.** `astro-dev-site/`, `scripts/`.
+
+When adding content, keep it in the right tier. The internal `planning/` strategy dir is deliberately **untracked/private** — never `git add` it.
+
 ## Deployment Infrastructure
 
 The site runs on **LXC 118** in the FabLab Proxmox cluster (Host2), shared with the WookieFoot band site.
