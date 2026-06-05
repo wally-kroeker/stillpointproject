@@ -41,6 +41,14 @@ Jonah represents the human cost of unchecked technological acceleration. He is t
 
 He is not an inventor like Sajan or a global guide like Loria, but his journey is critical: it shows how the *idea* of Stillness is painstakingly translated into a lived, communal reality. He, along with Liam and Chloë, transforms the private "lifeboat" of The Riverbend Dream into the communal "harbor" of the Riverbend Commons, a place for others displaced by The Cascade.
 
+### **The Carrier**
+
+Jonah's deeper role is that he is the carrier of communal care. He grew up held — safe enough inside the Mennonite community (the faspa table, the barn raisings, the phone tree, the church silence) that his body learned what trust feels like before his mind could theorize about it. This is not naivety. It is evidence. He carries proof that communal care works because he lived inside it.
+
+When he moves to Winnipeg, he unconsciously recreates the conditions he grew up in — the kitchen table, the showing up, the "I made too much food, you want some?" He doesn't know he's doing it. Liam and Chloë have never experienced this before. Liam grew up hard in Thompson, adapted by hardening. Chloë grew up comfortable but atomized in River Heights. Jonah is the first person in either of their lives who treats community as a default behavior rather than an aspiration.
+
+He doesn't build the commons because he has an idea. He builds it because he remembers what it felt like, and the world he moved into made him forget, and Maren's silence in the park reminds his body before his mind catches up. The church silence at twelve → Maren's hands at thirty-two. The faspa table → the Wolseley kitchen → the commons fire circle. Same gesture, every time. He is the living thread between the old commons (Mennonite mutual aid) and the new one (Riverbend). He just doesn't know it yet.
+
 ---
 
 ### **Core Conflict: Trusting the Tool**

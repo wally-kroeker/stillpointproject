@@ -8,6 +8,8 @@
 
 Humanity teeters between acceleration-induced fracture and a contemplative, presence-centered renaissance. The story explores the rediscovery of a universal, living stillness—an awareness older than thought—and the role of the **StillPoint** device in helping a distracted species remember this shared ground.
 
+**The Safety Thesis:** The renaissance is possible because the capacity for communal trust was never destroyed—it was suppressed by systems that rewarded fear and competition. Humans are not intrinsically selfish or individualistic; they are shaped by whether it was safe to be open. Trust is rational when safety is real. The acceleration crisis (enclosure → industrialization → productivity culture → attention economy → AI displacement) didn't eliminate the human instinct for mutual care—it made mutual care *dangerous*. The commons movement reverses the sequence by rebuilding safety first. Trust follows. The StillPoint device doesn't make people better. It reminds them of a state their bodies already know. Characters like Jonah carry the proof, because they were held.
+
 ---
 
 ## 2 · Eras & Master Timeline (abridged)
@@ -109,6 +111,7 @@ Humanity teeters between acceleration-induced fracture and a contemplative, pres
 8. AI powered low scarcity leading to post scarcity.  Humans will be able to work less in an AI world
 9. The 'unstruck note': rediscovering the universal presence that holds all sound and experience.
 10. Living Stillness vs. Dead Noise: The conflict between the world's inherent, aware quiet and humanity's self-made distractions.
+11. Held vs. Hardened: The Safety Thesis. Humans are not intrinsically selfish — they are shaped by whether it was safe to be open. People who grew up held (Jonah in the Mennonite community, Kaia in the commons) carry body-memory evidence that communal care works. People who grew up in fear (Liam in Thompson, Loria in the competitive Chorus world) adapted by hardening, which looks like selfishness but is survival. The commons doesn't ask people to be better — it rebuilds the conditions under which trust becomes possible again. (cf. Bregman, *Humankind*)
 
 ---
 
