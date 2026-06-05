@@ -32,6 +32,14 @@ The StillPoint Saga follows the invention of the StillPoint device and the world
 
 - **Era 3: Luminous Presence (2061-2095)** — A new world. Decades after the transition, a nine-year-old girl named Kaia carves her first Pebble from a salt wall in an underground commons, and begins learning what it means to hold questions without needing answers.
 
+## The Practice — a Third Way
+
+The Saga is fiction, but the question underneath it is not: what does it look like to live well alongside increasingly capable AI, without either surrendering to it or trying to dismantle it?
+
+The StillPoint project treats that as a third road. The first road hands the future to systems built to capture attention. The second road rejects the technology wholesale. The third road keeps the tools but changes the terms — local, human-positive, owned by the people who use it. The image that recurs in the work is the tipi against the pyramid: portable, communal, and sovereign, set against something extractive and dominating.
+
+This repository is where that thinking gets worked out in the open. The practice materials — guides and shared resources for building still places in a noisy world — are emerging here and are openly licensed (CC BY-SA 4.0) so others can adopt and adapt them. The aim is to be proof of the wholeness it describes, not a platform for a leader.
+
 ## What's Here
 
 This repository is the complete source for the StillPoint Saga — the stories, the world, and the web platform that publishes them.
@@ -83,8 +91,8 @@ Content lives in the source directories (`novel/`, `short_stories/`, `world/`) a
 
 ## License
 
-Copyright 2025-2026 Wally Kroeker. All rights reserved.
+This repository holds three kinds of work under three licenses. See [`LICENSE`](LICENSE) for the full statement.
 
-The stories, world-building content, and creative works in this repository are published for reading and reference. They may not be reproduced, distributed, or used for AI training without permission.
-
-The Astro web platform code is available under the MIT License.
+- **The creative work — All Rights Reserved.** The novel, short stories, fan fiction, and the fictional world bible (`novel/`, `short_stories/`, `fan_fiction/`, `world/`) are © 2025–2026 Wally Kroeker. They are published for reading and reference, and may not be reproduced, distributed, or used for AI training without permission.
+- **Movement & practice materials — CC BY-SA 4.0.** Materials about the StillPoint practice and the third way — meant to be adopted and adapted by others — are licensed [CC BY-SA 4.0](LICENSE-CC-BY-SA).
+- **The platform code — MIT.** The website and tooling (`astro-dev-site/`, `scripts/`) are [MIT-licensed](LICENSE-MIT).

@@ -1,0 +1,39 @@
+The StillPoint Saga — Licensing
+================================
+
+This repository contains three different kinds of work, released under three
+different licenses. When in doubt about a specific file, the most specific
+license notice in or near that file governs.
+
+1. The creative work — All Rights Reserved
+-------------------------------------------
+The novel, the short stories, the fan fiction, and the fictional world bible —
+everything under `novel/`, `short_stories/`, `fan_fiction/`, and `world/` —
+are copyright © 2025–2026 Wally Kroeker. All rights reserved.
+
+These works are published here for reading and reference. They may not be
+reproduced, distributed, adapted, or used for AI training without permission.
+
+2. Movement & practice materials — CC BY-SA 4.0
+-----------------------------------------------
+Materials about the StillPoint *practice* and the "third way" movement —
+guides, frameworks, and shared resources meant to be adopted and adapted by
+others — are licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0). See `LICENSE-CC-BY-SA`.
+
+This is a deliberately forward-looking tier: as practice materials are written
+they will be published under this license, either grouped under a `practice/`
+path or marked inline. It does not extend to the creative work in section 1.
+
+3. The platform code — MIT
+--------------------------
+The website and the tooling that publishes it — `astro-dev-site/` and
+`scripts/` — are released under the MIT License. See `LICENSE-MIT`.
+
+---
+
+The licensing intent: keep the story as the author's own creative work, let the
+ideas and practices be a commons others can build on, and let the code be freely
+reusable. The split trends open over time.
+
+Questions: open an issue, or reach the author via https://stillpointproject.org
