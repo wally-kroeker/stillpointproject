@@ -6,6 +6,7 @@ const navLinks = [
     { name: 'Stories', href: '/stories' },
     { name: 'World', href: '/lore' },
     { name: 'About', href: '/about' },
+    { name: 'Practice', href: '/practice' },
 ];
 
 export default function Navbar() {

@@ -1,0 +1,302 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="The Practice — StillPoint" description="Between letting the tools take your voice and refusing them entirely, there is a third way. This is where it gets practiced — out loud, in the open, with other people.">
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-content">
+      <p class="epigraph">
+        <em>Between letting the tools take your voice and refusing them entirely, there is a third way.</em><br>
+        <em>This is where it gets practiced — out loud, in the open, with other people.</em>
+      </p>
+    </div>
+  </header>
+
+  <article class="practice-content">
+
+    <!-- If you felt the pull -->
+    <section class="section">
+      <h2>If you felt the pull</h2>
+
+      <p>Maybe you've noticed it: the quiet drift where the machine takes the first pass at something you
+      should have thought through yourself. Or the opposite — the urge to cut the whole thing off, walk
+      away, call it poison.</p>
+
+      <p>Both are honest responses. Neither is the only one.</p>
+
+      <p>You don't have to choose between driving blindly and never driving at all. You can learn to read the
+      road — to stay engaged, keep your own voice, and use these tools to build things that hand you <em>more</em>
+      independence, not less.</p>
+
+      <p>That's the practice. It's a skill, not a side. And it's easier to keep when you're not doing it alone.</p>
+    </section>
+
+    <!-- What this is -->
+    <section class="section">
+      <h2>What this is</h2>
+
+      <p>StillPoint began as a story — a novel about people relearning how to be still in a world built to
+      keep them moving. From the start it was made in the open, as a collaboration between a human and AI,
+      and it never pretended otherwise. In a project about finding a humane way to use these tools, hiding
+      how it was made would have been the only real lie.</p>
+
+      <p>The story was the proof. This is where the proof becomes a practice you can join.</p>
+
+      <p>Not a pyramid — nothing here is trying to scale you, harvest you, or rank you. Something more like a
+      tipi: small, portable, communal, yours to take down and carry. The community even lives on software we
+      host ourselves, not a platform someone else owns. The door is built the same way the road is meant to
+      be driven.</p>
+    </section>
+
+    <!-- What you're not signing up for -->
+    <section class="section">
+      <h2>What you're not signing up for</h2>
+
+      <ul class="plain-list">
+        <li>No guru. No one here has the answer you're supposed to follow.</li>
+        <li>No hustle, no funnel, no growth target. Presence isn't a metric.</li>
+        <li>No purity test. Skeptics, builders, and the unsure are all the right kind of person.</li>
+      </ul>
+
+      <p>This is small, and it's just beginning. That's the honest state of it.</p>
+    </section>
+
+    <!-- Your first move -->
+    <section class="section">
+      <h2>Your first move</h2>
+
+      <p>One thing, and it's not a task:</p>
+
+      <p class="first-move"><strong>Come in, say who you are, and name one tension</strong> — the place <em>you</em> feel the pull between the pyramid
+      and the tipi. Where the tools tempt you toward the extractive version, and where you'd rather build
+      the humane one. No deliverable. Just honesty, out loud, where someone can meet it.</p>
+
+      <p>That's how everyone starts. It's how we find each other.</p>
+
+      <!-- WALLY: add your personal line here -->
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <p class="cta-label">Open the door</p>
+      <a href="https://forum.stillpointproject.org" class="btn btn-primary" aria-label="Open the forum — coming soon">
+        Opening soon — leave your name
+      </a>
+      <p class="cta-note">
+        The forum at <code>forum.stillpointproject.org</code> is being stood up now.
+        Sign in when it opens, or watch this space.
+      </p>
+    </section>
+
+    <!-- License note -->
+    <footer class="practice-footer">
+      <p>
+        StillPoint is a human–AI collaboration, made and run in the open.
+        Movement materials are shared under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license-link" target="_blank" rel="noopener">CC BY-SA 4.0</a>;
+        the novel remains the author's — free to read, rights reserved.
+        That's the whole arrangement, stated plainly.
+      </p>
+    </footer>
+
+  </article>
+</Layout>
+
+<style>
+  @import '../styles/design-tokens.css';
+
+  /* Page Header */
+  .page-header {
+    text-align: center;
+    padding: var(--space-3xl) var(--space-lg) var(--space-2xl);
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+  }
+
+  .epigraph {
+    font-family: var(--font-serif);
+    font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+    font-style: italic;
+    color: var(--color-text-muted);
+    line-height: var(--line-height-relaxed);
+    max-width: 52ch;
+    margin: 0 auto;
+  }
+
+  /* Main Content */
+  .practice-content {
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+    padding: 0 var(--space-lg) var(--space-3xl);
+  }
+
+  .section {
+    max-width: 65ch;
+    margin: 0 auto var(--space-2xl);
+    line-height: var(--line-height-relaxed);
+  }
+
+  .section h2 {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-2xl);
+    color: var(--color-heading);
+    margin-bottom: var(--space-lg);
+    margin-top: 0;
+  }
+
+  .section p {
+    margin-bottom: var(--space-md);
+    color: var(--color-text);
+  }
+
+  .section strong {
+    color: inherit;
+    font-weight: 600;
+  }
+
+  /* Plain list — no bullet gymnastics, just clear items */
+  .plain-list {
+    list-style: none;
+    margin: var(--space-md) 0;
+    padding: 0;
+  }
+
+  .plain-list li {
+    color: var(--color-text);
+    padding: var(--space-sm) 0;
+    padding-left: 1.5em;
+    position: relative;
+    line-height: var(--line-height-relaxed);
+  }
+
+  .plain-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent-1);
+  }
+
+  /* First move callout */
+  .first-move {
+    background: rgba(26, 42, 46, 0.6);
+    border-left: 3px solid var(--color-accent-2);
+    padding: var(--space-lg);
+    border-radius: 0 6px 6px 0;
+    margin: var(--space-lg) 0;
+  }
+
+  /* CTA */
+  .cta-section {
+    max-width: 65ch;
+    margin: var(--space-xl) auto var(--space-2xl);
+    text-align: center;
+    padding: var(--space-2xl);
+    background: linear-gradient(
+      135deg,
+      var(--color-bg-accent) 0%,
+      rgba(147, 102, 57, 0.1) 100%
+    );
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+  }
+
+  .cta-label {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+
+  .cta-note {
+    margin-top: var(--space-md);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+  }
+
+  .cta-note code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    color: var(--color-accent-2);
+  }
+
+  .btn {
+    display: inline-block;
+    padding: var(--space-md) var(--space-xl);
+    border-radius: 6px;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: var(--font-size-base);
+    text-decoration: none;
+    transition: all var(--transition-normal);
+    cursor: pointer;
+    border: none;
+  }
+
+  .btn-primary {
+    background: var(--color-accent-1);
+    color: var(--color-bg-accent);
+  }
+
+  .btn-primary:hover {
+    background: var(--color-accent-2);
+    color: var(--color-heading);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* Footer note */
+  .practice-footer {
+    max-width: 65ch;
+    margin: 0 auto var(--space-xl);
+    padding-top: var(--space-xl);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .practice-footer p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    line-height: var(--line-height-relaxed);
+  }
+
+  .license-link {
+    color: var(--color-accent-2);
+    text-decoration: none;
+  }
+
+  .license-link:hover {
+    text-decoration: underline;
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .epigraph {
+      font-size: 1.05rem;
+    }
+
+    .section h2 {
+      font-size: var(--font-size-xl);
+    }
+
+    .practice-content {
+      padding: 0 var(--space-md) var(--space-2xl);
+    }
+
+    .cta-section {
+      padding: var(--space-lg);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .epigraph {
+      font-size: 1rem;
+    }
+
+    .btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+</style>
