@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-The StillPoint Saga is a multi-era science fiction novel project spanning 2025-2095, exploring humanity's path from technological acceleration crisis to contemplative renaissance. This is a structured creative writing project that publishes as it's created, using an Astro-based web platform.
+The StillPoint is a multi-era science fiction novel project spanning 2025-2095, exploring humanity's path from technological acceleration crisis to contemplative renaissance. This is a structured creative writing project that publishes as it's created, using an Astro-based web platform.
 
 ## Key Reference Files
 
@@ -169,7 +169,7 @@ Briefs should reflect the era's tone:
 
 ### The Didactic Trap
 
-The StillPoint Saga carries strong philosophy (Safety Thesis, Held vs. Hardened, commons vs. pyramid). This philosophy must be **invisible in the prose.** If a scene feels like the author is steering the reader toward a position, the scene has failed.
+The StillPoint carries strong philosophy (Safety Thesis, Held vs. Hardened, commons vs. pyramid). This philosophy must be **invisible in the prose.** If a scene feels like the author is steering the reader toward a position, the scene has failed.
 
 **When producing scene briefs:**
 - Never frame a beat as "this scene shows that [thesis]"

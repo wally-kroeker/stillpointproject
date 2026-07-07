@@ -1,4 +1,4 @@
-# StillPoint Saga - Story Ideas & Narrative Threads
+# The StillPoint - Story Ideas & Narrative Threads
 
 This document tracks potential plot points, character arcs, and scenes to be woven into the main narrative. It serves as a creative sandbox for ideas that are not yet part of the official outline.
 

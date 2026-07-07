@@ -1,4 +1,4 @@
-# The StillPoint Saga: Writing & Editing Workflow
+# The StillPoint: Writing & Editing Workflow
 
 This document outlines the official workflow for creating and refining chapters of the novel. It replaces the legacy `chapter_tracker.md` and provides a more detailed, stage-based approach to project management.
 

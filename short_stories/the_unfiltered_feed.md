@@ -13,7 +13,7 @@ audio_file: "/audio/stories/the_unfiltered_feed.mp3"
 
 # The Unfiltered Feed
 
-**A StillPoint Saga Vignette**
+**A StillPoint Vignette**
 
 The pod was a perfect system.
 

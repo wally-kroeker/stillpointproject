@@ -1,4 +1,4 @@
-# The StillPoint Saga — Story Outline
+# The StillPoint — Story Outline
 
 > **Note:** This outline is a working draft and may not reflect the current state of the published story. Character names, chapter structure, and plot points are evolving as the project develops. The published content at [stillpointproject.org](https://stillpointproject.org) represents the canonical version.
 

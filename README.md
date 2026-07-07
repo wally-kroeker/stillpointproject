@@ -1,4 +1,4 @@
-# The StillPoint Saga
+# The StillPoint
 
 **A human-AI collaborative novel about what happens when humanity learns to be still.**
 
@@ -6,7 +6,7 @@
 
 ## About This Project
 
-The StillPoint Saga is an experiment in transparent human-AI storytelling. It started in late 2024 as a simple idea — what if someone invented a device that could induce genuine contemplative presence? — and has grown over two years into a full science fiction world spanning seven decades, with a cast of characters, a deep technology canon, and a philosophy grounded in the tension between acceleration and stillness.
+The StillPoint is an experiment in transparent human-AI storytelling. It started in late 2024 as a simple idea — what if someone invented a device that could induce genuine contemplative presence? — and has grown over two years into a full science fiction world spanning seven decades, with a cast of characters, a deep technology canon, and a philosophy grounded in the tension between acceleration and stillness.
 
 From the beginning, this has been a collaboration between a human author (Wally Kroeker) and AI creative partners. There has never been an attempt to hide that. The project is as much about exploring what human-AI creative partnership looks like in practice as it is about telling a story.
 
@@ -24,7 +24,7 @@ This repository is the whole thing — the stories, the world, the platform, and
 
 What happens when humanity builds a device that can induce genuine contemplative presence — and then has to decide what to do with it?
 
-The StillPoint Saga follows the invention of the StillPoint device and the world it creates across three eras:
+The StillPoint follows the invention of the StillPoint device and the world it creates across three eras:
 
 - **Era 1: The Cascade (2029-2036)** — Near-future crisis. The attention economy has fractured society. A physicist named Sajan Mehta discovers something unexpected in his lab, and the world splits between those who want to control it and those who want to share it.
 
@@ -42,7 +42,7 @@ This repository is where that thinking gets worked out in the open. The practice
 
 ## What's Here
 
-This repository is the complete source for the StillPoint Saga — the stories, the world, and the web platform that publishes them.
+This repository is the complete source for The StillPoint — the stories, the world, and the web platform that publishes them.
 
 ```
 StillPoint/

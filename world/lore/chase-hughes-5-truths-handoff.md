@@ -8,7 +8,7 @@ original: ~/.claude/MEMORY/CAPTURES/2026/04/02/002-video-tiktok-chase-hughes-5-t
 
 # Chase Hughes — 5 Truths: StillPoint Thread
 
-**Why this matters for StillPoint:** This 25-minute TikTok lays out, in plain modern language, the exact philosophical foundation the StillPoint Saga is built on. Every truth maps to the novel's thematic architecture.
+**Why this matters for StillPoint:** This 25-minute TikTok lays out, in plain modern language, the exact philosophical foundation The StillPoint is built on. Every truth maps to the novel's thematic architecture.
 
 ## The 5 Truths (Summary)
 
@@ -38,7 +38,7 @@ original: ~/.claude/MEMORY/CAPTURES/2026/04/02/002-video-tiktok-chase-hughes-5-t
 5. **Suffering transforms into wisdom** — "Suffering produces perseverance, perseverance character, character hope"
 6. **Remembering** — "Awakening is not becoming something new. It's remembering something ancient."
 
-## Direct Mappings to StillPoint Saga
+## Direct Mappings to The StillPoint
 
 | Truth | StillPoint Connection |
 |-------|----------------------|
@@ -58,7 +58,7 @@ original: ~/.claude/MEMORY/CAPTURES/2026/04/02/002-video-tiktok-chase-hughes-5-t
 
 ## Thread to Pull
 
-Wally flagged this as a thread worth pulling for StillPoint. The question: **How does the novel dramatize these truths without being didactic?** The Chase Hughes framing works because it's cross-cultural synthesis — not preaching one tradition, but showing the convergence. The StillPoint Saga can do the same through its characters discovering these truths in a technological context.
+Wally flagged this as a thread worth pulling for StillPoint. The question: **How does the novel dramatize these truths without being didactic?** The Chase Hughes framing works because it's cross-cultural synthesis — not preaching one tradition, but showing the convergence. The The StillPoint can do the same through its characters discovering these truths in a technological context.
 
 Specifically worth exploring:
 - How does the StillPoint device relate to "mind as projector"? Does it literally show people the projection mechanism?
