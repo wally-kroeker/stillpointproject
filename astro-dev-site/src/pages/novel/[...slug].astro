@@ -29,7 +29,7 @@ const chapterSchema = {
 	"url": `https://stillpointproject.org/novel/${scene.id}`,
 	"isPartOf": {
 		"@type": "Book",
-		"name": "The StillPoint Saga",
+		"name": "The StillPoint",
 		"author": { "@type": "Person", "name": "Wally Kroeker" },
 		"url": "https://stillpointproject.org/novel"
 	},
@@ -41,7 +41,7 @@ const chapterSchema = {
 	"genre": ["Science Fiction", "Contemplative Fiction"],
 	"wordCount": scene.data.word_count,
 	"locationCreated": scene.data.location,
-	"abstract": scene.data.excerpt || `A chapter from The StillPoint Saga set in ${scene.data.location}.`
+	"abstract": scene.data.excerpt || `A chapter from The StillPoint set in ${scene.data.location}.`
 };
 
 const breadcrumbSchema = {
@@ -70,7 +70,7 @@ const breadcrumbSchema = {
 };
 ---
 
-<ReaderLayout title={`${scene.data.title} - The StillPoint Saga`} description={scene.data.excerpt || `Read "${scene.data.title}" — a chapter from The StillPoint Saga, set in ${scene.data.location}. POV: ${scene.data.pov_character}.`}>
+<ReaderLayout title={`${scene.data.title} - The StillPoint`} description={scene.data.excerpt || `Read "${scene.data.title}" — a chapter from The StillPoint, set in ${scene.data.location}. POV: ${scene.data.pov_character}.`}>
 	<script type="application/ld+json" set:html={JSON.stringify(chapterSchema)} />
 	<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 	<main>

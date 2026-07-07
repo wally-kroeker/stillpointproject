@@ -2,13 +2,12 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import ErasSection from '../components/ErasSection';
-import AboutSection from '../components/AboutSection.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE } from '../consts';
 import '../styles/global.css';
 
-const title = "The StillPoint Saga - Contemplative Sci-Fi Exploring Presence in an Age of AI";
-const description = "A serialized science fiction novel spanning 2029-2095. Follow humanity's journey from AI-driven crisis to contemplative renaissance. Read free online.";
+const title = "The StillPoint — Let's Find a Third Way";
+const description = "A world of stories about remembering how to be still — and an open human-AI project practicing it for real. Read free, join the conversation.";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL('/images/og-default.jpg', Astro.site);
 ---
@@ -56,10 +55,10 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 		{
 			"@context": "https://schema.org",
 			"@type": "WebSite",
-			"name": "The StillPoint Saga",
+			"name": "The StillPoint",
 			"alternateName": "The StillPoint Project",
 			"url": "https://stillpointproject.org",
-			"description": "A serialized science fiction novel spanning 2029-2095, exploring humanity's path from AI-driven crisis to contemplative renaissance.",
+			"description": "A world of stories about remembering how to be still — and an open human-AI project practicing it for real.",
 			"author": {
 				"@type": "Person",
 				"name": "Wally Kroeker",
@@ -67,7 +66,7 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 			},
 			"potentialAction": {
 				"@type": "ReadAction",
-				"target": "https://stillpointproject.org/novel"
+				"target": "https://stillpointproject.org/stories"
 			}
 		}
 		</script>
@@ -78,10 +77,300 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 
 		<main id="main-content">
 			<Hero client:load />
+
+			<!-- Coin strip — recognition moment for coin holders -->
+			<section class="coin-strip" aria-label="For coin holders">
+				<div class="coin-strip-inner">
+					<span class="coin-dot" aria-hidden="true"><span class="coin-dot-center"></span></span>
+					<p>
+						<strong>Found one of the green coins?</strong> The red center is a worry stone —
+						rub it with your thumb. That small quiet under your fingerprint is the whole idea.
+						Think of it as the first, quietest generation of the device in the stories.
+						Welcome in.
+					</p>
+				</div>
+			</section>
+
+			<!-- Featured stories -->
+			<section class="stories-section">
+				<h2>A world with stories inside it</h2>
+				<p class="section-lede">
+					The StillPoint is a near future told in stories you can read in a sitting — the years
+					the feeds swallowed everything, the people who walked out, and what they built instead.
+					You don't need a map. Start with one of these.
+				</p>
+
+				<div class="story-cards">
+					<a href="/stories/the_seed_imprint_v2" class="story-card">
+						<span class="story-era">The Contested Stillness</span>
+						<h3>The Seed Imprint</h3>
+						<p>
+							Deep in a salt commons, nine-year-old Kaia carves her own Pebble from the
+							crystal wall — a worry stone that will come to know her — and meets a question
+							worth carrying: where is the line between a tool that knows you and a friend
+							who holds your grief?
+						</p>
+						<span class="story-read">Read the story →</span>
+					</a>
+
+					<a href="/stories/the_neural_stream" class="story-card">
+						<span class="story-era">The Cascade · 2037</span>
+						<h3>The Neural Stream</h3>
+						<p>
+							Marcus Chen streams for a living as a verified human — paid to prove he's real
+							in a feed full of ghosts. Then he points his cameras at a gathering that doesn't
+							want an audience, and his nervous system starts voting against his job.
+						</p>
+						<span class="story-read">Read the story →</span>
+					</a>
+				</div>
+
+				<p class="stories-all"><a href="/stories">All stories →</a></p>
+			</section>
+
 			<ErasSection />
-			<AboutSection />
+
+			<!-- The device -->
+			<section class="device-section">
+				<h2>In the stories, there's a device.</h2>
+				<p>
+					It doesn't feed you anything. It doesn't want anything from you. It holds a mind the
+					way still water holds the moon — and for a few breaths, you're just here. The stories
+					ask what happens when someone finally builds that. Who shares it. Who tries to own it.
+				</p>
+				<p>
+					One rule holds through every story: the device never sorts for anyone. It clears the
+					static so a mind can do its own sorting. And it is never sold — only built, by
+					communities, in the open, every change logged in ink.
+				</p>
+				<p>
+					We don't have the device. What we have is older: a song reaching across a field at
+					dusk, a friend who stays past the hard part, bread, firelight, a festival crowd gone
+					quiet between sets. The stillness was never lost. It just got crowded out — and
+					everything here is about making room for it again.
+				</p>
+			</section>
+
+			<!-- The third way / made in the open -->
+			<section class="open-section">
+				<h2>Made in the open</h2>
+				<p>
+					This whole project is written by a human and an AI together, in the open — every story,
+					every world-file, <a href="https://github.com/wally-kroeker/stillpointproject">public
+					on GitHub</a>. The community runs on software we host ourselves. The practice materials
+					are openly licensed, free to take and adapt.
+				</p>
+				<p>
+					That's the bet behind the coin: between giving the machines everything and refusing
+					them everything, there might be a third way — tools kept local, human-scale, and ours
+					to keep. Nobody here claims to have found it. The stories imagine it; the practice
+					looks for it.
+				</p>
+				<p>
+					If any of this pulls at you, come say who you are — and name one tension, the place you
+					feel caught between the noise and the quiet. That's how everyone starts. It's early.
+					Come anyway.
+				</p>
+				<div class="open-ctas">
+					<a href="https://forum.stillpointproject.org" class="cta-btn cta-primary">Join the conversation</a>
+					<a href="/practice" class="cta-btn cta-secondary">The practice</a>
+				</div>
+			</section>
 		</main>
-		
+
 		<Footer />
 	</body>
 </html>
+
+<style>
+	/* Coin strip */
+	.coin-strip {
+		border-top: 1px solid var(--color-border-glow);
+		border-bottom: 1px solid var(--color-border-glow);
+		background: var(--color-glass-surface);
+		padding: 1.5rem 1rem;
+	}
+	.coin-strip-inner {
+		max-width: 46rem;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		gap: 1.25rem;
+	}
+	.coin-strip p {
+		font-family: var(--font-sans);
+		font-size: 0.95rem;
+		line-height: 1.6;
+		color: var(--color-text-muted, #c4bfb3);
+		margin: 0;
+	}
+	.coin-strip strong {
+		color: var(--color-accent-gold);
+		font-weight: 600;
+	}
+	.coin-dot {
+		flex-shrink: 0;
+		width: 2.75rem;
+		height: 2.75rem;
+		border-radius: 50%;
+		background: #2e7d64;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15), 0 0 14px rgba(107, 158, 133, 0.25);
+	}
+	.coin-dot-center {
+		width: 1.15rem;
+		height: 1.15rem;
+		border-radius: 50%;
+		background: radial-gradient(circle at 40% 35%, #e05a4e, #b23a30);
+	}
+
+	/* Shared section rhythm */
+	.stories-section,
+	.device-section,
+	.open-section {
+		max-width: 48rem;
+		margin: 0 auto;
+		padding: 5rem 1.5rem 2rem;
+	}
+	.stories-section h2,
+	.device-section h2,
+	.open-section h2 {
+		font-family: var(--font-serif);
+		font-weight: 300;
+		font-size: 1.9rem;
+		color: var(--color-heading, #f0ece4);
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+	.section-lede,
+	.device-section p,
+	.open-section p {
+		font-family: var(--font-serif);
+		font-size: 1.125rem;
+		line-height: 1.75;
+		color: var(--color-text-primary);
+		margin-bottom: 1.25rem;
+	}
+	.section-lede {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	/* Story cards */
+	.story-cards {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+	@media (min-width: 768px) {
+		.story-cards {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+	.story-card {
+		display: block;
+		padding: 1.75rem;
+		border: 1px solid var(--color-border-glow);
+		background: var(--color-glass-surface);
+		border-radius: 8px;
+		text-decoration: none;
+		transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+	}
+	.story-card:hover {
+		border-color: rgba(196, 163, 90, 0.45);
+		transform: translateY(-3px);
+		box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+	}
+	.story-era {
+		display: block;
+		font-family: var(--font-sans);
+		font-size: 0.72rem;
+		letter-spacing: 0.18em;
+		text-transform: uppercase;
+		color: rgba(196, 163, 90, 0.75);
+		margin-bottom: 0.6rem;
+	}
+	.story-card h3 {
+		font-family: var(--font-serif);
+		font-weight: 400;
+		font-size: 1.35rem;
+		color: var(--color-heading, #f0ece4);
+		margin-bottom: 0.75rem;
+	}
+	.story-card p {
+		font-family: var(--font-serif);
+		font-size: 1rem;
+		line-height: 1.65;
+		color: var(--color-text-muted, #c4bfb3);
+		margin-bottom: 1rem;
+	}
+	.story-read {
+		font-family: var(--font-sans);
+		font-size: 0.85rem;
+		letter-spacing: 0.08em;
+		color: var(--color-accent-gold);
+	}
+	.stories-all {
+		text-align: center;
+		margin-top: 2.25rem;
+	}
+	.stories-all a {
+		display: inline-block;
+		padding: 0.85rem 1.25rem;
+		font-family: var(--font-sans);
+		font-size: 0.9rem;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--color-accent-bio, #6b9e85);
+		text-decoration: none;
+	}
+	.stories-all a:hover {
+		color: var(--color-accent-gold);
+	}
+
+	/* Open section CTAs */
+	.open-section {
+		padding-bottom: 6rem;
+	}
+	.open-section a {
+		color: var(--color-accent-gold);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	.open-ctas {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		justify-content: center;
+		margin-top: 2.5rem;
+	}
+	.cta-btn {
+		display: inline-block;
+		padding: 0.8rem 2rem;
+		font-family: var(--font-sans);
+		font-size: 0.85rem;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		text-decoration: none !important;
+		transition: all 0.3s ease;
+	}
+	.cta-primary {
+		border: 1px solid rgba(196, 163, 90, 0.6);
+		background: rgba(196, 163, 90, 0.1);
+		color: var(--color-accent-gold) !important;
+	}
+	.cta-primary:hover {
+		background: rgba(196, 163, 90, 0.2);
+		transform: scale(1.03);
+	}
+	.cta-secondary {
+		border: 1px solid rgba(107, 158, 133, 0.5);
+		color: var(--color-accent-bio, #6b9e85) !important;
+	}
+	.cta-secondary:hover {
+		background: rgba(107, 158, 133, 0.1);
+		transform: scale(1.03);
+	}
+</style>

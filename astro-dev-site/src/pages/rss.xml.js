@@ -18,7 +18,7 @@ export async function GET(context) {
 		.sort((a, b) => a.id.localeCompare(b.id))
 		.map((scene, index) => ({
 			title: `Ch. ${index + 1}: ${scene.data.title}`,
-			description: scene.data.excerpt || `Chapter ${index + 1} of The StillPoint Saga — "${scene.data.title}". Set in ${scene.data.location}, from the perspective of ${scene.data.pov_character}.`,
+			description: scene.data.excerpt || `Chapter ${index + 1} of The StillPoint — "${scene.data.title}". Set in ${scene.data.location}, from the perspective of ${scene.data.pov_character}.`,
 			link: `/novel/${scene.id}/`,
 			pubDate: scene.data.date_written || scene.data.date_revised || new Date('2025-01-01'),
 			categories: ['Novel', scene.data.era],

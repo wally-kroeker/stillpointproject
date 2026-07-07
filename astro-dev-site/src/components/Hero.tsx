@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { prepareWithSegments, layoutWithLines } from '@chenglou/pretext';
 
-const SUBTITLE_TEXT = 'Every culture that has ever existed found its way to stillness. Desert hermits counting breaths on a rope. Chan monks pouring tea until the steam matched their breathing. Quakers sitting in silence until the light moved someone to speak. A Diné singer painting dawn on a hogan floor before the world wakes. This is not new. This is the oldest thing we know.';
+const SUBTITLE_TEXT = 'Every culture that has ever existed found its way to stillness. Dervishes spinning until the spinning went still. Quakers sitting in silence until the light moved someone to speak. A Diné singer painting dawn on a hogan floor before the world wakes. A farm kitchen gone quiet for grace. This is not new. This is the oldest thing we know.';
 const ANIMATION_DURATION_MS = 10000;
 const START_WIDTH = 150;
 const INITIAL_DELAY_MS = 1000;
@@ -15,11 +15,22 @@ const heroStyles = `
     0%, 100% { opacity: 0.15; }
     50%       { opacity: 0.95; }
 }
+@keyframes ctaFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.hero-ctas {
+    opacity: 0;
+    animation: ctaFadeIn 1.2s ease-out 3.5s both;
+}
 @media (prefers-reduced-motion: no-preference) {
     .star-layer-1 { animation: starDrift 28s ease-in-out infinite alternate; }
     .star-layer-2 { animation: starDrift 42s ease-in-out infinite alternate-reverse; }
     .star-layer-3 { animation: starDrift 60s ease-in-out infinite alternate; }
     .breathe-overlay { animation: breathe 8s ease-in-out infinite; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .hero-ctas { animation: none; opacity: 1; }
 }
 `;
 
@@ -211,11 +222,14 @@ export default function Hero() {
             {/* Content */}
             <div className="relative z-20 text-center px-4 max-w-3xl mx-auto">
                 <h1
-                    className="text-5xl md:text-7xl font-serif font-light text-[var(--color-heading)] mb-8 leading-tight tracking-tight"
+                    className="text-5xl md:text-7xl font-serif font-light text-[var(--color-heading)] mb-5 leading-tight tracking-tight"
                     style={{ textShadow: '0 0 40px rgba(196,163,90,0.15)' }}
                 >
                     The StillPoint
                 </h1>
+                <p className="text-sm md:text-base font-sans tracking-[0.3em] uppercase text-accent-gold mb-10">
+                    Let&rsquo;s find a third way
+                </p>
                 <div
                     ref={subtitleRef}
                     className="mb-12 max-w-2xl mx-auto font-serif font-light text-left"
@@ -237,17 +251,20 @@ export default function Hero() {
                         </div>
                     ))}
                 </div>
-                <a
-                    href="/novel"
-                    className="inline-block px-8 py-3 border border-accent-gold/60 bg-accent-gold/5 text-accent-gold font-sans text-sm tracking-wider uppercase hover:bg-accent-gold/15 hover:scale-105 hover:shadow-[0_0_20px_rgba(196,163,90,0.2)] transition-all duration-300"
-                    style={{
-                        opacity: settled ? 1 : 0,
-                        transition: 'opacity 1s ease-out',
-                        pointerEvents: settled ? 'auto' : 'none',
-                    }}
-                >
-                    Begin the Journey
-                </a>
+                <div className="hero-ctas flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a
+                        href="/stories"
+                        className="inline-block px-8 py-3 border border-accent-gold/60 bg-accent-gold/10 text-accent-gold font-sans text-sm tracking-wider uppercase hover:bg-accent-gold/20 hover:scale-105 hover:shadow-[0_0_20px_rgba(196,163,90,0.2)] transition-all duration-300"
+                    >
+                        Step into the stories
+                    </a>
+                    <a
+                        href="https://forum.stillpointproject.org"
+                        className="inline-block px-8 py-3 border border-accent-bio/50 bg-transparent text-accent-bio font-sans text-sm tracking-wider uppercase hover:bg-accent-bio/10 hover:scale-105 transition-all duration-300"
+                    >
+                        Join the conversation
+                    </a>
+                </div>
             </div>
         </section>
     );

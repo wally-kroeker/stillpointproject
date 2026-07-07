@@ -26,8 +26,8 @@ function formatChapterLabel(chapter: string, scene: string): string {
 const bookStructuredData = {
 	"@context": "https://schema.org",
 	"@type": "Book",
-	"name": "The StillPoint Saga",
-	"alternateName": "The StillPoint",
+	"name": "The StillPoint",
+	"alternateName": "The StillPoint Project",
 	"author": { "@type": "Person", "name": "Wally Kroeker" },
 	"url": "https://stillpointproject.org/novel",
 	"genre": ["Science Fiction", "Contemplative Fiction", "Speculative Fiction"],
@@ -43,7 +43,7 @@ const bookStructuredData = {
 };
 ---
 
-<Layout title="The StillPoint - Novel Chapters" description="Read The StillPoint Saga free online. Published chapters following humanity from AI-driven crisis to contemplative renaissance. Start with The Cascade.">
+<Layout title="The StillPoint - Novel Chapters" description="Read The StillPoint free online. Published chapters following humanity from AI-driven crisis to contemplative renaissance. Start with The Cascade.">
 	<script type="application/ld+json" set:html={JSON.stringify(bookStructuredData)} />
 	<section class="hero">
 		<div class="hero-overlay">
