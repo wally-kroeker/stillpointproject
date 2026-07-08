@@ -35,7 +35,7 @@ Mrs. Okoye came to Platform 14-B every Thursday at 14:45. Same time, same platfo
 
 This wasn't a routing problem. This was a Thursday ritual being interrupted.
 
-Keiko pressed her hand to the [[StillPoint]] pendant beneath her uniform collar—a small gesture, barely a second of contact. The subtle vibration reminded her: *presence before optimization*.
+Keiko pressed her hand to the StillPoint pendant beneath her uniform collar—a small gesture, barely a second of contact. The subtle vibration reminded her: *presence before optimization*.
 
 She pulled up the system override, feeling the familiar resistance. The AI highlighted the inefficiencies in red: cascade delay +23 seconds, seven downstream connections impacted, aggregate satisfaction score decrease 0.3%.
 
@@ -81,7 +81,7 @@ Tomas pinged her again. "Nice work. Twenty-three seconds of inefficiency for..."
 
 "For being human in a world that doesn't require it anymore," Tomas said. "That's why we're still here."
 
-Keiko touched her [[StillPoint]] pendant again, feeling its quiet pulse. The device didn't make her present. It reminded her she had a choice.
+Keiko touched her StillPoint pendant again, feeling its quiet pulse. The device didn't make her present. It reminded her she had a choice.
 
 Around her, Transit Hub Seven hummed with perfect efficiency. Seventeen thousand people moving through optimized routes, carried by systems that saw three moves ahead. And in the middle of it all, one coordinator who'd learned to see what algorithms couldn't: that some journeys mattered more than their arrival time.
 

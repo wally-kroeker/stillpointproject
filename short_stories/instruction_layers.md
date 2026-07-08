@@ -19,15 +19,15 @@ audio_file: "/audio/stories/instruction_layers.mp3"
 
 The stairs creak in the same two places every morning. Howard has learned to step over the third one, land softly on the fifth. Three years of this descent, and his body knows the rhythm before his mind catches up.
 
-The basement of the [[Resting Place]] opens before him like a cathedral of glass—not stained glass, not anymore, but hundreds of jars catching the pale light that filters through the single high window. Floor-to-ceiling shelves line every wall, and the smell hits him the way it always does: layered, alive, the sharp tang of brine underneath something sweeter, something that speaks of transformation in progress.
+The basement of the Resting Place opens before him like a cathedral of glass—not stained glass, not anymore, but hundreds of jars catching the pale light that filters through the single high window. Floor-to-ceiling shelves line every wall, and the smell hits him the way it always does: layered, alive, the sharp tang of brine underneath something sweeter, something that speaks of transformation in progress.
 
 Howard breathes it in. Sauerkraut and kimchi, fermented hot sauce and garlic honey. Everything the community garden overproduces, saved.
 
-He moves between the rows, handheld scanner ready. The monitoring dashboard glows soft blue on the wall-mounted screen near the old server rack—[[Chorus]] hardware once, before [[Gray Tesluk|Gray]] wiped it clean and gave it a second life. The rack hums in the corner, low and steady, running code that came from who knows where. A Qwen fork someone found on a reclaimed hard drive, passed from hand to hand until it landed here, shaped by use into something that understands fermentation.
+He moves between the rows, handheld scanner ready. The monitoring dashboard glows soft blue on the wall-mounted screen near the old server rack—Chorus hardware once, before Gray wiped it clean and gave it a second life. The rack hums in the corner, low and steady, running code that came from who knows where. A Qwen fork someone found on a reclaimed hard drive, passed from hand to hand until it landed here, shaped by use into something that understands fermentation.
 
 Howard scans the first QR code. Green indicator. He moves to the next.
 
-The ritual calms him. It has since his first weeks at [[Hawthorn Commons]], when he arrived hollow and directionless, a man who had spent thirty years making columns balance only to discover that columns could balance themselves now. An agentic accounting system had replaced his entire department in a single quarter. "Workforce optimization," they called it. As if he had been a process, not a person.
+The ritual calms him. It has since his first weeks at Hawthorn Commons, when he arrived hollow and directionless, a man who had spent thirty years making columns balance only to discover that columns could balance themselves now. An agentic accounting system had replaced his entire department in a single quarter. "Workforce optimization," they called it. As if he had been a process, not a person.
 
 But that was before. Now his hands, which once tapped spreadsheets, check jar lids for proper seal. His eyes, trained to spot discrepancies in ledgers, track the color of brine and the slow dance of bubbles rising through liquid.
 
@@ -59,7 +59,7 @@ The system acknowledges. Transcribes. Adds the layer.
 
 Howard disposes of the spoiled batch, carrying the jar up the stairs with the weight of waste in his hands. These things happen. One jar, out of hundreds. The system will learn.
 
-But as he crosses back through the main hall of the [[Resting Place]]—past the solar ovens on the old stage, the meditation cushions where pews once stood—something nags at him. A shape he cannot name yet, like numbers that do not quite balance but refuse to reveal why.
+But as he crosses back through the main hall of the Resting Place—past the solar ovens on the old stage, the meditation cushions where pews once stood—something nags at him. A shape he cannot name yet, like numbers that do not quite balance but refuse to reveal why.
 
 ---
 
@@ -93,7 +93,7 @@ He feels something he has not felt since the day the firm deployed its accountin
 
 ---
 
-Gray's workshop sits at the edge of [[Hawthorn Commons]], a converted shipping container that has become something more than the sum of its parts. Wind chimes made from salvaged circuit boards and copper wire hang near the entrance, catching the autumn breeze. Howard has never been here much—the basement rack just works, and when it does not, Gray comes to him.
+Gray's workshop sits at the edge of Hawthorn Commons, a converted shipping container that has become something more than the sum of its parts. Wind chimes made from salvaged circuit boards and copper wire hang near the entrance, catching the autumn breeze. Howard has never been here much—the basement rack just works, and when it does not, Gray comes to him.
 
 Now he crosses the grounds with purpose, past the hawthorn trees that gave this place its name, their berries red and heavy on the branch. Past the garden beds, emptied now for winter but still marked with stakes and string. Past a group of children arguing about something—a game, a dare, the eternal negotiations of youth.
 
@@ -115,7 +115,7 @@ Gray hums acknowledgment, neither agreement nor disagreement.
 
 ---
 
-The fermentation cellar feels different with another person in it. Smaller, somehow, despite the unchanged dimensions. Gray stands in front of the reclaimed rack—old [[Chorus]] hardware, its corporate logos sanded away, now running open-source code—and connects their tablet with a gesture Howard does not quite follow.
+The fermentation cellar feels different with another person in it. Smaller, somehow, despite the unchanged dimensions. Gray stands in front of the reclaimed rack—old Chorus hardware, its corporate logos sanded away, now running open-source code—and connects their tablet with a gesture Howard does not quite follow.
 
 "Full instruction log," Gray says. "Not just yours. Everyone's."
 
@@ -157,7 +157,7 @@ The question sits in the cool basement air, patient as the cultures sleeping in 
 
 Howard thinks about fermentation. About the wild cultures that cannot be controlled, only guided. About how you set conditions—temperature, salt, time—and then you trust. You watch. You intervene when something goes wrong, but you do not manage every microbe. You cannot.
 
-He thinks about his early days at the [[Resting Place]]. How someone—Maya, it was Maya—handed him a jar of sauerkraut and said, "Just taste it." How the flavor opened something in him, sharp and alive and nothing like anything he had eaten from a store. How he learned by watching, by asking, by making mistakes that turned into compost. How no one gave him a manual.
+He thinks about his early days at the Resting Place. How someone—Maya, it was Maya—handed him a jar of sauerkraut and said, "Just taste it." How the flavor opened something in him, sharp and alive and nothing like anything he had eaten from a store. How he learned by watching, by asking, by making mistakes that turned into compost. How no one gave him a manual.
 
 "A lot of people use this system," Gray says quietly. "Maybe they should understand how it works."
 
@@ -209,7 +209,7 @@ The next morning, Howard descends the creaking stairs. Third step avoided, soft 
 
 The fermentation cellar opens before him, unchanged and entirely different. The same jars line the same shelves, catching the same light through the same high window. But he sees the layers now—not just in the instruction log, but in everything. Maya's fermentation technique. Tomas's salt ratios. Sarah's kombucha protocols. Dex's camera angles.
 
-He is already thinking about the layer review. Next week, maybe. He will need to find everyone who contributed, or at least everyone still at [[Hawthorn Commons]]. Explain what he is proposing. Some will care; others will shrug and say do whatever you think is best. That is fine. The point is the invitation.
+He is already thinking about the layer review. Next week, maybe. He will need to find everyone who contributed, or at least everyone still at Hawthorn Commons. Explain what he is proposing. Some will care; others will shrug and say do whatever you think is best. That is fine. The point is the invitation.
 
 He pauses at a jar he has never paid much attention to—the garlic honey, golden and patient in its slow transformation. Maya started this one. Tomas wrote the monitoring rules. Howard does not fully understand why it works, only that it does.
 
