@@ -121,6 +121,21 @@ function useSettlingAnimation(containerRef: React.RefObject<HTMLDivElement | nul
                 renderLines(currentWidth);
 
                 if (t >= 1) {
+                    // Hand layout back to the browser: one naturally flowing paragraph.
+                    // Native wrapping stays readable at any width/zoom and reflows on
+                    // resize — hard-cut measured lines don't.
+                    const lineEls = lineRefsRef.current;
+                    if (lineEls[0]) {
+                        lineEls[0].textContent = SUBTITLE_TEXT;
+                        lineEls[0].style.display = '';
+                    }
+                    for (let i = 1; i < MAX_LINES; i++) {
+                        const el = lineEls[i];
+                        if (el) {
+                            el.textContent = '';
+                            el.style.display = 'none';
+                        }
+                    }
                     setSettled(true);
                     return;
                 }
