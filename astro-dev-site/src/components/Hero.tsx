@@ -259,7 +259,7 @@ export default function Hero() {
                         Step into the stories
                     </a>
                     <a
-                        href="https://forum.stillpointproject.org"
+                        href="https://forum.stillpointproject.org/invites/1B4cv9cowP"
                         className="inline-block px-8 py-3 border border-accent-bio/50 bg-transparent text-accent-bio font-sans text-sm tracking-wider uppercase hover:bg-accent-bio/10 hover:scale-105 transition-all duration-300"
                     >
                         Join the conversation
