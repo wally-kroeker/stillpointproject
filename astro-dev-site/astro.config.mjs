@@ -12,6 +12,12 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://stillpointproject.org',
 
+  // COIN REDIRECT — update this one line when the forum invite URL changes, then redeploy.
+  // URL on coins: stillpointproject.org/join
+  redirects: {
+    '/join': 'https://forum.stillpointproject.org/invites/1B4cv9cowP',
+  },
+
   integrations: [mdx({
 			rehypePlugins: [rehypeDataTypes],
   }), sitemap({
