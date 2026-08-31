@@ -201,7 +201,7 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 	/* Coin strip */
 	/* Coin recognition band — quiet enough to skim past, present enough to match. */
 	.coin-band {
-		--coin-band-h: 2.5rem;
+		--coin-band-h: 5rem;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -211,12 +211,12 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 0.6rem;
+		gap: 0.85rem;
 		padding: 0 1rem;
 		background: #0a0a0a;
 		border-bottom: 1px solid var(--color-border-glow);
 		font-family: var(--font-sans);
-		font-size: 0.8rem;
+		font-size: 1.05rem;
 		letter-spacing: 0.02em;
 		color: var(--color-text-muted, #c4bfb3);
 		text-decoration: none;
@@ -234,20 +234,40 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 	/* The coin itself: black face, red stone at the still point. */
 	.coin-band-dot {
 		flex-shrink: 0;
-		width: 1.05rem;
-		height: 1.05rem;
+		width: 2.4rem;
+		height: 2.4rem;
 		border-radius: 50%;
 		background: #121212;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+		box-shadow:
+			inset 0 0 0 1px rgba(255, 255, 255, 0.14),
+			0 2px 10px rgba(0, 0, 0, 0.5);
 	}
 	.coin-band-dot-center {
-		width: 0.42rem;
-		height: 0.42rem;
+		width: 0.95rem;
+		height: 0.95rem;
 		border-radius: 50%;
 		background: radial-gradient(circle at 40% 35%, #e05a4e, #b23a30);
+		box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.35);
+	}
+
+	/* Narrow phones: keep the band on one line without shrinking the coin. */
+	@media (max-width: 420px) {
+		.coin-band {
+			--coin-band-h: 4.5rem;
+			gap: 0.7rem;
+			font-size: 0.95rem;
+		}
+		.coin-band-dot {
+			width: 2.1rem;
+			height: 2.1rem;
+		}
+		.coin-band-dot-center {
+			width: 0.82rem;
+			height: 0.82rem;
+		}
 	}
 
 	.coin-strip {
@@ -452,6 +472,31 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 -->
 <style is:global>
 	body.has-coin-band nav.fixed {
-		top: 2.5rem;
+		top: 5rem;
+	}
+
+	/*
+		The hero is `min-h-screen flex items-center`, so its content centres on the
+		whole viewport and slides up underneath the fixed navbar whenever the
+		content is taller than the screen. On a 320px phone that hid the "The
+		StillPoint" h1 entirely — it was there before this band existed. Padding
+		the hero clears the fixed chrome; box-sizing is border-box, so the section
+		keeps its height and the content simply centres in what is left.
+	*/
+	body.has-coin-band section.min-h-screen {
+		padding-top: 9rem;
+	}
+	@media (max-width: 767px) {
+		body.has-coin-band section.min-h-screen {
+			padding-top: 10rem;
+		}
+	}
+	@media (max-width: 420px) {
+		body.has-coin-band nav.fixed {
+			top: 4.5rem;
+		}
+		body.has-coin-band section.min-h-screen {
+			padding-top: 11rem;
+		}
 	}
 </style>
