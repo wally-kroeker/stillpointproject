@@ -71,8 +71,21 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 		}
 		</script>
 	</head>
-	<body class="bg-deep-space text-text-primary overflow-x-hidden">
+	<body class="bg-deep-space text-text-primary overflow-x-hidden has-coin-band">
 		<a href="#main-content" class="skip-link">Skip to content</a>
+
+		<!--
+			Recognition band for coin holders. Server-rendered, no JavaScript, and
+			first in the DOM so it is in the first screenful on a phone before any
+			island hydrates. The navbar is `fixed top-0`, so it is offset below this
+			band by the .has-coin-band rule at the bottom of this file.
+		-->
+		<a class="coin-band" href="/found">
+			<span class="coin-band-dot" aria-hidden="true"><span class="coin-band-dot-center"></span></span>
+			<span class="coin-band-text">You found the still point.</span>
+			<span class="coin-band-arrow" aria-hidden="true">&rarr;</span>
+		</a>
+
 		<Navbar client:load />
 
 		<main id="main-content">
@@ -83,7 +96,7 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 				<div class="coin-strip-inner">
 					<span class="coin-dot" aria-hidden="true"><span class="coin-dot-center"></span></span>
 					<p>
-						<strong>Found one of the green coins?</strong> The back says what the dish is for:
+						<strong>Found one of the coins?</strong> The back says what the dish is for:
 						when you're stuck on a binary, one thing or the other, remember to be still,
 						and maybe the third way will come to you. The <a href="/practice">practice page</a> has more.
 						Welcome in.
@@ -186,6 +199,57 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 
 
 	/* Coin strip */
+	/* Coin recognition band — quiet enough to skim past, present enough to match. */
+	.coin-band {
+		--coin-band-h: 2.5rem;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 60;
+		height: var(--coin-band-h);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.6rem;
+		padding: 0 1rem;
+		background: #0a0a0a;
+		border-bottom: 1px solid var(--color-border-glow);
+		font-family: var(--font-sans);
+		font-size: 0.8rem;
+		letter-spacing: 0.02em;
+		color: var(--color-text-muted, #c4bfb3);
+		text-decoration: none;
+	}
+	.coin-band:hover .coin-band-text,
+	.coin-band:focus-visible .coin-band-text {
+		color: var(--color-accent-gold);
+	}
+	.coin-band-text {
+		transition: color 0.2s ease;
+	}
+	.coin-band-arrow {
+		color: var(--color-accent-gold);
+	}
+	/* The coin itself: black face, red stone at the still point. */
+	.coin-band-dot {
+		flex-shrink: 0;
+		width: 1.05rem;
+		height: 1.05rem;
+		border-radius: 50%;
+		background: #121212;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+	}
+	.coin-band-dot-center {
+		width: 0.42rem;
+		height: 0.42rem;
+		border-radius: 50%;
+		background: radial-gradient(circle at 40% 35%, #e05a4e, #b23a30);
+	}
+
 	.coin-strip {
 		border-top: 1px solid var(--color-border-glow);
 		border-bottom: 1px solid var(--color-border-glow);
@@ -219,11 +283,11 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 		width: 2.75rem;
 		height: 2.75rem;
 		border-radius: 50%;
-		background: #2e7d64;
+		background: #121212;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15), 0 0 14px rgba(107, 158, 133, 0.25);
+		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.12), 0 0 14px rgba(0, 0, 0, 0.45);
 	}
 	.coin-dot-center {
 		width: 1.15rem;
@@ -378,5 +442,16 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 	.cta-secondary:hover {
 		background: rgba(107, 158, 133, 0.1);
 		transform: scale(1.03);
+	}
+</style>
+
+<!--
+	The Navbar component is `fixed top-0` and is shared by every page, so it
+	cannot be offset there without leaving a gap on pages that have no band.
+	Scoping the offset to body.has-coin-band keeps the change to this page only.
+-->
+<style is:global>
+	body.has-coin-band nav.fixed {
+		top: 2.5rem;
 	}
 </style>

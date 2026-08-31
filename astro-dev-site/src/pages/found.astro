@@ -1,0 +1,210 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="You Found the Still Point"
+  description="You're holding one of the coins. Here's what the dish in the middle is for, and where to go next if you want more."
+>
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-content">
+      <span class="coin-face" aria-hidden="true"><span class="coin-stone"></span></span>
+      <h1>You found the still point.</h1>
+      <p class="epigraph">
+        <em>Somebody handed you a coin. Nothing is being asked of you.</em><br>
+        <em>This page is just here in case you wanted to know what it was.</em>
+      </p>
+    </div>
+  </header>
+
+  <article class="found-content">
+
+    <!-- The object -->
+    <section class="section">
+      <h2>The object</h2>
+
+      <p>The dish in the middle is a still point. It's meant to be rubbed with a thumb — that's the
+      whole design. Something with a little weight to it that lives in a pocket and gives your hand
+      somewhere to go when your head is going somewhere else.</p>
+
+      <p>The front is deliberately wordless. An object that explains itself gets a glance. One that
+      doesn't gets a question.</p>
+
+      <p>The back is the only instruction there is: <strong>find a third way</strong>.</p>
+    </section>
+
+    <!-- The line -->
+    <section class="section">
+      <blockquote class="handoff">
+        When you're stuck on a binary, one thing or the other, remember to be still, and maybe the
+        third way will come to you.
+      </blockquote>
+    </section>
+
+    <!-- Third way -->
+    <section class="section">
+      <h2>A third way to what?</h2>
+
+      <p>Mostly: to whatever you've been handed as a choice between two things. The frame is usually
+      the problem before either option is.</p>
+
+      <p>The question this project started from is a specific one — how to live well alongside
+      machines that keep getting more capable, without either handing them everything or refusing
+      them outright. But the move is older and wider than that, and it isn't a position to agree
+      with. It's a thing to do with five seconds and a thumb.</p>
+    </section>
+
+    <!-- Where to go -->
+    <section class="section next-steps">
+      <h2>If you want more</h2>
+
+      <ul class="plain-list">
+        <li><a href="/practice">The practice</a> — three units, each one teachable in a breath.
+        The still point you're holding is the first of them.</li>
+        <li><a href="https://forum.stillpointproject.org">The forum</a> — somewhere to think out
+        loud with other people. It's early: one welcome post, one open room. The first few people
+        in help shape what it becomes, which is an honest description and not a sales pitch.</li>
+        <li><a href="/stories">The stories</a> — there's fiction here too, near-future, about a
+        world that relearns how to be still. Doors into the same question. Free to read.</li>
+      </ul>
+
+      <p class="quiet-note">The coins come in two batches — green ones from earlier this year, black
+      ones with a red stone since. The back of the green ones says <em>let's find a third way</em>.
+      Printed before the wording got simplified. Same idea, one fewer word.</p>
+    </section>
+
+  </article>
+</Layout>
+
+<style>
+  @import '../styles/design-tokens.css';
+
+  /* Page Header */
+  /* Extra top padding so the coin graphic clears the fixed navbar. */
+  .page-header {
+    text-align: center;
+    padding: calc(var(--space-3xl) + 3rem) var(--space-lg) var(--space-2xl);
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+  }
+
+  /* The coin, drawn: black face, red stone at the still point. */
+  .coin-face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 0 auto var(--space-lg);
+    border-radius: 50%;
+    background: #121212;
+    box-shadow:
+      inset 0 0 0 2px rgba(255, 255, 255, 0.1),
+      0 6px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  .coin-stone {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at 40% 35%, #e05a4e, #b23a30);
+    box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.35);
+  }
+
+  .page-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 300;
+    font-size: clamp(1.9rem, 5vw, 2.6rem);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-lg);
+    line-height: 1.2;
+  }
+
+  .epigraph {
+    font-family: var(--font-serif);
+    font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+    font-style: italic;
+    color: var(--color-text-muted);
+    line-height: var(--line-height-relaxed);
+    max-width: 52ch;
+    margin: 0 auto;
+  }
+
+  /* Main Content */
+  .found-content {
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+    padding: 0 var(--space-lg) var(--space-3xl);
+  }
+
+  .section {
+    max-width: 65ch;
+    margin: 0 auto var(--space-2xl);
+    line-height: var(--line-height-relaxed);
+  }
+
+  .section h2 {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-2xl);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-lg);
+  }
+
+  .section p {
+    margin-bottom: var(--space-md);
+    color: var(--color-text);
+  }
+
+  .section strong {
+    color: var(--color-accent-1);
+    font-weight: 600;
+  }
+
+  .section a {
+    color: var(--color-accent-1);
+    text-underline-offset: 3px;
+  }
+
+  /* The handoff line — the only thing on this page worth memorising */
+  .handoff {
+    font-family: var(--font-serif);
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    line-height: var(--line-height-relaxed);
+    color: var(--color-heading);
+    border-left: 3px solid var(--color-accent-1);
+    padding: var(--space-md) 0 var(--space-md) var(--space-lg);
+    margin: 0;
+  }
+
+  /* Plain list — matches the practice page */
+  .plain-list {
+    list-style: none;
+    margin: var(--space-md) 0;
+    padding: 0;
+  }
+
+  .plain-list li {
+    color: var(--color-text);
+    padding: var(--space-sm) 0;
+    padding-left: 1.5em;
+    position: relative;
+    line-height: var(--line-height-relaxed);
+  }
+
+  .plain-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent-1);
+  }
+
+  .quiet-note {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-md);
+    margin-top: var(--space-xl);
+  }
+</style>
