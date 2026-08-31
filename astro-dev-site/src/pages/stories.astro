@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 
-const stories = await getCollection('stories');
+const stories = await getCollection('stories', ({ data }) => data.status !== 'draft');
 // Sort by word count or title
 const sortedStories = stories.sort((a, b) => {
   const aWordCount = a.data.word_count || 0;

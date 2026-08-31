@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE } from '../consts';
 import '../styles/global.css';
 
-const title = "The StillPoint — Let's Find a Third Way";
+const title = "The StillPoint — Find a Third Way";
 const description = "A world of stories about remembering how to be still — and an open human-AI project practicing it for real. Read free, join the conversation.";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL('/images/og-default.jpg', Astro.site);
@@ -83,9 +83,9 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 				<div class="coin-strip-inner">
 					<span class="coin-dot" aria-hidden="true"><span class="coin-dot-center"></span></span>
 					<p>
-						<strong>Found one of the green coins?</strong> The red center is a touch stone —
-						rub it with your thumb. That small quiet under your fingerprint is the whole idea.
-						Think of it as the first, quietest generation of the device in the stories.
+						<strong>Found one of the green coins?</strong> The back says what the dish is for:
+						when you're stuck on a binary, one thing or the other, remember to be still,
+						and maybe the third way will come to you. The <a href="/practice">practice page</a> has more.
 						Welcome in.
 					</p>
 				</div>
@@ -172,7 +172,7 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 					Come anyway.
 				</p>
 				<div class="open-ctas">
-					<a href="https://forum.stillpointproject.org/invites/1B4cv9cowP" class="cta-btn cta-primary">Join the conversation</a>
+					<a href="https://forum.stillpointproject.org" class="cta-btn cta-primary">Join the conversation</a>
 					<a href="/practice" class="cta-btn cta-secondary">The practice</a>
 				</div>
 			</section>
@@ -183,6 +183,8 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 </html>
 
 <style>
+
+
 	/* Coin strip */
 	.coin-strip {
 		border-top: 1px solid var(--color-border-glow);
@@ -207,6 +209,10 @@ const ogImage = new URL('/images/og-default.jpg', Astro.site);
 	.coin-strip strong {
 		color: var(--color-accent-gold);
 		font-weight: 600;
+	}
+	.coin-strip p a {
+		color: var(--color-accent-gold);
+		text-underline-offset: 3px;
 	}
 	.coin-dot {
 		flex-shrink: 0;

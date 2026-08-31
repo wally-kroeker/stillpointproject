@@ -243,7 +243,7 @@ export default function Hero() {
                     The StillPoint
                 </h1>
                 <p className="text-sm md:text-base font-sans tracking-[0.3em] uppercase text-accent-gold mb-10">
-                    Let&rsquo;s find a third way
+                    Find a third way
                 </p>
                 <div
                     ref={subtitleRef}
@@ -274,7 +274,7 @@ export default function Hero() {
                         Step into the stories
                     </a>
                     <a
-                        href="https://forum.stillpointproject.org/invites/1B4cv9cowP"
+                        href="https://forum.stillpointproject.org"
                         className="inline-block px-8 py-3 border border-accent-bio/50 bg-transparent text-accent-bio font-sans text-sm tracking-wider uppercase hover:bg-accent-bio/10 hover:scale-105 transition-all duration-300"
                     >
                         Join the conversation

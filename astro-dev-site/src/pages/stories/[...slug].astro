@@ -4,7 +4,7 @@ import ReaderLayout from '../../layouts/ReaderLayout.astro';
 import AudioPlayer from '../../components/AudioPlayer.tsx';
 
 export async function getStaticPaths() {
-  const stories = await getCollection('stories');
+  const stories = await getCollection('stories', ({ data }) => data.status !== 'draft');
   return stories.map((story) => ({
     params: { slug: story.id },
     props: story,

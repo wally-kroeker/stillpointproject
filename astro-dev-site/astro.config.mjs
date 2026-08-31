@@ -13,9 +13,9 @@ export default defineConfig({
   site: 'https://stillpointproject.org',
 
   // COIN REDIRECT — update this one line when the forum invite URL changes, then redeploy.
-  // URL on coins: stillpointproject.org/join
+  // Coins carry the bare domain (stillpointproject.org); /join is a convenience redirect to the forum.
   redirects: {
-    '/join': 'https://forum.stillpointproject.org/invites/1B4cv9cowP',
+    '/join': 'https://forum.stillpointproject.org',
   },
 
   integrations: [mdx({

@@ -6,6 +6,7 @@ import Layout from '../layouts/Layout.astro';
   <!-- Page Header -->
   <header class="page-header">
     <div class="page-header-content">
+      <p class="epigraph-coin">Find a third way.</p>
       <p class="epigraph">
         <em>Between letting the tools take your voice and refusing them entirely, there is a third way.</em><br>
         <em>This is where it gets practiced — out loud, in the open, with other people.</em>
@@ -32,6 +33,46 @@ import Layout from '../layouts/Layout.astro';
       <p>That's the practice. It's a skill, not a side. And it's easier to keep when you're not doing it alone.</p>
     </section>
 
+    <!-- The practice itself -->
+    <section class="section">
+      <h2>The practice itself</h2>
+
+      <p>Three units, each one teachable in a breath.</p>
+
+      <div class="practice-unit">
+        <h3>The Still Point</h3>
+        <p>Thumb on the stone — or any stone, any coin, any object with some weight to it. One slow breath.
+        Notice one real thing in the room: something you can name, something that's actually here. Five seconds.
+        That's the whole practice. Every coin already teaches it; this is where it gets named.</p>
+      </div>
+
+      <div class="practice-unit">
+        <h3>The Sit</h3>
+        <p>Five minutes, once a day. No app, no streak counter, no check-in. You don't report to anything.
+        This is the one wellness practice that never measures you — which is the point, and which is why it's
+        harder than it sounds.</p>
+      </div>
+
+      <div class="practice-unit">
+        <h3>The Still Hour</h3>
+        <p>An hour together. Phones in a bowl. Something made by hand — bread, music, mending, anything that
+        puts your body in the work. One round of "name one tension." No leader, no agenda past that, no
+        permission needed to hold one. We're writing the one-pager so anyone can host it; that's coming.</p>
+      </div>
+    </section>
+
+    <!-- Why we hold our own keys -->
+    <section class="section">
+      <h2>Why we hold our own keys</h2>
+
+      <p>Every story of waking up — the cave, the dome, the endless feed — has the same structure: the
+      operators offer two exits, and both exits are framed by the operators. The third way isn't picking
+      a better exit. It's owning the ground you stand on.</p>
+
+      <p>That's why this runs on software we host, coins we print ourselves, and materials anyone can fork.
+      A room someone else owns can change the rules on you. This one can't.</p>
+    </section>
+
     <!-- What this is -->
     <section class="section">
       <h2>What this is</h2>
@@ -44,9 +85,7 @@ import Layout from '../layouts/Layout.astro';
       <p>The story was the proof. This is where the proof becomes a practice you can join.</p>
 
       <p>Not a pyramid — nothing here is trying to scale you, harvest you, or rank you. Something more like a
-      tipi: small, portable, communal, yours to take down and carry. The community even lives on software we
-      host ourselves, not a platform someone else owns. The door is built the same way the road is meant to
-      be driven.</p>
+      tipi: small, portable, communal, yours to take down and carry whenever you're ready to go somewhere else.</p>
     </section>
 
     <!-- What you're not signing up for -->
@@ -77,10 +116,21 @@ import Layout from '../layouts/Layout.astro';
       <!-- WALLY: add your personal line here -->
     </section>
 
+    <!-- Take the pattern -->
+    <section class="section spore-block">
+      <h2>Take the pattern</h2>
+
+      <p>The coin print files and the Still Hour one-pager will be published here under CC&nbsp;BY-SA when
+      they're ready. Print your own coins. Run your own Still Hours. You don't need permission from us —
+      and eventually you won't need to come back here at all. That's what the license is for.</p>
+
+      <p class="spore-note">Coin print files — coming &nbsp;·&nbsp; Still Hour one-pager — coming</p>
+    </section>
+
     <!-- CTA -->
     <section class="cta-section">
       <p class="cta-label">Open the door</p>
-      <a href="https://forum.stillpointproject.org/invites/1B4cv9cowP" class="btn btn-primary" aria-label="Open the StillPoint forum">
+      <a href="https://forum.stillpointproject.org" class="btn btn-primary" aria-label="Open the StillPoint forum">
         Open the door &rarr;
       </a>
       <p class="cta-note">
@@ -111,6 +161,16 @@ import Layout from '../layouts/Layout.astro';
     padding: var(--space-3xl) var(--space-lg) var(--space-2xl);
     max-width: var(--container-narrow);
     margin: 0 auto;
+  }
+
+  .epigraph-coin {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-accent-1);
+    margin: 0 auto var(--space-lg);
+    max-width: 52ch;
   }
 
   .epigraph {
@@ -152,6 +212,45 @@ import Layout from '../layouts/Layout.astro';
   .section strong {
     color: inherit;
     font-weight: 600;
+  }
+
+  /* Practice units */
+  .practice-unit {
+    margin: var(--space-xl) 0;
+    padding-left: var(--space-lg);
+    border-left: 2px solid var(--color-border);
+  }
+
+  .practice-unit h3 {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-lg);
+    color: var(--color-accent-1);
+    margin: 0 0 var(--space-sm) 0;
+    font-weight: 500;
+  }
+
+  .practice-unit p {
+    margin: 0;
+    color: var(--color-text);
+  }
+
+  /* Spore block */
+  .spore-block {
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-xl);
+  }
+
+  .spore-block h2 {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-xl);
+  }
+
+  .spore-note {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    font-family: var(--font-sans);
+    letter-spacing: 0.03em;
+    margin-top: var(--space-md);
   }
 
   /* Plain list — no bullet gymnastics, just clear items */

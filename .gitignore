@@ -45,3 +45,4 @@ editorial_notes/
 
 # === Archive (local reference, not for public) ===
 _archive/
+.agents/
