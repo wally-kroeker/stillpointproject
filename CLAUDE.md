@@ -1,5 +1,14 @@
 # CLAUDE.md
 
+<!-- planet-owner-header -->
+> **Planet owner: Hugh.** This directory is Hugh's planet in the Bobaverse fleet.
+> Work here is normally **dispatched to Hugh** from the TSFUR hub rather than done by
+> Bob Prime. A session opened directly in this directory is *not* Hugh — it is Prime
+> carrying this project's context, so adopt Hugh's priorities and conventions and leave
+> deliverables in `inbox/`. Persona: `~/.claude/agents/Hugh.md`. Roster:
+> `~/projects/Bob/FLEET.md`. Reasoning: `~/projects/Bob/DECISIONS.md` D-007.
+
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
@@ -40,7 +49,14 @@ When adding content, keep it in the right tier. The internal `planning/` strateg
 
 ## Deployment Infrastructure
 
-The site runs on **LXC 118** in the FabLab Proxmox cluster (Host2), shared with the WookieFoot band site.
+> **CHANGED 2026-10-25. Read this before deploying anything.**
+> Public traffic for stillpointproject.org is served by **LXC 168 `stillpoint-prod`** (nginx container, FabLab deploy pattern).
+> **Publish path:** `~/projects/stillpointproject-site/deploy.sh staging` → check `http://stillpoint.staging.kroeker.fun` → `./deploy.sh prod`. That repo is Bill's (FabLab); ask Bill to publish until he switches it to a from-source build of this repo.
+> **`scripts/deploy-production.sh` and `scripts/deploy-staging.sh` are RETIRED.** They update LXC 118, which the public no longer reaches; they now refuse to run. LXC 118 is Bill's rollback box only.
+> Draft password: Infisical project FabLab, env staging/prod, folder `/websites/stillpoint`, `STILLPOINT_DRAFT_PASSWORD` (user `wally`). Source: `inbox/20261025-150000_stillpoint-served-from-new-prod-box.md`.
+> Everything below describes the **old** LXC 118 setup, kept for rollback reference.
+
+The site ran on **LXC 118** in the FabLab Proxmox cluster (Host2), shared with the WookieFoot band site, until 2026-10-25.
 
 ### Server Details
 - **Host:** `docker@10.10.10.30` (LXC 118, VLAN 10)
@@ -72,7 +88,7 @@ ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'ls /home/docker/stillpoint-producti
 ```
 
 ### Shared Infrastructure
-- **Umami Analytics:** 10.10.10.41 (site ID: `2d1b23db-e621-433d-9d98-c142ac145b5bc`)
+- **Umami Analytics:** 10.10.10.41 (site ID: `2d1b23db-e621-433d-9d98-c142ac145b5b`)
 - **Kokoro TTS:** walub.kroeker.fun (audio generation for narration)
 - **Backups:** Daily vzdump to OMV NFS (10.10.10.61), weekly to QNAP (10.10.10.62)
 
@@ -86,8 +102,7 @@ ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'ls /home/docker/stillpoint-producti
 - **Sync content:** `./scripts/sync-content-to-astro.sh` (Source -> Astro)
 - **Start dev server:** `cd astro-dev-site && npm run dev` (http://localhost:4321)
 - **Build site:** `cd astro-dev-site && npm run build`
-- **Deploy staging:** `./scripts/deploy-staging.sh`
-- **Deploy production:** `./scripts/deploy-production.sh` (https://stillpointproject.org)
+- **Deploy:** ask Bill; `~/projects/stillpointproject-site/deploy.sh staging` then `prod` (see Deployment above). The old `scripts/deploy-*.sh` are retired.
 
 ### Content Workflow (CRITICAL)
 Always edit source files, NEVER synced copies.
@@ -96,7 +111,7 @@ Always edit source files, NEVER synced copies.
 2. **Audio (optional):** `./scripts/generate-audio.sh <file>` then add `audio_file` to frontmatter
 3. **Sync:** `./scripts/sync-content-to-astro.sh`
 4. **Preview:** `cd astro-dev-site && npm run dev`
-5. **Deploy:** `./scripts/deploy-staging.sh` then `./scripts/deploy-production.sh`
+5. **Deploy:** via Bill, `~/projects/stillpointproject-site/deploy.sh staging` → check → `prod`. Never the retired `scripts/deploy-*.sh`.
 
 ## Content Standards
 

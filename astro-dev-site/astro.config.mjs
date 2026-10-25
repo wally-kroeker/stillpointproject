@@ -12,11 +12,9 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://stillpointproject.org',
 
-  // COIN REDIRECT — update this one line when the forum invite URL changes, then redeploy.
+  // COIN REDIRECT — update src/pages/join.astro when the forum invite URL changes, then redeploy.
   // Coins carry the bare domain (stillpointproject.org); /join is a convenience redirect to the forum.
-  redirects: {
-    '/join': 'https://forum.stillpointproject.org',
-  },
+  // Previously a config-level redirect; moved to src/pages/join.astro so Umami analytics fires.
 
   integrations: [mdx({
 			rehypePlugins: [rehypeDataTypes],

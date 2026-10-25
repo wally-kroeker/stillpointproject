@@ -16,6 +16,8 @@ Presence becomes an act of sovereignty: choosing not to let systems, algorithms,
 
 Cognitive Loop posts serve as weekly field notes from an inner landscape, tracking mindfulness, intention, presence, nervous-system calm, and questions of consciousness. WookieFoot’s lyrics validated these ideas, offering language to experiences that were difficult to articulate. Their themes of unity, oneness, and liberation from distraction resonated deeply.
 
+The clearest single example is “Third Side of the Coin” (album *Activate*), which argues — literally, not as metaphor — that a coin has a third side, its edge, and that you reach it by standing the coin on end. That image became the instruction on the back of the StillPoint token: FIND A THIRD WAY. Lyrics at https://wookiefoot.kroeker.fun.
+
 StillPoint becomes the fictional container for these insights, merging spiritual study, Ram Dass influence, nervous-system awareness, and communal living into a living world. It expresses the journey toward attention, intention, and deeper truth through myth.
 
 ## 4. What makes StillPoint different from "just another sci-fi project"?

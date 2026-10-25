@@ -1,0 +1,154 @@
+---
+import { getCollection, render } from 'astro:content';
+import ReaderLayout from '../../../layouts/ReaderLayout.astro';
+import DraftAudioPlayer from '../../../components/DraftAudioPlayer.tsx';
+
+export async function getStaticPaths() {
+  const stories = await getCollection('stories');
+  const sorted = stories.sort((a, b) => a.id.localeCompare(b.id));
+
+  return sorted.map((story, index) => ({
+    params: { slug: story.id },
+    props: {
+      story,
+      prevStory: index > 0 ? sorted[index - 1] : null,
+      nextStory: index < sorted.length - 1 ? sorted[index + 1] : null,
+    },
+  }));
+}
+
+const { story, prevStory, nextStory } = Astro.props;
+const { Content } = await render(story);
+---
+
+<ReaderLayout title={`${story.data.title} [DRAFT] - The StillPoint`} description={`Draft: "${story.data.title}"`}>
+	<main>
+		<div class="container">
+			<nav class="breadcrumb">
+				<a href="/nothingtoseehere">← Back to Drafts</a>
+			</nav>
+
+			<article class="scene">
+				<header class="scene-header">
+					<div class="draft-badge">
+						<span class="badge">{story.data.status}</span>
+						{story.data.word_count && <span class="meta">{story.data.word_count.toLocaleString()} words</span>}
+					</div>
+					<h1>{story.data.title}</h1>
+					{story.data.audio_file && (
+						<DraftAudioPlayer client:load audioSrc={story.data.audio_file} title={story.data.title} />
+					)}
+				</header>
+
+				<div class="scene-content">
+					<Content />
+				</div>
+
+				<nav class="chapter-nav">
+					{prevStory && (
+						<a href={`/nothingtoseehere/story/${prevStory.id}`} class="nav-link prev">
+							<span class="nav-label">← Previous</span>
+							<span class="nav-title">{prevStory.data.title}</span>
+						</a>
+					)}
+					{nextStory && (
+						<a href={`/nothingtoseehere/story/${nextStory.id}`} class="nav-link next">
+							<span class="nav-label">Next →</span>
+							<span class="nav-title">{nextStory.data.title}</span>
+						</a>
+					)}
+				</nav>
+			</article>
+		</div>
+	</main>
+</ReaderLayout>
+
+<style>
+	@import '../../../styles/design-tokens.css';
+
+	.container { width: 100%; margin: 0 auto; }
+	.breadcrumb { margin-bottom: var(--space-lg); }
+
+	.breadcrumb a {
+		color: var(--color-accent-1);
+		text-decoration: none;
+		font-size: var(--font-size-sm);
+		font-family: var(--font-sans);
+		font-weight: 500;
+		padding: var(--space-xs) var(--space-sm);
+		border-radius: 4px;
+		transition: all var(--transition-fast);
+	}
+
+	.breadcrumb a:hover { background: var(--color-bg-accent); color: var(--color-accent-2); }
+
+	.scene-header {
+		border-bottom: 1px solid var(--color-border);
+		padding-bottom: 1.5rem;
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+
+	.draft-badge {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: var(--space-md);
+		margin-bottom: var(--space-md);
+	}
+
+	.badge {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		color: #f59e0b;
+		border: 1px solid #f59e0b;
+		padding: 0.15rem 0.6rem;
+		border-radius: 12px;
+		text-transform: uppercase;
+	}
+
+	.meta {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		color: var(--color-text-muted);
+		text-transform: uppercase;
+	}
+
+	.scene-header h1 {
+		color: var(--color-heading);
+		font-size: 2.5rem;
+		font-weight: 600;
+		font-family: var(--font-serif);
+	}
+
+	.scene-content { line-height: 1.7; color: var(--color-text); }
+	.scene-content :global(p) { margin-bottom: 1.2rem; }
+	.scene-content :global(em) { font-style: italic; }
+
+	.chapter-nav {
+		display: flex;
+		justify-content: space-between;
+		gap: 2rem;
+		margin-top: 4rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--color-border);
+	}
+
+	.nav-link {
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
+		padding: 1rem;
+		border-radius: 8px;
+		transition: all 0.2s ease;
+		flex: 1;
+		max-width: 45%;
+	}
+
+	.nav-link:hover { background: var(--color-bg-accent); transform: translateY(-2px); }
+	.nav-link.prev { align-items: flex-start; }
+	.nav-link.next { align-items: flex-end; text-align: right; }
+
+	.nav-label { font-size: 0.85rem; color: var(--color-accent-1); font-weight: 500; margin-bottom: 0.5rem; }
+	.nav-title { font-size: 0.95rem; color: var(--color-text); font-weight: 500; }
+</style>

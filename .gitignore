@@ -46,3 +46,29 @@ editorial_notes/
 # === Archive (local reference, not for public) ===
 _archive/
 .agents/
+
+# === Local only: not published (decided 2026-10-25) ===
+# Rule: the public repo holds what is published on the site, plus the code that builds it.
+# Unpublished drafts, planet mail, and personal material stay local.
+inbox/
+planning/
+novel/briefs/
+tools/
+/*.mkv
+/2026-04-*.png
+CLAUDE.md.pre-*
+short_stories/the_empty_cathedral.md
+short_stories/the_under_sound.md
+short_stories/what_tam_carries.md
+astro-dev-site/src/content/stories/the_empty_cathedral.md
+astro-dev-site/src/content/stories/the_under_sound.md
+astro-dev-site/src/content/stories/what_tam_carries.md
+# Live on the site but source kept local until Wally decides
+novel/scenes/e1_c01_s01_the_house_on_furby.md
+novel/scenes/e1_c01_s01_the_house_on_wolseley.md
+novel/scenes/e1_c02_s01_the_daydream_v2.md
+novel/scenes/e1_c02_s01_the_daydream_v3.md
+astro-dev-site/src/content/novel/e1_c01_s01_the_house_on_furby.md
+astro-dev-site/src/content/novel/e1_c01_s01_the_house_on_wolseley.md
+astro-dev-site/src/content/novel/e1_c02_s01_the_daydream_v2.md
+astro-dev-site/src/content/novel/e1_c02_s01_the_daydream_v3.md

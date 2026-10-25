@@ -5,6 +5,16 @@
 
 set -e
 
+# RETIRED 2026-10-25: stillpointproject.org is now served from LXC 168 (stillpoint-prod).
+# This script updates LXC 118, which the public no longer reaches: it would "succeed" and publish nothing.
+# Publish via ~/projects/stillpointproject-site/deploy.sh (staging -> prod). Ask Bill (FabLab).
+if [ "${STILLPOINT_LEGACY_DEPLOY:-0}" != "1" ]; then
+    echo "RETIRED: this updates LXC 118, which the public no longer sees." >&2
+    echo "Publish via ~/projects/stillpointproject-site/deploy.sh staging, then prod. See CLAUDE.md > Deployment." >&2
+    echo "(Bill's rollback box only: STILLPOINT_LEGACY_DEPLOY=1)" >&2
+    exit 1
+fi
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -184,7 +194,8 @@ const mimeTypes = {
 };
 
 const DRAFT_USER = 'wally';
-const DRAFT_PASS = process.env.STILLPOINT_DRAFT_PASSWORD || 'stillpoint2026';
+const DRAFT_PASS = process.env.STILLPOINT_DRAFT_PASSWORD;
+if (!DRAFT_PASS) throw new Error('STILLPOINT_DRAFT_PASSWORD is not set (Infisical, FabLab /websites/stillpoint)');
 const DRAFT_AUTH = 'Basic ' + Buffer.from(DRAFT_USER + ':' + DRAFT_PASS).toString('base64');
 const NOTES_DIR = path.join(PRODUCTION_DIR, 'nothingtoseehere', 'notes');
 

@@ -1,0 +1,23 @@
+---
+// Redirect /join → StillPoint forum
+// Uses Layout so Umami analytics fires before the redirect.
+import Layout from '../layouts/Layout.astro';
+
+const forumUrl = 'https://forum.stillpointproject.org/';
+---
+
+<Layout title="Join the StillPoint Community" description="Join the StillPoint community forum to connect with readers and explore the future of contemplative living.">
+  <meta http-equiv="refresh" content={`1;url=${forumUrl}`} />
+  <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;text-align:center;padding:2rem;">
+    <p style="font-family:var(--font-sans,sans-serif);color:var(--color-text-muted,#888);font-size:1.1rem;">
+      Taking you to the StillPoint community&hellip;
+    </p>
+    <p style="margin-top:1rem;font-size:0.9rem;">
+      <a href={forumUrl} style="color:var(--color-accent-1,#c8965a);">Click here if you are not redirected automatically.</a>
+    </p>
+  </div>
+  <script define:vars={{ forumUrl }}>
+    // Give Umami ~500ms to fire, then redirect.
+    setTimeout(function() { window.location.href = forumUrl; }, 500);
+  </script>
+</Layout>
