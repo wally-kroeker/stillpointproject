@@ -59,38 +59,8 @@ When adding content, keep it in the right tier. The internal `planning/` strateg
 The site ran on **LXC 118** in the FabLab Proxmox cluster (Host2), shared with the WookieFoot band site, until 2026-10-25.
 
 ### Server Details
-- **Host:** `docker@10.10.10.30` (LXC 118, VLAN 10)
-- **Internal DNS:** `stillpoint.apps.kroeker.fun`
-- **Public URL:** `https://stillpointproject.org` (via Cloudflare Tunnel)
-- **SSH Key:** `~/.ssh/id_ed25519` (Ed25519)
-- **Production dir:** `/home/docker/stillpoint-production` (port 8080)
-- **Staging dir:** `/home/docker/stillpoint-staging` (port 4000)
-- **Server process:** Custom Node.js HTTP server (`production-server.js`), managed by systemd (`stillpoint.service`, `stillpoint-staging.service`). WookieFoot sibling site runs as `wookiefoot.service`. Auto-restart on crash and on host reboot. Unit files live in this repo at `scripts/systemd/` and are installed via `scripts/systemd/install-systemd-units.sh` (idempotent, root required).
-- **Cloudflare Account:** `fc6ac609a885ab8191809ec35bc8e58f`
-- **Wazuh Agent:** ID 015 (`stillproject-org`)
-
-### Quick Access
-```bash
-# SSH to server
-ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30
-
-# Service management (passwordless via /etc/sudoers.d/docker-deploy-restart)
-ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'sudo -n systemctl restart stillpoint'
-ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'systemctl status stillpoint --no-pager'
-ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'systemctl is-active stillpoint stillpoint-staging wookiefoot'
-
-# View production logs (systemd journal OR the legacy log file)
-ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'journalctl -u stillpoint -f'
-ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'tail -f /home/docker/production.log'
-
-# Read notes files (for draft review workflow)
-ssh -i ~/.ssh/id_ed25519 docker@10.10.10.30 'ls /home/docker/stillpoint-production/nothingtoseehere/notes/'
-```
-
-### Shared Infrastructure
-- **Umami Analytics:** 10.10.10.41 (site ID: `2d1b23db-e621-433d-9d98-c142ac145b5b`)
-- **Kokoro TTS:** walub.kroeker.fun (audio generation for narration)
-- **Backups:** Daily vzdump to OMV NFS (10.10.10.61), weekly to QNAP (10.10.10.62)
+Hosts, addresses, SSH access, service management, Cloudflare and monitoring IDs, and shared-infrastructure
+addresses are in `CLAUDE.local.md` (gitignored, kept out of the public repo). Ask Bill for access.
 
 ## Development Workflow
 

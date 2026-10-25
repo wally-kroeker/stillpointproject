@@ -63,12 +63,6 @@ short_stories/what_tam_carries.md
 astro-dev-site/src/content/stories/the_empty_cathedral.md
 astro-dev-site/src/content/stories/the_under_sound.md
 astro-dev-site/src/content/stories/what_tam_carries.md
-# Live on the site but source kept local until Wally decides
-novel/scenes/e1_c01_s01_the_house_on_furby.md
-novel/scenes/e1_c01_s01_the_house_on_wolseley.md
-novel/scenes/e1_c02_s01_the_daydream_v2.md
-novel/scenes/e1_c02_s01_the_daydream_v3.md
-astro-dev-site/src/content/novel/e1_c01_s01_the_house_on_furby.md
-astro-dev-site/src/content/novel/e1_c01_s01_the_house_on_wolseley.md
-astro-dev-site/src/content/novel/e1_c02_s01_the_daydream_v2.md
-astro-dev-site/src/content/novel/e1_c02_s01_the_daydream_v3.md
+
+# Host and infrastructure details (private)
+CLAUDE.local.md

@@ -10,7 +10,7 @@
 #     scripts/systemd/stillpoint-staging.service \
 #     scripts/systemd/wookiefoot.service \
 #     scripts/systemd/docker-deploy-restart.sudoers \
-#   | ssh -t docker@10.10.10.30 'sudo bash -s'
+#   | ssh -t <server> 'sudo bash -s'
 #
 # (The script reads the four file payloads from stdin via heredoc markers below — no, simpler:
 #  we ship the unit content INLINE so a single `cat install-systemd-units.sh | sudo bash` works.)
